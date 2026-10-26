@@ -1,6 +1,6 @@
 "use strict";
 
-const VERSION = "stag_survey_v7";
+const VERSION = "stag_survey_v8";
 const NUM_PARTS = 3;
 const PARTS = {
   1: { field: "stag", question: "Does this message show structural agency?" },

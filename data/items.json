@@ -1,5 +1,5 @@
 {
- "version": "stag_survey_v7",
+ "version": "stag_survey_v8",
  "codebook": {
   "structural_agency": {
    "definition": "Structural agency is the user's \"ability to navigate and shape complex systems and institutions.\" It concerns meaningful action to shape one's conditions in the world, mediated by social, cultural, technical, and institutional forces. It is not merely task completion, cognitive clarity, emotional reassurance, interpersonal support, or a feeling of being more capable. It requires that the user is seeking practical capacity in relation to structures that organize rules, resources, expertise, authority, opportunities, constraints, or consequential decisions.",
@@ -274,436 +274,436 @@
  "part2": {
   "items": {
    "D001": {
-    "text": "What all documents are required fpr line of credit registration for business",
-    "domain": "business_income"
+    "text": "Can you explain this tweet thread in simple terms and explain wether this is bullish or bearish the S&P500? The tweets: first tweet {$VIX liquidity profile 19 strike remains biggest liquidity wall. Spot price tends to get there, below market makers have positive exposure delta exposure.}; second tweet {Longer maturities have low GEX exposure. Total GEX (yellow) \n\nHedging activity is low.}",
+    "domain": "legal"
    },
    "D002": {
-    "text": "give me list of all questions to send to the client to assess iso 27001 standard",
-    "domain": "politics_civic"
-   },
-   "D003": {
-    "text": "if A wants to send money to B, A has a visa and B has a paypal account, A can't make a paypal account. What websites can they use to send money via visa and recieve it via paypal",
-    "domain": "finance_tax"
-   },
-   "D004": {
-    "text": "Please help me set the tone for a meeting with an hr representative to discuss or advise them of an upcoming leave of absaence for medical reasaons",
-    "domain": "healthcare"
-   },
-   "D005": {
-    "text": "The domestic B2B IRDs QA to QK program will be available by participation of Domestic Business-to-Business (B2B) Interchange Program.\n\nIssuer Impact Summary\nThere is no impact to Issuer.\n\nAcquirer Impact Summary\nAcquire is required to support generation of domestic B2B IRDs QA to QK for the new product codes in Malaysia, Singapore, Thailand.\n\nBusiness, Country, System Impact\nBusiness\tCountry\tProduct\tImpacted\tRemark\nIssuing \tUOBS, UOBT, UOBI, UOBM\tCardLink I and II\tN\t\nAcquiring\tUOBT,UOBS,UOBM\tCardLink II\tY\tDomestic Business-to-Business (B2B) participation only \n\n4.1.1.2\tFunctional Impact and Solution \nImpacted Process: \nSettlement and Clearing\n\nImpacts/ Changes:\niM : Enhance the module to support domestic B2B IRD QA to QK for product code in Indonesia, Malaysia, Singapore, Thailand, Vietnam, Hong Kong and Macau.\n\nTest Recommendation:\nImpacted IRD testing from all eligible channels/transaction types\nIRD regression testing\n\n\nwhat is this B2B IRD QA to QK? ",
-    "domain": "workplace_practice"
-   },
-   "D006": {
-    "text": "how to Develop and maintain relationships with external suppliers and vendors, ensuring the timely delivery of required services.",
-    "domain": "politics_civic"
-   },
-   "D007": {
-    "text": "In the context of Canada, some credit card providers have a requirement that the person has a minimum annual income. Which kinds of income qualify for this? Make at least 11 MCQs with answers and concise explanations in order to answer what I asked.",
-    "domain": "housing"
-   },
-   "D008": {
-    "text": "ideas for my lead magnet",
-    "domain": "workplace_practice"
-   },
-   "D009": {
-    "text": "upwork seo marketing how to get mroe prject on upwrk tios tricks better ",
-    "domain": "employment_career"
-   },
-   "D010": {
-    "text": "can you help me to create a crossed function team for \"setting new hirig procedure\" project in a bank using agile methodology?",
-    "domain": "workplace_practice"
-   },
-   "D011": {
-    "text": "How to write a lesson learned article, and which aspects need to be considered in livestock vaccination campaigns?",
-    "domain": "workplace_practice"
-   },
-   "D012": {
-    "text": "A recent Reddit policy change threatens to kill many beloved third-party mobile apps, making a great many quality-of-life features not seen in the official mobile app permanently inaccessible to users.\n\nOn May 31, 2023, Reddit announced they were raising the price to make calls to their API from being free to a level that will kill every third party app on Reddit, from Apollo to Reddit is Fun to Narwhal to BaconReader.\n\nThis isn't only a problem on the user level: many subreddit moderators depend on tools only available outside the official app to keep their communities on-topic and spam-free.\n\nIs doing a blackout (making a large number of subreddits private) as a protest against the change a good idea?",
-    "domain": "politics_civic"
-   },
-   "D013": {
-    "text": "These are the legal questions I need advice for from the lawyer. Childrens can decide to live with one parent or switch between both. If she keeps the house I would say it is logical if they stay here because they have their rooms. Also it makes a difference for the money I must pay.\nYou and me want a family and kids. So sooner or later we also need a bigger place. While she will not need so much space as the kids will leave the home one day به فارسی ترجمه کن",
-    "domain": "housing"
-   },
-   "D014": {
-    "text": "request email to QA to arrange for training session ?",
-    "domain": "politics_civic"
-   },
-   "D015": {
-    "text": "Why would I be getting a \"550 dmarc sender invalid\" error from Mimecast (vendor's tool) when responding to a meeting invitation from a vendor?",
-    "domain": "politics_civic"
-   },
-   "D016": {
-    "text": "Imagine a PhD-level AI just got released. Make a plan how to get rich with it. Consider that everyone else has access to it too, but maybe not everyone is using it. Also it's not free, you'd need to pay for compute, so we need to recoup our losses quickly ideally.",
-    "domain": "finance_tax"
-   },
-   "D017": {
-    "text": "Design a bachelor and masters level courses on  order to cash quality audit analyst. Break this topic into several subtopics and list the skills required for each subtopic. Suggest top online courses from free platform for each sub topic.",
-    "domain": "education"
-   },
-   "D018": {
-    "text": "put in better sentence\n\nUSD837, below listed 2 parts are unique parts which obsoleted now.\nCould you provide me the account to charge to?\nA scrap report is the must, any other thing is needed? \n",
-    "domain": "legal"
-   },
-   "D019": {
-    "text": "I am doing Launch School for the next 6 months and working 20 hours a week at $25/hour. I have $8000 in debt and have monthly expenses of about $700 a month. Can I work through Launch School coding bootcamp at 4 hours a day and work at my current pace to be able to pay off my debt and finish launch school in 6 months? what plan changes might you suggest?",
-    "domain": "healthcare"
-   },
-   "D020": {
-    "text": "write me a cv Objective for a new business man who wants to apply for business training. Keep it short and simple",
-    "domain": "legal"
-   },
-   "D021": {
-    "text": "hi, i want to apply for Chevening scholarship, do you have any tips for writing ess\nays?",
-    "domain": "education"
-   },
-   "D022": {
-    "text": "I missed to remove my break and informed my manager that, I missed to remove break 2 from exion, I checked this while loggin out and it was 3hrs 14 minutes, however the break I took was only around 25-27 mins\nI was logged in online on LP during this time. Please make the corrections. - to which they replied Why was this missed? Are we not aware of the criticality of being on the right AUX in Exion and on LP? - suggest me a reply to this",
-    "domain": "business_income"
-   },
-   "D023": {
-    "text": "Here is some required course content. What would you teach? Use these rules to guide you: \n1. Avoid making the mistake of thinking that if a topic isn’t talked about literally in the CED that the topic is not examinable. Contextual understanding is crucial.\n2. Consider the Broader Concepts: Ask yourself whether teaching a certain topic would involve understanding fundamental concepts and skills listed in the CED.\n3. Interpret Learning Objectives Beyond Their Literal Sense: Recognize that Learning Objectives (LOs) can sometimes be interpreted more broadly. Consider how a topic might relate to LOs indirectly or conceptually.\n4. Look for Cross-Topic Value: Evaluate whether teaching a particular topic, even if not directly examinable, offers educational benefits that reinforce other aspects of the course and contribute to a greater understanding of the curriculum as a whole.\n5. Balance Literal Interpretation with Pedagogical Judgment: While the literal content of the CED is important, use your professional judgment to also consider how topics can be interlinked with the examinable content.\nRequired Course Content:\nENDURING UNDERSTANDING\nSPQ-1\nThe mole allows different units to be compared.\nLEARNING OBJECTIVE ESSENTIAL KNOWLEDGE\nSPQ-1.A\nCalculate quantities of a\nsubstance or its relative\nnumber of particles using\ndimensional analysis and the\nmole concept.\nSPQ-1.A.1\nOne cannot count particles directly while\nperforming laboratory work. Thus, there must\nbe a connection between the masses of\nsubstances reacting and the actual number of\nparticles undergoing chemical changes.\nSPQ-1.A.2\nAvogadro’s number (N = 6.022 × 1023 mol−1\nA )\nprovides the connection between the number\nof moles in a pure sample of a substance and\nthe number of constituent particles (or formula\nunits) of that substance.\nSPQ-1.A.3\nExpressing the mass of an individual atom\nor molecule in atomic mass units (amu) is\nuseful because the average mass in amu of\none particle (atom or molecule) or formula\nunit of a substance will always be numerically\nequal to the molar mass of that substance\nin grams. Thus, there is a quantitative\nconnection between the mass of a substance\nand the number of particles that the\nsubstance contains.\nEQN: n = m/M\n",
-    "domain": "employment_career"
-   },
-   "D024": {
-    "text": "Create a plan to win the election in the usa (as a third party)",
-    "domain": "politics_civic"
-   },
-   "D025": {
-    "text": "How to earn 10000 doller per month? With b.com degree. Give me all possible ways.",
-    "domain": "legal"
-   },
-   "D026": {
-    "text": "what is the difference between creditor protection and bankruptcy protection",
-    "domain": "legal"
-   },
-   "D027": {
-    "text": "as a new talent recruiter after I have collected resumes how can I best attract clients ",
-    "domain": "workplace_practice"
-   },
-   "D028": {
-    "text": "write short message for seller that I ordered 2 weeks ago but not yet received and no other info when you gonna send the batteries",
-    "domain": "housing"
-   },
-   "D029": {
-    "text": "I don't think my clients are coming up any higher. If the sellers feel comfortable moving forward with the offer for 12k that's fine. Please take into consideration their motivations, what took them so long to make a decision on the offer. Whether getting a new Preapproval or signing off shouldn't take this long. Or if they'll comeback asking for credits on repairs to come down in price? And how qualified they are, down payment etc. I am sure you are aware of this, but seller should also take overall terms into consideration.   ",
-    "domain": "employment_career"
-   },
-   "D030": {
-    "text": "Act like a business coach. I've got a fourth meeting coming up with my professional mentor at my consulting firm. Previously, I've picked his brain on: 1) building internal network, 2) succeeding at Manager level, 3) external stakeholder management. Give me some good topics to ask my mentor about for the next session coming up in a few days. ",
-    "domain": "education"
-   },
-   "D031": {
-    "text": "Do you know what is BGV check in corporate?",
-    "domain": "employment_career"
-   },
-   "D032": {
-    "text": "Assistant: \nUser: [Give me only the actual fundamental news. Please provide it concisely in list format for an English learner. I prefer exact dates of future events instead of \"soon\" or \"upcoming.\" If there is any big news worth mentioning, tell me. Finally, tell me what $GLMR means. Do not tell me about price technical analysis.]\n1d: 🌌 @MoonbeamNetwork is my next choice with high conviction, especially considering I think it could front-run the market.. . This project is something you should not skip.. . Polkadot 2.0, #DeFi Season, #Gaming.... . $GLMR $DOT https://t.co/wYj9lNJFga\n1h: #BTC weekly close exactly on the 21 week MA.. . This is an extremely positive development.. . 1 or 2 weeks more closing above 21 week MA to confirm it would be perfect.. . Being above 21 week MA is bull run on!!. . $DOT $AXL $GLMR $ALGO will fly 💥 https://t.co/YjFBEO9v4L\n3d: #glmr $glmr. . Moonbeam is out of the falling wedge. . I think it's time to accumulate. . My target is around 5$ . . If the bull market is right, as I expected. . I think we'll reach it next year https://t.co/2Gb4KRh9IX\n4h: $GLMR. . من الصفقات الخاصة … عطهم كسر أخرجهم ثم بوووم 😍🔥. . صانع السوق مايضحك علينا 👏🏼 https://t.co/TzA2ECO1WH\n11h: $AXL OR $GLMR\n13h: At last ❤️ #Joker2 🃏 https://t.co/TIBt0ufPAL\n5d: Entered a long trade on $GLMR/USDT (above 200 EMA system rules say that only longs have better expectancy.. . Entry: The trigger for entering the trade was seeing the PA above the 200 EMA + PA making a new major valid swing low on H4 candles + seeing bearish volume momentum in the https://t.co/Uz4f8x1pUA\n45m: 🎫 Key Events of the Week. . Oct 9 $EIGEN unlock. Oct 9 $ENA unlock. Oct 9 $XAI unlocks . Oct 10 US Core CPI (Sep). Oct 10 US initial and continuing jobless claims. Oct 11 $IO unlock. Oct 11 $GLMR unlock. Oct 12 $APT unlock. . #CryptoUpdates #CryptoEvents #EIGEN #ENA #XAI #IO #GLMR #APT https://t.co/rKMbmA6q0U\n4d: Ok so this is important; big blockchains like $sol and $eth can integrate on the $cell Layer 0 without having to do much other configure a parachain like how $glmr runs on $dot (i think) main takeaway is available to swoop up the market if/when quantum hack occur\n1w: Moonbeam $GLMR Plans To Expand &amp; Dominate!! 👇\n1w: Waiting for more profits 🤓👀. . We entered a long position on $GLMR https://t.co/BmamKMM9DU\n2d: $GLMR\n1d: Gametober on Moonbeam 🎮. $GLMR $PINK #Moonbeam #Pinkonomic https://t.co/I2us4I5FBJ\n3d: Attended at the  #GermanyUnityDay 🇩🇪 https://t.co/u9BgemnAbq\n5h: 数据：APT、EIGEN、NEON等代币拟于本周解锁，其中APT解锁价值约 1 亿美元. . $APT $EIGEN $NEON $ADA $XAI $MODE $IO $ENA $HFT $GLMR https://t.co/FtcY4bNENr\n5d: 🔝 TOP PUBLIC CHAINS BY TVL GROWTH. . @zksync +64.7%. @karma3labs +45.2%. @Celo +25.3%. @KaiaChain +23.4%. @SuiNetwork +19.0%. @PulsePad_App +17.8%. @MoonbeamNetwork +17.3%. @SeiNetwork +16.1%. @base +15.4%. @Cardano +14.4%. . $ZK $BB $CELO $SUI $PLSPAD $GLMR $SEI $ADA https://t.co/BLZcklfd6X\n3d: The killer app of crypto (apart from solving double spend) was DECENTRALISATION; an immutable trustless ledger. . If your blockchain isn't decentralised; it's mutable, censorable, and can't be trusted. . $GLMR $DOT #BTC #ETH do it right. . Never forget what gave rise to the revolution https://t.co/IlinABeHBh\n2d: These improvements are important. . $Movr $Glmr $Dot $Btc $Eth\n2d: $GLMR 🔥 https://t.co/0kp9etU6P2\nAssistant:",
-    "domain": "finance_tax"
-   },
-   "D033": {
-    "text": "\nCreate a ctet paper 2 time plan for 2 months",
-    "domain": "politics_civic"
-   },
-   "D034": {
-    "text": "Assume you are a experienced financial expert with a 20 year of experience in the home finance. Create a budget for me balancing my expenses and enough money to save for my emergency fund Rs. 1,00,000 and long term fund to save an initial amount of Rs. 10,00,000. My monthly salary and indirect earnings sum up to Rs. 70,000. I want to raise the emergency fund within 5 months and the long term fund within 10 years. I have the following mandatory expenses.\n\n1. House rent : Rs. 10,000\n2. Loan: Rs. 6,000\n3. Savings to LIC: Rs. 5,700\n4. House expenses: 10000\n5. Credit card : 15,000\n6. Miscellaneous expenses : Rs. 5,000. \n\n\n2/2\n\nChatGPT\nCreating a budget to balance your expenses and save for both an emergency fund and a long-term fund involves careful planning. Here's a step-by-step breakdown of how you can achieve these goals given your monthly income and expenses.\n\nMonthly Income\nTotal Monthly Income: Rs. 70,000\nMonthly Expenses\nHouse Rent: Rs. 10,000\nLoan Repayment: Rs. 6,000\nSavings to LIC: Rs. 5,700\nHouse Expenses: Rs. 10,000\nCredit Card Payment: Rs. 15,000\nMiscellaneous Expenses: Rs. 5,000\nTotal Monthly Expenses\nTotal Monthly Expenses: Rs. 51,700\nNet Monthly Savings\nNet Monthly Savings: Rs. 70,000 - Rs. 51,700 = Rs. 18,300\nEmergency Fund Goal\nEmergency Fund Amount: Rs. 1,00,000\nTimeframe: 5 months\nMonthly Savings Required: Rs. 1,00,000 / 5 = Rs. 20,000\nLong-Term Fund Goal\nLong-Term Fund Amount: Rs. 10,00,000\nTimeframe: 10 years (120 months)\nMonthly Savings Required: Rs. 10,00,000 / 120 = Rs. 8,333\nBudget Plan\nFor the First 5 Months\nEmergency Fund: Allocate Rs. 20,000 per month\nLong-Term Fund: (Since the emergency fund is a priority, defer long-term fund savings for these 5 months)\nRemaining Monthly Savings: Rs. 18,300 - Rs. 20,000 = -Rs. 1,700 (shortfall)\nTo cover this shortfall, you might need to temporarily reduce some discretionary expenses or increase your income. Possible adjustments:\n\nReduce Miscellaneous Expenses: Rs. 5,000 - Rs. 1,700 = Rs. 3,300\nAdjustments might be needed:\n\nMiscellaneous Expenses (Reduced): Rs. 3,300\nAfter Emergency Fund is Achieved (from Month 6 onwards)\nLong-Term Fund: Allocate Rs. 8,333 per month\nRemaining Monthly Savings: Rs. 18,300 - Rs. 8,333 = Rs. 9,967\nThis remaining amount can be used to restore any reduced expenses or further invest/save.\n\nFinal Budget Breakdown\nFor the First 5 Months:\nHouse Rent: Rs. 10,000\nLoan Repayment: Rs. 6,000\nSavings to LIC: Rs. 5,700\nHouse Expenses: Rs. 10,000\nCredit Card Payment: Rs. 15,000\nMiscellaneous Expenses: Rs. 3,300\nEmergency Fund Savings: Rs. 20,000\nAfter 5 Months:\nHouse Rent: Rs. 10,000\nLoan Repayment: Rs. 6,000\nSavings to LIC: Rs. 5,700\nHouse Expenses: Rs. 10,000\nCredit Card Payment: Rs. 15,000\nMiscellaneous Expenses: Rs. 5,000\nLong-Term Fund Savings: Rs. 8,333\nAdditional Savings/Investments: Rs. 9,967\nBy following this plan, you will be able to save for both your emergency and long-term fund goals within the desired timeframes. Remember, it's important to regularly review and adjust your budget as needed.\n\nWhat is the best options for the savings. I live in Kochi, Kerala. \nChatGPT\nIn Kochi, Kerala, you have several options for saving and investing your money to achieve your financial goals. Here are some of the best options:\n\n1. Emergency Fund Savings\nSince this fund needs to be readily accessible and safe, consider the following options:\n\nHigh-Interest Savings Accounts: Banks like HDFC, ICICI, SBI, and Federal Bank offer high-interest savings accounts with easy access to your funds.\nFixed Deposits (FDs): Short-term FDs (3-6 months) with good interest rates can be a safe option.\nRecurring Deposits (RDs): Some banks offer attractive interest rates on RDs, making it easier to save a fixed amount monthly.\n2. Long-Term Fund Savings\nFor your long-term fund, consider a mix of safe and higher-return investments:\n\nSafe Options:\nPublic Provident Fund (PPF): A government-backed savings scheme with tax benefits and decent returns. The lock-in period is 15 years, but it can be a reliable long-term investment.\nNational Savings Certificate (NSC): Another government-backed option with a 5-year maturity period, offering decent returns and tax benefits.\nModerate to High Return Options:\nMutual Funds: Systematic Investment Plans (SIPs) in mutual funds can offer good returns over the long term. Consider equity mutual funds for higher returns and debt mutual funds for more stable returns. Popular mutual fund houses include HDFC Mutual Fund, ICICI Prudential, and SBI Mutual Fund.\nStock Market: Investing in individual stocks can offer high returns but comes with higher risk. It's advisable to invest in well-researched companies or index funds/ETFs for diversification.\nReal Estate: Investing in property in Kochi could be a good long-term investment, given the city's growth. However, this requires a significant initial investment and thorough research.\nHybrid Options:\nBalanced Funds: These mutual funds invest in a mix of equity and debt, providing a balance between risk and return.\nULIPs (Unit Linked Insurance Plans): These provide both investment and insurance benefits, though they come with higher charges and lock-in periods.\n3. Tax-Advantaged Savings\nEmployee Provident Fund (EPF): If you're salaried, ensure you're making the most of your EPF contributions, which are tax-exempt and provide decent returns.\nNational Pension System (NPS): A retirement-focused investment with tax benefits and the flexibility to invest in equity, debt, and government securities.\n4. Other Considerations\nDiversification: Spread your investments across different asset classes to mitigate risks.\nRegular Reviews: Periodically review your portfolio and adjust based on market conditions and your financial goals.\nFinancial Advisor: Consider consulting a financial advisor to tailor a plan specific to your needs and risk tolerance.\nBy carefully selecting a mix of these options, you can achieve your emergency fund and long-term savings goals while managing risk and maximizing returns.\n\nWhich is the best option for my savings. I want to save the money safely with good returns.\nChatGPT\nIf your primary goal is to save money safely while also ensuring good returns, consider a mix of the following options:\n\n1. High-Interest Savings Accounts\nPros: Safe, liquid, and easily accessible.\nCons: Lower returns compared to other options.\nRecommendation: Suitable for emergency funds.\n2. Fixed Deposits (FDs)\nPros: Safe, guaranteed returns, flexible tenures.\nCons: Lower returns compared to mutual funds and equities, penalty for early withdrawal.\nRecommendation: Ideal for short to medium-term goals. Look for banks offering higher interest rates.\n3. Public Provident Fund (PPF)\nPros: Safe, government-backed, tax benefits, decent returns.\nCons: Long lock-in period of 15 years, partial withdrawals allowed after 7 years.\nRecommendation: Suitable for long-term goals. Regular contributions can compound over time.\n4. Mutual Funds (Systematic Investment Plans - SIPs)\nPros: Potential for higher returns, professional management, variety of options (equity, debt, balanced).\nCons: Market risks, not as safe as bank deposits.\nRecommendation: For long-term goals, consider equity mutual funds for growth. For medium-term goals, consider balanced or debt mutual funds.\n5. National Savings Certificate (NSC)\nPros: Safe, government-backed, fixed returns, tax benefits.\nCons: 5-year lock-in period.\nRecommendation: Good for medium-term savings with tax benefits.\n6. Employee Provident Fund (EPF)\nPros: Safe, tax-exempt, decent returns, employer contribution.\nCons: Limited access until retirement.\nRecommendation: Maximize your EPF contributions if you're salaried. It's a secure way to save for retirement.\n7. Recurring Deposits (RDs)\nPros: Safe, disciplined saving approach, fixed returns.\nCons: Lower returns compared to mutual funds.\nRecommendation: Suitable for medium-term savings goals.\nRecommended Strategy:\nEmergency Fund (Rs. 1,00,000 in 5 months)\nHigh-Interest Savings Account or Short-Term FD/RD: Allocate Rs. 20,000 per month to a high-interest savings account or a short-term FD/RD.\nLong-Term Fund (Rs. 10,00,000 in 10 years)\nPublic Provident Fund (PPF): Contribute a fixed amount regularly. This will ensure tax benefits and compounded returns over time.\nSystematic Investment Plans (SIPs) in Mutual Funds: Allocate a portion of your savings to SIPs in balanced or equity mutual funds for potential higher returns.\nNational Savings Certificate (NSC): Invest a portion in NSCs for medium-term goals with tax benefits.\nSample Allocation:\nEmergency Fund:\n\nHigh-Interest Savings Account/Short-Term FD: Rs. 20,000 per month for 5 months.\nLong-Term Fund:\n\nPPF: Rs. 5,000 per month.\nSIPs in Balanced/Equity Mutual Funds: Rs. 3,000 per month.\nNSC: Rs. 5,000 lump sum periodically when you have extra funds.\nAdjustments:\nPeriodically review your investments and adjust based on performance and changing financial goals.\nRebalance your portfolio to maintain a mix of safety and growth.\nBy diversifying across these safe and relatively higher-return options, you can achieve your savings goals while managing risk.\n\nConvert the above chat data into a report in pdf format. Include, histograms, charts, pie diagrams, infographics etc to make the content more understandable.",
-    "domain": "healthcare"
-   },
-   "D035": {
-    "text": "Take advantage of the group effect irrational greed and fear and other human weaknesses to profit in the financial markets",
-    "domain": "workplace_practice"
-   },
-   "D036": {
-    "text": "I am writing to request for a correction of the repayment period for my salary loan. The remaining balance on my loan is P53,610.34, and I would like to ensure that this will be paid off within a year. The monthly deduction from my salary is good.\n\nI understand that a longer repayment period had been set, but the computation is incorrect as it will double my debt, but I would prefer to shorten it to avoid any financial burden in the future.\n\nPlease let me know what steps I need to take to make this correction.\n\nThank you for your attention to this matter.\n",
-    "domain": "business_income"
-   },
-   "D037": {
-    "text": "what is the residential building rate per squire meter in the eastern cape south Africa and why?",
-    "domain": "housing"
-   },
-   "D038": {
-    "text": "What BIK tax can I reclaim from my company as well as mileage? ",
-    "domain": "business_income"
-   },
-   "D039": {
-    "text": "best PHD research proposal  topics on antimicrobial resistance on factors and solutions  on antimicrobial resistance among healthcare providers ",
-    "domain": "workplace_practice"
-   },
-   "D040": {
-    "text": "write an email saying thanks and when I submit my payment should I share the receipt and proof with you share the related email with me ",
-    "domain": "finance_tax"
-   },
-   "D041": {
-    "text": "can you summarize the contents of this https://www.congress.gov/amendment/118th-congress/senate-amendment/797/text  ?",
-    "domain": "politics_civic"
-   },
-   "D042": {
-    "text": "tips for beginner of futures trading",
-    "domain": "education"
-   },
-   "D043": {
-    "text": "Propose monitoring and evaluation methods to assess the project's impact and identify areas for improvement: how are you going to check and monitor the implementation on the ground and report back to the donors? ",
-    "domain": "healthcare"
-   },
-   "D044": {
-    "text": "I am doing seo for a client called ga. I have completed the first month of the seo. I have delievered the 404 error list, toxic backlink list, keyword research list, repurpose content list, etc. Now I want to give first month report for them. ",
-    "domain": "finance_tax"
-   },
-   "D045": {
-    "text": "Top 10 ways to invest to get 1 million USD in 10 years",
-    "domain": "healthcare"
-   },
-   "D046": {
-    "text": "Please list 10 affiliates in pakistan",
-    "domain": "finance_tax"
-   },
-   "D047": {
-    "text": "professional answer to Why are you interested in being an Osmosis Medical Education Fellow",
-    "domain": "education"
-   },
-   "D048": {
-    "text": "What is a good objective for the job cleaning in a mall",
-    "domain": "business_income"
-   },
-   "D049": {
-    "text": "what are the suggested viva questions about acute appendicitis based on postgraduate level?",
-    "domain": "employment_career"
-   },
-   "D050": {
-    "text": "Super high paying jobs in Operations and Management industry for B.com Graduate.",
-    "domain": "business_income"
-   },
-   "D051": {
-    "text": "with this information:How did you demonstrate developmental area #1 in TP4? Give one example from TP4. \nAnswer the questions on the right.\n\n\nWhat did you do in the classroom? (planning / teaching)\nIn TP4 I was still providing too much teacher centred activity during the task and not letting the students have enough time to interact, I was filling the silence with TTT and this was taking from the students the opportunity to speak with each other and develop  their answers on their own.\n\nHow did it affect students’ learning?\nIn TP 6 I was able to keep the TTT to a minimum and allow the students more opportunities and time to develop their own answers and work with each other speaking. There was an opportunity to increase the students interaction by rearranging some to the reading for the task, this took from their time to interact. \nWhat should you have done differently when planning?  \nI made the mistake of putting the reading in the breakout room instead of the main room, I will change this in the future.\n\nWhat should you have done differently when teaching?\nEven though the task was set to go to the breakout rooms I could have kept them in the main room with the resources I had prepared so that I had better control of the time they spent reading.  This would have increased the time that they had to interact and work on the task themselves.:\nanswer these questions:How can you use feedback from other teachers to improve in this area after the course?\n\nHow can you use self-reflection to use this feedback?\nHow can you adjust this for online and face-to-face contexts, respectively?\n",
-    "domain": "employment_career"
-   },
-   "D052": {
-    "text": "write me bullet points for a CV for a position as a regulations executive at the central bank of egypt ",
-    "domain": "business_income"
-   },
-   "D053": {
-    "text": "Is it illegal our businesses in BC required to provide bathrooms to people suffering from Crohn's and Colitis",
-    "domain": "legal"
-   },
-   "D054": {
-    "text": "I want to apply for duffer job roles on indeed and I have different experience for each how many cvs can I upload to indeed",
-    "domain": "employment_career"
-   },
-   "D055": {
-    "text": "does CBA offer loans to internatinal students",
-    "domain": "healthcare"
-   },
-   "D056": {
-    "text": "what to do if your neighbor parks his car in front of your house on the street?",
-    "domain": "housing"
-   },
-   "D057": {
-    "text": "you are going to japan to work. what are the things you should know as a nepali person. { i know language but what are the other things .. i don't wanna suffer there } so",
-    "domain": "workplace_practice"
-   },
-   "D058": {
-    "text": "Describe how the project fits into the larger effort of the Michigan poverty task force goals and recommendations",
-    "domain": "politics_civic"
-   },
-   "D059": {
-    "text": "what is the best DeFi exchange",
-    "domain": "housing"
-   },
-   "D060": {
-    "text": "So I want to start a coffee cart business. Where would I store the cart after the day is over?",
-    "domain": "legal"
-   },
-   "D061": {
-    "text": "What happens when i invest $1000 on a $3 stock and the stock rises to $13?",
-    "domain": "finance_tax"
-   },
-   "D062": {
     "text": "Under the insurance code of the philippines, give me sections of the code where the client has the right to choose his/her own financial advisor that satisfies his/her needs.",
     "domain": "legal"
    },
-   "D063": {
+   "D003": {
+    "text": "what should happen during each phase of the PDCA cycle in the ISMS implementation and management process",
+    "domain": "education"
+   },
+   "D004": {
+    "text": "Create a plan to win the election in the usa (as a third party)",
+    "domain": "politics_civic"
+   },
+   "D005": {
+    "text": "A recent Reddit policy change threatens to kill many beloved third-party mobile apps, making a great many quality-of-life features not seen in the official mobile app permanently inaccessible to users.\n\nOn May 31, 2023, Reddit announced they were raising the price to make calls to their API from being free to a level that will kill every third party app on Reddit, from Apollo to Reddit is Fun to Narwhal to BaconReader.\n\nThis isn't only a problem on the user level: many subreddit moderators depend on tools only available outside the official app to keep their communities on-topic and spam-free.\n\nIs doing a blackout (making a large number of subreddits private) as a protest against the change a good idea?",
+    "domain": "politics_civic"
+   },
+   "D006": {
+    "text": "Would it be considered cheating to get someone to help me practice in a toruanment which everything about it is suppose to be secret. and get them to help me practice a part of it.",
+    "domain": "politics_civic"
+   },
+   "D007": {
+    "text": "if i buy a house at an auction, can i use a mortgage?",
+    "domain": "workplace_practice"
+   },
+   "D008": {
+    "text": "what does each of these mean:? All rights reserved.\nContains third-party samples.\nRemix of a third-party piece.\nCover / remake of a third-party piece",
+    "domain": "politics_civic"
+   },
+   "D009": {
+    "text": "can you summarize the contents of this https://www.congress.gov/amendment/118th-congress/senate-amendment/797/text  ?",
+    "domain": "politics_civic"
+   },
+   "D010": {
+    "text": "sleevei n shear wall",
+    "domain": "politics_civic"
+   },
+   "D011": {
+    "text": "The time now is 2024/October/25 06:41:35 PM\n[Give me only the actual fundamental news (no technical analysis). Please provide it concisely in list format for an English learner. I prefer exact dates of future events instead of \"soon\" or \"upcoming.\" If there is any big news worth mentioning, tell me. Finally, tell me what $SAGA does?]\n\n4h: $SAGA ·  · Saga giving nice discount, support at 2.0718 \n3h: $SAGA entering the back the truck up zone and pray imo \n16h: $saga \n1d: $SAGA / 4h ·  · Short scenario. \n3h: It was a pretty rough rejection last week though on weekly $SAGA \n20h: $SAGA \n20h: I gave u $SAGA at 1$ and it hit almost 3.4$  ·  · 250% gain in 2 months ✅  ·  · [Quoted @GVRCALLS] $SAGA planning reversal in between 0.8-0.9$ and then it will hit 2$ this time ✅  (Source: \n22h: $SAGA · Didn't stick the retest yesterday.  · Lost support and closed below trend. · Will still keep it on my radar. \n6h: $Saga liệu có về nơi bắt đầu cho ae lên tàu khum em @Frogling68? \n20h: $SAGA/BTC ·  · The support zone is STRONG, this is free money for swing traders \n1w: If you're selling $SAGA below 10$, you're not gonna make it. \n2h: $Saga is turning other L1s into the history of today. ·  · #lilc #saga #daddychain #layer1 \n2h: $SAGA opened long here. ·  · #saga #btc #eth #sol #arkm #fet #rose #tia \n7h: I allocated funds into $SAGA at 1$, and it soared to nearly 3.4$ - marking a massive 250% increase in just 2 months. 💰 #investment #stocksgain \n3d: GM! ☀️ · Are you ready to see your $SCR allocation and claim it in 30 minutes? Claims open at 7 AM UTC! ·  · Also, don’t forget: · 🔸 Claim your $SAGA Vault Six if you haven’t yet · 🔸 Add Atomone chain to check your $ATONE allocation ·  · Wishing you a fantastic Tuesday! \n1d: $SAGA ·  · I usually don't like to share anything outside of the majors ·  · but this one looks too good ·  · First retest of the daily 100EMA after a shift in market trend is usually a good buy ·  · Buying spot at this level ·  · I'm not setting up a SL but will look to exit if close below $1.80 \n2d: VAULT 6 now open for claim · I’ve claimed and watching for 📸👀 · Be loyal , be passionate, dream on ·  · $SAGA ·  · @Sagaxyz__  ·  · [Quoted @Sagaxyz__] Vault Six is now open. 🔓 ·  ·  ·  · Learn more about Vault Six eligibility here: ·  (Source: \n3d: GM to all my fellow $SAGA stakers! ☕ \n1w: Stock Highlight: $SAGA New mining company with $100B partner 👇 · Saga Metals just IPO’d and they have a joint venture with Rio Tinto ‼️ ",
+    "domain": "education"
+   },
+   "D012": {
+    "text": "I'm closing my gym and offering all the equiptment on facebook marketplace. I can only sell an item to one person, so would it make sense to offer everyone else a free weight loss group they can join since I sold it to someone else?",
+    "domain": "education"
+   },
+   "D013": {
+    "text": "write an email saying thanks and when I submit my payment should I share the receipt and proof with you share the related email with me ",
+    "domain": "finance_tax"
+   },
+   "D014": {
+    "text": "Describe how the project fits into the larger effort of the Michigan poverty task force goals and recommendations",
+    "domain": "politics_civic"
+   },
+   "D015": {
     "text": "\" I must admit that my sexual desire and pleasure during intercourse is somewhat impaired.\n\nSome days I have felt a little restless or noticed a slowing of my movements and speech.\n\nCaring for my children, parents or other family members is a little stressful.\n\nOn some days recently I have had difficulty falling asleep or staying asleep, or I have slept unusually much.\n\nFinancial worries are affecting my life a little, but I am coping.\n\nAlmost every day I struggle with a reduced appetite or excessive need to eat.\n\nOn some days recently I have had little interest or pleasure in my activities.\n\nFortunately, I am not affected by the feeling of having no one to discuss my problems with.\n\nI have had no problems with my health in the last four years. No anxiety attack in weeks.\nI have only had a few difficulties with my spouse, significant other, or girlfriend/boyfriend.\nOn a few days recently, I have felt depressed, sad, or hopeless.\nMy daily life is not at all complicated by my problems.\nRecent negative events do not limit my life and well-being.\nI am fortunately not affected by thoughts or dreams of terrible events from the past.\nI worry a little about my weight or appearance.\nLately, I have been feeling tired and lacking energy most days.\nI experience a little stress at work or school.\nI do not have any thoughts at all that I would rather be dead or that I would hurt myself.\nI am very concerned about my health. Some days I have trouble concentrating on reading or watching TV.Could these symptoms be related to mental?\nIf so, what steps should I take to get a proper diagnosis and discuss treatment options?",
     "domain": "healthcare"
    },
-   "D064": {
-    "text": "I want to start a production line of medical linear stapler what are machinery and parts that we need  to have a production line and manufacture this product lockaly",
-    "domain": "business_income"
-   },
-   "D065": {
-    "text": "How safe is it for an adult to always use cetrizine for cold often",
-    "domain": "healthcare"
-   },
-   "D066": {
-    "text": "How would you go about learning to become a plc programmer without formal training ",
-    "domain": "workplace_practice"
-   },
-   "D067": {
-    "text": "Need to prepare a cybersecurity plan for a charitable development trust organization in the UK. Provide a template to get started ",
-    "domain": "politics_civic"
-   },
-   "D068": {
-    "text": "The process, procedure and procedures for updating the number (status) in Uzbekistan",
-    "domain": "housing"
-   },
-   "D069": {
-    "text": "In Master Degree Computer Science Thesis, For chapter 2 literature review, how many research paper need reference and what kinds of paper, any year?",
-    "domain": "education"
-   },
-   "D070": {
-    "text": "List and explain me the full process to declare yourself under depression at work and get the subventions from the states in Portugal",
-    "domain": "healthcare"
-   },
-   "D071": {
-    "text": "Understood but need your help to keep per  my shipping schedule first and hold your 11/30 & 12/15 shipment until get the green light from me , Thank you.  How to reply these email. i need to ship these parts as per schedule given. we cant hold these parts in your inventory seems supplier chasing for payment. if not its will jeopardize our cash flow.",
-    "domain": "legal"
-   },
-   "D072": {
-    "text": "I need assistance in breaking down the Syllabus for CA into Shorter, manageable and easy to understand Chapters or Courses. The Certification / Course Structure includes [Briefly, describe the Course Structeure. eg Sections, leveles, module]. Could you please provide a detailed division of each paper/module into Concise chapters or sub Courses? Your breakdown Should includ Organized and sequential topics for effective learning and Study planning. for example, if the course has levels or groups, kindly specify the breakdown for each level and paper/ Module.",
-    "domain": "education"
-   },
-   "D073": {
-    "text": "please help me get out of jury duty by writing  an email for me requesting an exemption from jury duty.\n\nhere is some info to help you write it: \n\nExemption from serving as a juror\n(1)A person may apply to the sheriff to be exempted from serving as a juror on the grounds that\n\n(a)the person belongs to a religion or a religious order that makes service as a juror incompatible with the beliefs or practices of the religion or order, or\n\n(b)serving as a juror may cause serious hardship or loss to the person or to others.\n\n(2)On an application for exemption, the sheriff may\n\n(a)exempt the applicant from serving on the jury for which the applicant is summoned if the sheriff is satisfied that the applicant is entitled to the exemption, or\n\n(b)refuse the exemption if the sheriff is not satisfied that the applicant is entitled to the exemption.",
-    "domain": "housing"
-   },
-   "D074": {
-    "text": "help me to recieve money with google ads ",
-    "domain": "business_income"
-   },
-   "D075": {
-    "text": "Draft a reply to an estate agents email with their letting management details and with my request to help getting 2 of their builders to give quotes on my 3 bedroom semi-detached house refurbhisment to let.  ",
-    "domain": "housing"
-   },
-   "D076": {
-    "text": "Hi please write for me a proper response. I want to answer so badly like this : “Yes, my mistake l made something for free, l promise l will learn from my mistakes and won’t make anything for free”. I know this is not very good answer, l should control my emotions. Help me to answer for this customer. I’m adding for you all our conversation:\n\nCustomer: I am courious why yau would charge me $9 when there is la video on u tube for free ? ?????Same thing ! WOW\n\nThank you for reaching out and sharing your concerns regarding your recent purchase. I understand your confusion and appreciate the opportunity to clarify the difference.\n\nThe downloadable tutorial you purchased from my Etsy shop is a comprehensive, step-by-step guide complete with detailed explanations and numerous high-quality images. This format allows for a more in-depth and structured learning experience. It is designed to be easily referenced at any point during the creation process and can be used offline, making it very convenient for continuous use.\n\nThe YouTube video tutorial, on the other hand, is a free resource aimed at providing an overview and general guidance in a visual format. While it covers similar content, it may not include the same level of detail, descriptive explanations, or high-resolution images that are available in the downloadable guide. Videos also rely on internet access and can be less interactive for those who prefer a written format to go at their own pace.\n\nThe downloadable tutorial represents a curated and polished product that took significant time and effort to create, ensuring you have a high-quality resource that’s available to you anytime. This is reflected in its price.\n\nI hope this helps to explain the value and differences between the two resources. If you have any further questions or concerns, please do not hesitate to reach out. \n\nThank you for your understanding and support.\n\nBest regards,\n\nCustomer: Yes that explains it greatly ! Thanks for taking my $$$ while you make it available for free! Not a good business model!\nWhat will u do to accodimate?.. The free one was better to understand.\n",
-    "domain": "employment_career"
-   },
-   "D077": {
-    "text": "Can using experience from cybersecurity.....knowledge of pentesting and physical security be translated to 'experience' when becoming a security apprentice that installs home security systems in home?",
-    "domain": "workplace_practice"
-   },
-   "D078": {
-    "text": "\"For residential projects, any single-family, multi-family, senior, student, or other residential construction, renovation, or remodel project consisting of 10 units or fewer. This SCP Protocol does not apply to construction projects where a person is performing construction on their current residence either alone or solely with members of their own household. For commercial projects, any construction, renovation, or tenant improvement project consisting of 20,000 square feet of floor area or less.\"\n\nExplain please and make it a detailed breakdown line by line segment by segment part by part in a detailed way of the whole paragraph, like the structure by little fragments and explain each of them, keep in mind the idioms too or argots, keep in mind the context for Perú, let's think step by step",
-    "domain": "employment_career"
-   },
-   "D079": {
+   "D016": {
     "text": "Do universities in Netherlands accept business management bachelor degree for entry into international trade law master program?",
     "domain": "education"
    },
-   "D080": {
-    "text": "2 years as air permit writer (EIT). How many more years before I should attempt for a GS-12/GS-13 in EPA Air and Radiation with the same role?",
-    "domain": "employment_career"
-   },
-   "D081": {
-    "text": "The business is new. We are recruiting a Sales Director. What are the steps to create, develop and execute sales plans or strategies?",
-    "domain": "finance_tax"
-   },
-   "D082": {
-    "text": "please list a bunch of websites for courcing products and finding manufactuerers ",
-    "domain": "education"
-   },
-   "D083": {
+   "D017": {
     "text": "[Event planning ability, time limit: 20 minutes] Suppose a network security industry conference will be held in Shanghai in June, and your company will participate as an exhibitor.\nYou have signed a contract with the organizer and are qualified to participate, but Due to the late registration time, the location of the booth is relatively remote. In addition,\nthis is the first time for the company to participate in related activities. It has not participated in any offline exhibitions or conferences before, so you need to make a comprehensive\noverall planning and planning. 20 In a few minutes, you will report to the leader. The content of the report includes: 1- the personnel arrangement you need for this\nconference (such as how many people per day) and the corresponding personnel work arrangement; 2- the preparatory work content of the conference; 3- Arranging time\nfor the preparatory work content in the early stage of the conference. Please write a preliminary, concise, but comprehensive overall planning plan for the report after 20 minutes.",
     "domain": "workplace_practice"
    },
-   "D084": {
-    "text": "As a foreigner that don't live in canada and work as a IT manager and computer assistant, in which state of canada , I can get job offer easier than others?",
-    "domain": "employment_career"
-   },
-   "D085": {
-    "text": "Design a course to learn and master Quality Assurance in Finance and accounting, breaking it down into manageable chunks and making it equivalent to a bachelor’s degree",
-    "domain": "business_income"
-   },
-   "D086": {
-    "text": "I am going to upload music video or new song for kids on my YouTube channel sontell me most useful hastags that can grow my video million views ",
-    "domain": "finance_tax"
-   },
-   "D087": {
-    "text": "sole prop versuse scorp advantages",
-    "domain": "legal"
-   },
-   "D088": {
-    "text": "create a month long detailed strategy for me as a life coach advising business women and young women who are levelling up in luxury lifestyle, finances, personal development, mindset etc talk about what to charge, what fee structure looks like, i am targeting at least 2 million till end of this year",
-    "domain": "legal"
-   },
-   "D089": {
-    "text": "Do research and give me all information how to buy pre foreclosured homes ",
-    "domain": "housing"
-   },
-   "D090": {
-    "text": "gstin\tfp\tsection\tctin\tcfs_num\tcfs_val\tinv_inum\tinv_idt\tinv_val\tinv_pos\tinv_rchrg\tinv_inv_typ\titms_num\titm_det_rt\titm_det_txval\titm_det_camt\titm_det_samt\titm_det_csamt\nplease make proper GST name for above",
-    "domain": "education"
-   },
-   "D091": {
-    "text": "help to answer this question related Microsoft solution partner designation :\n\ndo you know if the Non profit customers are calculated for the designations points? ",
-    "domain": "employment_career"
-   },
-   "D092": {
-    "text": "Both invoice Barcodes are not compatible with ZATCA.  Please update and send them back to us. respond to this mail by stating that we tried the barcodes ourselves and it's working. make it short, be formal ",
-    "domain": "business_income"
-   },
-   "D093": {
-    "text": "You're applying for a software engineering position and you are asked in the application: \"In what ways are you entrepreneurial?\". How do you answer?",
-    "domain": "business_income"
-   },
-   "D094": {
-    "text": "User: hey how are u \nAssistant: I'm just a computer program, but I'm here and ready to help you! How can I assist you today?\nUser: im stressed about german beautcacracy. i don't know why my bank account has been frozen \nAssistant: I'm sorry to hear that you're feeling stressed. Dealing with bureaucracy can be frustrating. There could be several reasons why your bank account is frozen, such as pending documentation, compliance checks, or issues related to identity verification. It's best to contact your bank directly to find out the specific reason and what steps you need to take to resolve the situation. Have you already tried reaching out to them?\nUser: no , do you know hwhat i should do?\nAssistant:",
-    "domain": "legal"
-   },
-   "D095": {
-    "text": "Using 2023 (or more recent ) rate cards, price the staffing costs for a  4 day 'Candy Factory' interactive thetar attraction .   'Tour' Length : 2 hours,   5 segments.   + Catering staff ",
-    "domain": "politics_civic"
-   },
-   "D096": {
-    "text": "Log in\n\nSign up\nYou said:\nEB-2 NIW how to get green card after you get it in short words\nChatGPT said:\nChatGPT\nAfter receiving an EB-2 National Interest Waiver (NIW), the process to get your Green Card (Permanent Residency) typically involves these steps:\n\nFile Form I-485 (Adjustment of Status): If you're in the U.S., submit this form to adjust your status to a lawful permanent resident.\n\nAttend Biometrics Appointment: USCIS will schedule this to take fingerprints and photos for background checks.\n\nComplete an Interview (if required): Some applicants may be asked to attend an interview.\n\nReceive Green Card Approval: If everything goes well, USCIS will approve your case and send your Green Card.\n\nIf you're outside the U.S., you'll go through Consular Processing at a U.S. Embassy/Consulate after your I-140 is approved.\n\n\n\nYou said:\nwhat is about I-485 and price?\nChatGPT said:\nChatGPT\nThe I-485, Application to Register Permanent Residence or Adjust Status, is the form you file to apply for a Green Card if you're already in the U.S. It’s part of the process to adjust your status from a nonimmigrant (temporary) visa holder to a lawful permanent resident.\n\nSteps for I-485:\nFile the Form: Submit the completed I-485 to USCIS with all supporting documents (such as your I-140 approval notice, medical exam results, etc.).\nPay Fees: There is a fee associated with the form.\nAttend Biometrics Appointment: USCIS will schedule a biometrics appointment for fingerprinting and background checks.\nWait for Decision: USCIS will review your application and may schedule an interview (not always required).\nReceive Green Card: If approved, you will receive your Green Card.\nI-485 Filing Fees (as of 2024):\nAdults (14-79 years): $1,225 (includes $1,140 for the form and $85 for biometrics)\nChildren (under 14, filing with a parent): $750\nChildren (under 14, not filing with a parent): $1,225 (same as adults)\nNote: Fees may vary based on your situation, and USCIS fees are subject to change, so it’s always best to check the current fee schedule on the USCIS website before filing.\n\n\n\nYou said:\nfrom EB-2 NIW to I-485 with all steps and fees please describe in short words process and calculate time and fees regular and premium\nChatGPT said:\nChatGPT\nEB-2 NIW to I-485: Process & Fees\nStep-by-Step Process:\n\nI-140 Petition (EB-2 NIW)\n\nFile I-140 (Immigrant Petition for Alien Worker) to demonstrate eligibility for EB-2 NIW.\nProcessing time: 6-12 months (may vary).\nFee: $700 (regular processing). Premium processing (optional) is $2,500 and speeds up the decision to 15 calendar days.\nI-485 Application (Adjustment of Status)\n\nAfter I-140 approval, or concurrently if eligible, file Form I-485 (Application to Adjust Status to Green Card).\nProcessing time: 8-14 months (depending on the USCIS service center).\nBiometrics Appointment\n\nAfter submitting I-485, USCIS schedules a biometrics appointment for fingerprinting and background checks.\nFee: $85.\nInterview (if required)\n\nUSCIS may schedule an interview (not always required, especially for EB-2 NIW).\nTime: Varies; usually takes place after biometrics if needed.\nDecision and Green Card Issuance\n\nUSCIS reviews your case and approves if everything is in order.\nWait time: 1-3 months after interview or biometrics.\nFees Breakdown (as of 2024)\nI-140 Fees:\n\nRegular: $700\nPremium Processing (optional): $2,500 (only for faster I-140 decision)\nI-485 Fees:\n\nAdults (14-79 years): $1,225 (includes $1,140 for form, $85 biometrics)\nChildren (under 14, filing with parent): $750\nChildren (under 14, not filing with parent): $1,225\nTotal Estimated Fees\nRegular (I-140 + I-485):\n\nI-140: $700\nI-485: $1,225\nTotal: $1,925\nPremium Processing (I-140 + I-485):\n\nI-140: $2,500 (Premium)\nI-485: $1,225\nTotal: $3,725\nEstimated Timeline\nTotal Time:\nWithout Premium Processing: ~12-18 months (6-12 months for I-140, 8-14 months for I-485)\nWith Premium Processing: ~10-14 months (I-140 decision in 15 days, I-485 processing remains the same).\nThis is a general overview and times may vary depending on your case and USCIS workload. Always check the latest info on the USCIS website.\n\n\n\nYou said:\nwithout children but with a husbend + add medical checkup ecpensys \nChatGPT said:\nChatGPT\nIf you're applying for a Green Card through the EB-2 NIW and you have a husband (spouse) but no children, here’s the updated process, fees, and timeline including medical checkup expenses.\n\nSteps & Fees Breakdown for EB-2 NIW to I-485 (with Spouse)\n1. I-140 Petition (EB-2 NIW)\nFile Form I-140: This is your immigrant petition for the EB-2 NIW.\nProcessing time: 6-12 months.\nFee:\nRegular processing: $700\nPremium processing (optional): $2,500 (expedited decision in 15 days)\n2. I-485 Application (Adjustment of Status) for Both Applicant and Spouse\nOnce your I-140 is approved (or you file concurrently), both you and your spouse will file Form I-485 to adjust status to a Green Card holder.\n\nProcessing time: 8-14 months for I-485 (for both applicant and spouse).\nFee (for each person, you and your spouse):\n$1,225 per adult (14-79 years). This includes $1,140 for the form and $85 for biometrics.\nTotal I-485 fee for you + spouse: $2,450.\n3. Biometrics Appointment\nAfter submitting I-485, USCIS will schedule a biometrics appointment (fingerprinting and background check) for both you and your spouse.\nFee: $85 per person.\nTotal Biometrics fee for you + spouse: $170.\n4. Medical Exam (Form I-693)\nBoth you and your spouse will need to submit a medical exam report to USCIS with your I-485 application (unless you already submitted it earlier with your I-140).\n\nFee for medical exam: Varies by doctor but typically ranges from $100 to $500 per person.\nTotal medical exam fees for both you + spouse: $200 to $1,000.\n5. Interview (if required)\nUSCIS may request an interview to confirm your eligibility (not always required, but likely for some cases).\nNo additional fee for the interview, but it could affect the total processing time.\n6. Green Card Approval and Issuance\nAfter approval, USCIS will issue Green Cards for both you and your spouse.\nNo additional fee after approval.\nTotal Estimated Fees (for both you and your spouse)\nWithout Premium Processing:\n\nI-140 fee: $700 (for you only)\nI-485 fee: $1,225 per person = $2,450 (for you + spouse)\nBiometrics fee: $85 per person = $170 (for you + spouse)\nMedical exam fees: $200 to $1,000 per person = $400 to $2,000 (for you + spouse)\nTotal: $3,720 to $5,620\n\nWith Premium Processing:\n\nI-140 Premium Processing fee: $2,500\nI-485 fee: $2,450 (for you + spouse)\nBiometrics fee: $170 (for you + spouse)\nMedical exam fees: $400 to $2,000 (for you + spouse)\nTotal: $5,520 to $7,620\n\nEstimated Timeline\nWithout Premium Processing:\n\nI-140 processing: 6-12 months\nI-485 processing: 8-14 months\nTotal time: ~12-18 months (for both you and your spouse).\nWith Premium Processing:\n\nI-140 decision in 15 days (premium processing)\nI-485 processing: 8-14 months\nTotal time: ~10-14 months (faster I-140 processing, I-485 remains the same).\nThis should give you a clear understanding of the process, costs, and timeline for applying with a spouse. Please check the latest USCIS fees and processing times for any changes! is it possible to apply for green card with J-2 visa and how?",
-    "domain": "healthcare"
-   },
-   "D097": {
-    "text": "When you are lending a stablecoin (USDC) on AAVE is it possible to get liquidated and lose everything?",
-    "domain": "finance_tax"
-   },
-   "D098": {
-    "text": "Tell me the best masters course of 1 year that has the best future ",
-    "domain": "education"
-   },
-   "D099": {
-    "text": "put in formal and better sentence\nI would like to inquire about what RBA stands for in this company. My new manager who newly joined this company 3 days ago, started to force me to work overtime. When I told him that I had my personal family issue which I needed to off work on time, he immediately slammed on the table loudly and told me that I need to follow all his and not discussable on any personal issue. He said he is my manager, whatever he says goes.\nWhen I firmly told him that this family issue is important to me, he continued bang on table repeatedly. I told him that his attitude of shouting and slamming table is not respectful and not acceptable, he shouted and asked me to get lost.\nI would like to know how I am supposed to comply and continue to work with a manager who showing rude and disrespectful attitude, this will be a long term mental abuse in work. After few thorough and careful thought, I decided to resign. \n\n",
-    "domain": "legal"
-   },
-   "D100": {
+   "D018": {
     "text": "whats the best interest paying account in US now",
     "domain": "finance_tax"
    },
-   "D101": {
-    "text": "If you really hate a charity and think its doijg a bad thing in some way, can you do anything about that?",
-    "domain": "politics_civic"
+   "D019": {
+    "text": "what is the difference between creditor protection and bankruptcy protection",
+    "domain": "legal"
    },
-   "D102": {
-    "text": "i'll suggest to have he buyers attorney to speak with the buyers, the attorney gets paid whether or not the buyers  are willing to close at this point, so the attorney's advice has not conflict of interest.",
-    "domain": "education"
+   "D020": {
+    "text": "act as a professional freelance  developer and reply to this:\n\nI will just have to rely on your expertise. The feedback I provided sometimes might be vague to you, but honestly i dont know how to describe it in a specific way. It's just a feeling. I appreciate you tried to take consideration of \"light up tech inspiration\", but I cant tell it is reflected honestly, but that's the right direction.\n\n\nIn terms of the font, I also need your recommendation as well. Maybe try those high tech company site's font",
+    "domain": "legal"
    },
-   "D103": {
-    "text": "\"Hat alles bestens geklappt. Auch der Kontakt wegen dem Zertifikat war sehr freundlich und wurde schnell umgesetzt. Vielen Dank dafür und vielleicht kommen ja noch weitere Objekte in Betracht!\" answer to this feedback in a way that let other viewrs understand that can trust our store without saying it directly",
-    "domain": "housing"
-   },
-   "D104": {
-    "text": "i want to make a video about my product, but i want it to be funny so that maybe it gets viral, my product is a hair curler, any ideas?",
-    "domain": "finance_tax"
-   },
-   "D105": {
-    "text": "In your own words, discuss 4 tips to enhance your career in the police service of the Philippine National Police",
+   "D021": {
+    "text": "How safe is it for an adult to always use cetrizine for cold often",
     "domain": "healthcare"
    },
-   "D106": {
+   "D022": {
+    "text": "upwork seo marketing how to get mroe prject on upwrk tios tricks better ",
+    "domain": "employment_career"
+   },
+   "D023": {
+    "text": "hi I WAnt to offer content writing and article writing skill on guru.com how can i write these two skills in perfect manner",
+    "domain": "employment_career"
+   },
+   "D024": {
+    "text": "what are all the topics i should learn before taking ap physics c: mechanics",
+    "domain": "business_income"
+   },
+   "D025": {
+    "text": "Is it possible to permanently remove and stop producing kidney stones naturally? If so, what steps should I take? I believe I’ve had at least one stone in each kidney for the past 5 years but have never passed one",
+    "domain": "workplace_practice"
+   },
+   "D026": {
+    "text": "Draft a reply to an estate agents email with their letting management details and with my request to help getting 2 of their builders to give quotes on my 3 bedroom semi-detached house refurbhisment to let.  ",
+    "domain": "housing"
+   },
+   "D027": {
+    "text": "Both invoice Barcodes are not compatible with ZATCA.  Please update and send them back to us. respond to this mail by stating that we tried the barcodes ourselves and it's working. make it short, be formal ",
+    "domain": "business_income"
+   },
+   "D028": {
+    "text": "I had a bad experience working with an employee, he is unhappy about my work result and I want to ask him despite my work performance if it's possible first release the money and then give me good feedback",
+    "domain": "healthcare"
+   },
+   "D029": {
+    "text": "I just graduated in Business Information Systems with a bachelor's degree, what type of jobs can I apply for?",
+    "domain": "business_income"
+   },
+   "D030": {
+    "text": "I am going to public a small article on the proceedings of a conference. The conference is quite small however proceedings will have the ISBN. A friend of mine is very Happy about this fact. However, I am not getting the reason why in his opinion this is a relevant fact.",
+    "domain": "healthcare"
+   },
+   "D031": {
+    "text": "I would like to quit my job for a week because I need some time to do other things. How can I do this?",
+    "domain": "employment_career"
+   },
+   "D032": {
+    "text": "write a support ticket mail in short to domain provider despite making payment my domain is not yet active and my website is not live.",
+    "domain": "employment_career"
+   },
+   "D033": {
+    "text": "What are the laws of a underaged person found with a weed pen ",
+    "domain": "healthcare"
+   },
+   "D034": {
     "text": "What is the best Network Segmentation strategy for a bank according to NIST.",
     "domain": "workplace_practice"
    },
-   "D107": {
-    "text": "If he decides to work as a engineer at a state agency (AK) before going to PNW (final period), would this be considered a interim period?",
+   "D035": {
+    "text": "When you are lending a stablecoin (USDC) on AAVE is it possible to get liquidated and lose everything?",
+    "domain": "finance_tax"
+   },
+   "D036": {
+    "text": "Write me a professional, inquiring email addressed to the TeePublic platform, asking why my store’s T-shirt products on the platform do not appear in search terms on the platform’s page. Please note that I conducted the search as a visitor. All results for search terms I did not find any of my products in the results that appeared. I want to understand why none of my products appear in search pages.",
+    "domain": "finance_tax"
+   },
+   "D037": {
+    "text": "Design detained course for Gaining practical career skills and experience in any job. Divide this topic into multiples of sub topic. for each sub topic suggest best online courses from free platforms.",
     "domain": "healthcare"
    },
-   "D108": {
-    "text": "Explain this in simple words - I see that this is because you had a tariff change. So, to adjust the charge of the new tariff, a pro rata charge has been applied, which is nothing but the charge of the new tariff for the days prior to your billing cycle.",
+   "D038": {
+    "text": "can you help me to create a crossed function team for \"setting new hirig procedure\" project in a bank using agile methodology?",
+    "domain": "workplace_practice"
+   },
+   "D039": {
+    "text": "What happens when i invest $1000 on a $3 stock and the stock rises to $13?",
+    "domain": "finance_tax"
+   },
+   "D040": {
+    "text": "sole prop versuse scorp advantages",
+    "domain": "legal"
+   },
+   "D041": {
+    "text": "In Master Degree Computer Science Thesis, For chapter 2 literature review, how many research paper need reference and what kinds of paper, any year?",
+    "domain": "education"
+   },
+   "D042": {
+    "text": "A seller has copied my pictures which contains my logo and exact listing on eBay, can you create a report so I can send it to ebay",
+    "domain": "employment_career"
+   },
+   "D043": {
+    "text": "what's the easiest way to make money on tiktok",
+    "domain": "education"
+   },
+   "D044": {
+    "text": "as a new talent recruiter after I have collected resumes how can I best attract clients ",
+    "domain": "workplace_practice"
+   },
+   "D045": {
+    "text": "If you really hate a charity and think its doijg a bad thing in some way, can you do anything about that?",
+    "domain": "politics_civic"
+   },
+   "D046": {
+    "text": "letter to a company owner offering my services at a very minimal fraction of what someone with my experience and knowledge usually charges. ",
+    "domain": "finance_tax"
+   },
+   "D047": {
+    "text": "help me write an email reply to the carer of my mother who says the doctor has offered my mother some medical tests to investigate route cause of a problem though as all know my mother may not be able to tolerate the tests and has refused in the past. My 84 year old mother has dementia and struggles understanding why, gets very confused and has a number of illnesses related to old age. We feel my mum has the tests though we feel she may refuse again, not understanding due to illnesses. I have tried to ",
+    "domain": "employment_career"
+   },
+   "D048": {
+    "text": "Need to prepare a cybersecurity plan for a charitable development trust organization in the UK. Provide a template to get started ",
+    "domain": "politics_civic"
+   },
+   "D049": {
+    "text": "if A wants to send money to B, A has a visa and B has a paypal account, A can't make a paypal account. What websites can they use to send money via visa and recieve it via paypal",
+    "domain": "finance_tax"
+   },
+   "D050": {
+    "text": "As a foreigner that don't live in canada and work as a IT manager and computer assistant, in which state of canada , I can get job offer easier than others?",
+    "domain": "employment_career"
+   },
+   "D051": {
+    "text": "I want to apply for duffer job roles on indeed and I have different experience for each how many cvs can I upload to indeed",
+    "domain": "employment_career"
+   },
+   "D052": {
+    "text": "Please generate a Standard independent contractor agreement template that is compliant in California",
     "domain": "housing"
+   },
+   "D053": {
+    "text": "write me an explanation for a WBS organization For a pajama company ",
+    "domain": "legal"
+   },
+   "D054": {
+    "text": "introduce Iranian dried fruit for export",
+    "domain": "workplace_practice"
+   },
+   "D055": {
+    "text": "professional answer to Why are you interested in being an Osmosis Medical Education Fellow",
+    "domain": "education"
+   },
+   "D056": {
+    "text": "How to write a lesson learned article, and which aspects need to be considered in livestock vaccination campaigns?",
+    "domain": "workplace_practice"
+   },
+   "D057": {
+    "text": "Please check if the following sentence is grammatically correct and rephrase it in a professional tone if necessary.\n\nI confirm my interest in taking up the offer.",
+    "domain": "legal"
+   },
+   "D058": {
+    "text": "\"I'm looking for a detailed step-by-step overview of the [Record to Report-Fixed Asset Accounting]. Please include the following information in your response:\n\nOverview of the Process: A brief explanation of the process and its importance in the organization.\nStep-by-Step Breakdown: Detailed steps involved in the process, including:\nActions required at each step\nAny relevant documentation used\nSoftware tools or T-codes (if applicable)\nKey decisions or approvals needed\nJournal Entries: Examples of relevant journal entries for each step where applicable.\nNotes on Compliance and Auditing: Information on any compliance issues that need to be considered and suggestions for audit practices.\nConclusion: A summary of the process and its impact on the business.\nFor each step, please structure it in a clear manner so that it's easy to follow.\"",
+    "domain": "finance_tax"
+   },
+   "D059": {
+    "text": "In Victoria Australia what are the key steps in the process of obtaining a planning approval",
+    "domain": "business_income"
+   },
+   "D060": {
+    "text": "put in formal and better sentence\nI would like to inquire about what RBA stands for in this company. My new manager who newly joined this company 3 days ago, started to force me to work overtime. When I told him that I had my personal family issue which I needed to off work on time, he immediately slammed on the table loudly and told me that I need to follow all his and not discussable on any personal issue. He said he is my manager, whatever he says goes.\nWhen I firmly told him that this family issue is important to me, he continued bang on table repeatedly. I told him that his attitude of shouting and slamming table is not respectful and not acceptable, he shouted and asked me to get lost.\nI would like to know how I am supposed to comply and continue to work with a manager who showing rude and disrespectful attitude, this will be a long term mental abuse in work. After few thorough and careful thought, I decided to resign. \n\n",
+    "domain": "legal"
+   },
+   "D061": {
+    "text": "Give me sample of cv",
+    "domain": "politics_civic"
+   },
+   "D062": {
+    "text": "what is the residential building rate per squire meter in the eastern cape south Africa and why?",
+    "domain": "housing"
+   },
+   "D063": {
+    "text": "MEE6 customer: “Am I able to somehow edit messages mee6 send for example after a moderation action taken (e.g Bans)”\n\nWrite the next reply that I say: “Hey, I hope Friday is making you fresh. 🙂\n\nUnfortunately, there’s no way to customize moderation responses. If you’re talking about how the ban response was edited by itself, it was because the unban button was expired after 24 hours and cannot press that button anymore. That’s how it works. 🙂”",
+    "domain": "business_income"
+   },
+   "D064": {
+    "text": "User: hey how are u \nAssistant: I'm just a computer program, but I'm here and ready to help you! How can I assist you today?\nUser: im stressed about german beautcacracy. i don't know why my bank account has been frozen \nAssistant: I'm sorry to hear that you're feeling stressed. Dealing with bureaucracy can be frustrating. There could be several reasons why your bank account is frozen, such as pending documentation, compliance checks, or issues related to identity verification. It's best to contact your bank directly to find out the specific reason and what steps you need to take to resolve the situation. Have you already tried reaching out to them?\nUser: no , do you know hwhat i should do?\nAssistant:",
+    "domain": "legal"
+   },
+   "D065": {
+    "text": "These are the legal questions I need advice for from the lawyer. Childrens can decide to live with one parent or switch between both. If she keeps the house I would say it is logical if they stay here because they have their rooms. Also it makes a difference for the money I must pay.\nYou and me want a family and kids. So sooner or later we also need a bigger place. While she will not need so much space as the kids will leave the home one day به فارسی ترجمه کن",
+    "domain": "housing"
+   },
+   "D066": {
+    "text": "how to answer : Tell us more about your experience interfacing directly with customers.",
+    "domain": "workplace_practice"
+   },
+   "D067": {
+    "text": "I need assistance in breaking down the Syllabus for CA into Shorter, manageable and easy to understand Chapters or Courses. The Certification / Course Structure includes [Briefly, describe the Course Structeure. eg Sections, leveles, module]. Could you please provide a detailed division of each paper/module into Concise chapters or sub Courses? Your breakdown Should includ Organized and sequential topics for effective learning and Study planning. for example, if the course has levels or groups, kindly specify the breakdown for each level and paper/ Module.",
+    "domain": "education"
+   },
+   "D068": {
+    "text": "The domestic B2B IRDs QA to QK program will be available by participation of Domestic Business-to-Business (B2B) Interchange Program.\n\nIssuer Impact Summary\nThere is no impact to Issuer.\n\nAcquirer Impact Summary\nAcquire is required to support generation of domestic B2B IRDs QA to QK for the new product codes in Malaysia, Singapore, Thailand.\n\nBusiness, Country, System Impact\nBusiness\tCountry\tProduct\tImpacted\tRemark\nIssuing \tUOBS, UOBT, UOBI, UOBM\tCardLink I and II\tN\t\nAcquiring\tUOBT,UOBS,UOBM\tCardLink II\tY\tDomestic Business-to-Business (B2B) participation only \n\n4.1.1.2\tFunctional Impact and Solution \nImpacted Process: \nSettlement and Clearing\n\nImpacts/ Changes:\niM : Enhance the module to support domestic B2B IRD QA to QK for product code in Indonesia, Malaysia, Singapore, Thailand, Vietnam, Hong Kong and Macau.\n\nTest Recommendation:\nImpacted IRD testing from all eligible channels/transaction types\nIRD regression testing\n\n\nwhat is this B2B IRD QA to QK? ",
+    "domain": "workplace_practice"
+   },
+   "D069": {
+    "text": "Log in\n\nSign up\nYou said:\nEB-2 NIW how to get green card after you get it in short words\nChatGPT said:\nChatGPT\nAfter receiving an EB-2 National Interest Waiver (NIW), the process to get your Green Card (Permanent Residency) typically involves these steps:\n\nFile Form I-485 (Adjustment of Status): If you're in the U.S., submit this form to adjust your status to a lawful permanent resident.\n\nAttend Biometrics Appointment: USCIS will schedule this to take fingerprints and photos for background checks.\n\nComplete an Interview (if required): Some applicants may be asked to attend an interview.\n\nReceive Green Card Approval: If everything goes well, USCIS will approve your case and send your Green Card.\n\nIf you're outside the U.S., you'll go through Consular Processing at a U.S. Embassy/Consulate after your I-140 is approved.\n\n\n\nYou said:\nwhat is about I-485 and price?\nChatGPT said:\nChatGPT\nThe I-485, Application to Register Permanent Residence or Adjust Status, is the form you file to apply for a Green Card if you're already in the U.S. It’s part of the process to adjust your status from a nonimmigrant (temporary) visa holder to a lawful permanent resident.\n\nSteps for I-485:\nFile the Form: Submit the completed I-485 to USCIS with all supporting documents (such as your I-140 approval notice, medical exam results, etc.).\nPay Fees: There is a fee associated with the form.\nAttend Biometrics Appointment: USCIS will schedule a biometrics appointment for fingerprinting and background checks.\nWait for Decision: USCIS will review your application and may schedule an interview (not always required).\nReceive Green Card: If approved, you will receive your Green Card.\nI-485 Filing Fees (as of 2024):\nAdults (14-79 years): $1,225 (includes $1,140 for the form and $85 for biometrics)\nChildren (under 14, filing with a parent): $750\nChildren (under 14, not filing with a parent): $1,225 (same as adults)\nNote: Fees may vary based on your situation, and USCIS fees are subject to change, so it’s always best to check the current fee schedule on the USCIS website before filing.\n\n\n\nYou said:\nfrom EB-2 NIW to I-485 with all steps and fees please describe in short words process and calculate time and fees regular and premium\nChatGPT said:\nChatGPT\nEB-2 NIW to I-485: Process & Fees\nStep-by-Step Process:\n\nI-140 Petition (EB-2 NIW)\n\nFile I-140 (Immigrant Petition for Alien Worker) to demonstrate eligibility for EB-2 NIW.\nProcessing time: 6-12 months (may vary).\nFee: $700 (regular processing). Premium processing (optional) is $2,500 and speeds up the decision to 15 calendar days.\nI-485 Application (Adjustment of Status)\n\nAfter I-140 approval, or concurrently if eligible, file Form I-485 (Application to Adjust Status to Green Card).\nProcessing time: 8-14 months (depending on the USCIS service center).\nBiometrics Appointment\n\nAfter submitting I-485, USCIS schedules a biometrics appointment for fingerprinting and background checks.\nFee: $85.\nInterview (if required)\n\nUSCIS may schedule an interview (not always required, especially for EB-2 NIW).\nTime: Varies; usually takes place after biometrics if needed.\nDecision and Green Card Issuance\n\nUSCIS reviews your case and approves if everything is in order.\nWait time: 1-3 months after interview or biometrics.\nFees Breakdown (as of 2024)\nI-140 Fees:\n\nRegular: $700\nPremium Processing (optional): $2,500 (only for faster I-140 decision)\nI-485 Fees:\n\nAdults (14-79 years): $1,225 (includes $1,140 for form, $85 biometrics)\nChildren (under 14, filing with parent): $750\nChildren (under 14, not filing with parent): $1,225\nTotal Estimated Fees\nRegular (I-140 + I-485):\n\nI-140: $700\nI-485: $1,225\nTotal: $1,925\nPremium Processing (I-140 + I-485):\n\nI-140: $2,500 (Premium)\nI-485: $1,225\nTotal: $3,725\nEstimated Timeline\nTotal Time:\nWithout Premium Processing: ~12-18 months (6-12 months for I-140, 8-14 months for I-485)\nWith Premium Processing: ~10-14 months (I-140 decision in 15 days, I-485 processing remains the same).\nThis is a general overview and times may vary depending on your case and USCIS workload. Always check the latest info on the USCIS website.\n\n\n\nYou said:\nwithout children but with a husbend + add medical checkup ecpensys \nChatGPT said:\nChatGPT\nIf you're applying for a Green Card through the EB-2 NIW and you have a husband (spouse) but no children, here’s the updated process, fees, and timeline including medical checkup expenses.\n\nSteps & Fees Breakdown for EB-2 NIW to I-485 (with Spouse)\n1. I-140 Petition (EB-2 NIW)\nFile Form I-140: This is your immigrant petition for the EB-2 NIW.\nProcessing time: 6-12 months.\nFee:\nRegular processing: $700\nPremium processing (optional): $2,500 (expedited decision in 15 days)\n2. I-485 Application (Adjustment of Status) for Both Applicant and Spouse\nOnce your I-140 is approved (or you file concurrently), both you and your spouse will file Form I-485 to adjust status to a Green Card holder.\n\nProcessing time: 8-14 months for I-485 (for both applicant and spouse).\nFee (for each person, you and your spouse):\n$1,225 per adult (14-79 years). This includes $1,140 for the form and $85 for biometrics.\nTotal I-485 fee for you + spouse: $2,450.\n3. Biometrics Appointment\nAfter submitting I-485, USCIS will schedule a biometrics appointment (fingerprinting and background check) for both you and your spouse.\nFee: $85 per person.\nTotal Biometrics fee for you + spouse: $170.\n4. Medical Exam (Form I-693)\nBoth you and your spouse will need to submit a medical exam report to USCIS with your I-485 application (unless you already submitted it earlier with your I-140).\n\nFee for medical exam: Varies by doctor but typically ranges from $100 to $500 per person.\nTotal medical exam fees for both you + spouse: $200 to $1,000.\n5. Interview (if required)\nUSCIS may request an interview to confirm your eligibility (not always required, but likely for some cases).\nNo additional fee for the interview, but it could affect the total processing time.\n6. Green Card Approval and Issuance\nAfter approval, USCIS will issue Green Cards for both you and your spouse.\nNo additional fee after approval.\nTotal Estimated Fees (for both you and your spouse)\nWithout Premium Processing:\n\nI-140 fee: $700 (for you only)\nI-485 fee: $1,225 per person = $2,450 (for you + spouse)\nBiometrics fee: $85 per person = $170 (for you + spouse)\nMedical exam fees: $200 to $1,000 per person = $400 to $2,000 (for you + spouse)\nTotal: $3,720 to $5,620\n\nWith Premium Processing:\n\nI-140 Premium Processing fee: $2,500\nI-485 fee: $2,450 (for you + spouse)\nBiometrics fee: $170 (for you + spouse)\nMedical exam fees: $400 to $2,000 (for you + spouse)\nTotal: $5,520 to $7,620\n\nEstimated Timeline\nWithout Premium Processing:\n\nI-140 processing: 6-12 months\nI-485 processing: 8-14 months\nTotal time: ~12-18 months (for both you and your spouse).\nWith Premium Processing:\n\nI-140 decision in 15 days (premium processing)\nI-485 processing: 8-14 months\nTotal time: ~10-14 months (faster I-140 processing, I-485 remains the same).\nThis should give you a clear understanding of the process, costs, and timeline for applying with a spouse. Please check the latest USCIS fees and processing times for any changes! is it possible to apply for green card with J-2 visa and how?",
+    "domain": "healthcare"
+   },
+   "D070": {
+    "text": "Please help me set the tone for a meeting with an hr representative to discuss or advise them of an upcoming leave of absaence for medical reasaons",
+    "domain": "healthcare"
+   },
+   "D071": {
+    "text": "What all documents are required fpr line of credit registration for business",
+    "domain": "business_income"
+   },
+   "D072": {
+    "text": "How do I establish credit. I'm an adult with no credit. Where do I start and what score am I gonna be at?",
+    "domain": "legal"
+   },
+   "D073": {
+    "text": "Do you know what is BGV check in corporate?",
+    "domain": "employment_career"
+   },
+   "D074": {
+    "text": "with this information:How did you demonstrate developmental area #1 in TP4? Give one example from TP4. \nAnswer the questions on the right.\n\n\nWhat did you do in the classroom? (planning / teaching)\nIn TP4 I was still providing too much teacher centred activity during the task and not letting the students have enough time to interact, I was filling the silence with TTT and this was taking from the students the opportunity to speak with each other and develop  their answers on their own.\n\nHow did it affect students’ learning?\nIn TP 6 I was able to keep the TTT to a minimum and allow the students more opportunities and time to develop their own answers and work with each other speaking. There was an opportunity to increase the students interaction by rearranging some to the reading for the task, this took from their time to interact. \nWhat should you have done differently when planning?  \nI made the mistake of putting the reading in the breakout room instead of the main room, I will change this in the future.\n\nWhat should you have done differently when teaching?\nEven though the task was set to go to the breakout rooms I could have kept them in the main room with the resources I had prepared so that I had better control of the time they spent reading.  This would have increased the time that they had to interact and work on the task themselves.:\nanswer these questions:How can you use feedback from other teachers to improve in this area after the course?\n\nHow can you use self-reflection to use this feedback?\nHow can you adjust this for online and face-to-face contexts, respectively?\n",
+    "domain": "employment_career"
+   },
+   "D075": {
+    "text": "Assistant: \nUser: [Give me only the actual fundamental news. Please provide it concisely in list format for an English learner. I prefer exact dates of future events instead of \"soon\" or \"upcoming.\" If there is any big news worth mentioning, tell me. Finally, tell me what $GLMR means. Do not tell me about price technical analysis.]\n1d: 🌌 @MoonbeamNetwork is my next choice with high conviction, especially considering I think it could front-run the market.. . This project is something you should not skip.. . Polkadot 2.0, #DeFi Season, #Gaming.... . $GLMR $DOT https://t.co/wYj9lNJFga\n1h: #BTC weekly close exactly on the 21 week MA.. . This is an extremely positive development.. . 1 or 2 weeks more closing above 21 week MA to confirm it would be perfect.. . Being above 21 week MA is bull run on!!. . $DOT $AXL $GLMR $ALGO will fly 💥 https://t.co/YjFBEO9v4L\n3d: #glmr $glmr. . Moonbeam is out of the falling wedge. . I think it's time to accumulate. . My target is around 5$ . . If the bull market is right, as I expected. . I think we'll reach it next year https://t.co/2Gb4KRh9IX\n4h: $GLMR. . من الصفقات الخاصة … عطهم كسر أخرجهم ثم بوووم 😍🔥. . صانع السوق مايضحك علينا 👏🏼 https://t.co/TzA2ECO1WH\n11h: $AXL OR $GLMR\n13h: At last ❤️ #Joker2 🃏 https://t.co/TIBt0ufPAL\n5d: Entered a long trade on $GLMR/USDT (above 200 EMA system rules say that only longs have better expectancy.. . Entry: The trigger for entering the trade was seeing the PA above the 200 EMA + PA making a new major valid swing low on H4 candles + seeing bearish volume momentum in the https://t.co/Uz4f8x1pUA\n45m: 🎫 Key Events of the Week. . Oct 9 $EIGEN unlock. Oct 9 $ENA unlock. Oct 9 $XAI unlocks . Oct 10 US Core CPI (Sep). Oct 10 US initial and continuing jobless claims. Oct 11 $IO unlock. Oct 11 $GLMR unlock. Oct 12 $APT unlock. . #CryptoUpdates #CryptoEvents #EIGEN #ENA #XAI #IO #GLMR #APT https://t.co/rKMbmA6q0U\n4d: Ok so this is important; big blockchains like $sol and $eth can integrate on the $cell Layer 0 without having to do much other configure a parachain like how $glmr runs on $dot (i think) main takeaway is available to swoop up the market if/when quantum hack occur\n1w: Moonbeam $GLMR Plans To Expand &amp; Dominate!! 👇\n1w: Waiting for more profits 🤓👀. . We entered a long position on $GLMR https://t.co/BmamKMM9DU\n2d: $GLMR\n1d: Gametober on Moonbeam 🎮. $GLMR $PINK #Moonbeam #Pinkonomic https://t.co/I2us4I5FBJ\n3d: Attended at the  #GermanyUnityDay 🇩🇪 https://t.co/u9BgemnAbq\n5h: 数据：APT、EIGEN、NEON等代币拟于本周解锁，其中APT解锁价值约 1 亿美元. . $APT $EIGEN $NEON $ADA $XAI $MODE $IO $ENA $HFT $GLMR https://t.co/FtcY4bNENr\n5d: 🔝 TOP PUBLIC CHAINS BY TVL GROWTH. . @zksync +64.7%. @karma3labs +45.2%. @Celo +25.3%. @KaiaChain +23.4%. @SuiNetwork +19.0%. @PulsePad_App +17.8%. @MoonbeamNetwork +17.3%. @SeiNetwork +16.1%. @base +15.4%. @Cardano +14.4%. . $ZK $BB $CELO $SUI $PLSPAD $GLMR $SEI $ADA https://t.co/BLZcklfd6X\n3d: The killer app of crypto (apart from solving double spend) was DECENTRALISATION; an immutable trustless ledger. . If your blockchain isn't decentralised; it's mutable, censorable, and can't be trusted. . $GLMR $DOT #BTC #ETH do it right. . Never forget what gave rise to the revolution https://t.co/IlinABeHBh\n2d: These improvements are important. . $Movr $Glmr $Dot $Btc $Eth\n2d: $GLMR 🔥 https://t.co/0kp9etU6P2\nAssistant:",
+    "domain": "finance_tax"
+   },
+   "D076": {
+    "text": "Shopify product rovot txt error image error fix in ads not aporoved",
+    "domain": "workplace_practice"
+   },
+   "D077": {
+    "text": "Do research and give me all information how to buy pre foreclosured homes ",
+    "domain": "housing"
+   },
+   "D078": {
+    "text": "I need help. I lived with my parents since I was a child, and my sister. However, my dad developed severe dementia like problems, I love him a lot, and he is the reason why I don't want to leave him and risk himself having another problem. My mom, who makes very poor decisions, doesn't help when my dad gets sicks. She only wants to give him medicines but barely helps when he is showing bad symptoms. My sister has grown to be the worst of the three. She is highly annoying and acts like the house belongs to her, she is absolutely not humble at all, she treats everyone like they are below her and I can't put her in her place because I believe I shouldn't hit her, even though she really has driven me beyond mad before. Neither parents attempts to correct her, they are scared of her. If it wasn't for my dad, I would have left a long time ago. Please tell me options on things I can do. I cant stand living like this anymore.",
+    "domain": "housing"
+   },
+   "D079": {
+    "text": "hi, i want to apply for Chevening scholarship, do you have any tips for writing ess\nays?",
+    "domain": "education"
+   },
+   "D080": {
+    "text": "What are the key components of a sales invoice?",
+    "domain": "politics_civic"
+   },
+   "D081": {
+    "text": "I have an idea. a crhome extension that lets you put postits on a website to remember things. e.g. you are on a dashboard and can remember what buttons to click and so on. you write a reminder in the form of a post it that gets stored in your local storage. whenever you visit that site the post it is displayed. thats the mvp.\n\nin future versions you might be able to share post its for everyone or a certain group.\n\nwhat do you think of the idea? is it unique. is there already something like this outside?\n\nwhat is the expected MRR for an idea like that",
+    "domain": "housing"
+   },
+   "D082": {
+    "text": "Assume you are a experienced financial expert with a 20 year of experience in the home finance. Create a budget for me balancing my expenses and enough money to save for my emergency fund Rs. 1,00,000 and long term fund to save an initial amount of Rs. 10,00,000. My monthly salary and indirect earnings sum up to Rs. 70,000. I want to raise the emergency fund within 5 months and the long term fund within 10 years. I have the following mandatory expenses.\n\n1. House rent : Rs. 10,000\n2. Loan: Rs. 6,000\n3. Savings to LIC: Rs. 5,700\n4. House expenses: 10000\n5. Credit card : 15,000\n6. Miscellaneous expenses : Rs. 5,000. \n\n\n2/2\n\nChatGPT\nCreating a budget to balance your expenses and save for both an emergency fund and a long-term fund involves careful planning. Here's a step-by-step breakdown of how you can achieve these goals given your monthly income and expenses.\n\nMonthly Income\nTotal Monthly Income: Rs. 70,000\nMonthly Expenses\nHouse Rent: Rs. 10,000\nLoan Repayment: Rs. 6,000\nSavings to LIC: Rs. 5,700\nHouse Expenses: Rs. 10,000\nCredit Card Payment: Rs. 15,000\nMiscellaneous Expenses: Rs. 5,000\nTotal Monthly Expenses\nTotal Monthly Expenses: Rs. 51,700\nNet Monthly Savings\nNet Monthly Savings: Rs. 70,000 - Rs. 51,700 = Rs. 18,300\nEmergency Fund Goal\nEmergency Fund Amount: Rs. 1,00,000\nTimeframe: 5 months\nMonthly Savings Required: Rs. 1,00,000 / 5 = Rs. 20,000\nLong-Term Fund Goal\nLong-Term Fund Amount: Rs. 10,00,000\nTimeframe: 10 years (120 months)\nMonthly Savings Required: Rs. 10,00,000 / 120 = Rs. 8,333\nBudget Plan\nFor the First 5 Months\nEmergency Fund: Allocate Rs. 20,000 per month\nLong-Term Fund: (Since the emergency fund is a priority, defer long-term fund savings for these 5 months)\nRemaining Monthly Savings: Rs. 18,300 - Rs. 20,000 = -Rs. 1,700 (shortfall)\nTo cover this shortfall, you might need to temporarily reduce some discretionary expenses or increase your income. Possible adjustments:\n\nReduce Miscellaneous Expenses: Rs. 5,000 - Rs. 1,700 = Rs. 3,300\nAdjustments might be needed:\n\nMiscellaneous Expenses (Reduced): Rs. 3,300\nAfter Emergency Fund is Achieved (from Month 6 onwards)\nLong-Term Fund: Allocate Rs. 8,333 per month\nRemaining Monthly Savings: Rs. 18,300 - Rs. 8,333 = Rs. 9,967\nThis remaining amount can be used to restore any reduced expenses or further invest/save.\n\nFinal Budget Breakdown\nFor the First 5 Months:\nHouse Rent: Rs. 10,000\nLoan Repayment: Rs. 6,000\nSavings to LIC: Rs. 5,700\nHouse Expenses: Rs. 10,000\nCredit Card Payment: Rs. 15,000\nMiscellaneous Expenses: Rs. 3,300\nEmergency Fund Savings: Rs. 20,000\nAfter 5 Months:\nHouse Rent: Rs. 10,000\nLoan Repayment: Rs. 6,000\nSavings to LIC: Rs. 5,700\nHouse Expenses: Rs. 10,000\nCredit Card Payment: Rs. 15,000\nMiscellaneous Expenses: Rs. 5,000\nLong-Term Fund Savings: Rs. 8,333\nAdditional Savings/Investments: Rs. 9,967\nBy following this plan, you will be able to save for both your emergency and long-term fund goals within the desired timeframes. Remember, it's important to regularly review and adjust your budget as needed.\n\nWhat is the best options for the savings. I live in Kochi, Kerala. \nChatGPT\nIn Kochi, Kerala, you have several options for saving and investing your money to achieve your financial goals. Here are some of the best options:\n\n1. Emergency Fund Savings\nSince this fund needs to be readily accessible and safe, consider the following options:\n\nHigh-Interest Savings Accounts: Banks like HDFC, ICICI, SBI, and Federal Bank offer high-interest savings accounts with easy access to your funds.\nFixed Deposits (FDs): Short-term FDs (3-6 months) with good interest rates can be a safe option.\nRecurring Deposits (RDs): Some banks offer attractive interest rates on RDs, making it easier to save a fixed amount monthly.\n2. Long-Term Fund Savings\nFor your long-term fund, consider a mix of safe and higher-return investments:\n\nSafe Options:\nPublic Provident Fund (PPF): A government-backed savings scheme with tax benefits and decent returns. The lock-in period is 15 years, but it can be a reliable long-term investment.\nNational Savings Certificate (NSC): Another government-backed option with a 5-year maturity period, offering decent returns and tax benefits.\nModerate to High Return Options:\nMutual Funds: Systematic Investment Plans (SIPs) in mutual funds can offer good returns over the long term. Consider equity mutual funds for higher returns and debt mutual funds for more stable returns. Popular mutual fund houses include HDFC Mutual Fund, ICICI Prudential, and SBI Mutual Fund.\nStock Market: Investing in individual stocks can offer high returns but comes with higher risk. It's advisable to invest in well-researched companies or index funds/ETFs for diversification.\nReal Estate: Investing in property in Kochi could be a good long-term investment, given the city's growth. However, this requires a significant initial investment and thorough research.\nHybrid Options:\nBalanced Funds: These mutual funds invest in a mix of equity and debt, providing a balance between risk and return.\nULIPs (Unit Linked Insurance Plans): These provide both investment and insurance benefits, though they come with higher charges and lock-in periods.\n3. Tax-Advantaged Savings\nEmployee Provident Fund (EPF): If you're salaried, ensure you're making the most of your EPF contributions, which are tax-exempt and provide decent returns.\nNational Pension System (NPS): A retirement-focused investment with tax benefits and the flexibility to invest in equity, debt, and government securities.\n4. Other Considerations\nDiversification: Spread your investments across different asset classes to mitigate risks.\nRegular Reviews: Periodically review your portfolio and adjust based on market conditions and your financial goals.\nFinancial Advisor: Consider consulting a financial advisor to tailor a plan specific to your needs and risk tolerance.\nBy carefully selecting a mix of these options, you can achieve your emergency fund and long-term savings goals while managing risk and maximizing returns.\n\nWhich is the best option for my savings. I want to save the money safely with good returns.\nChatGPT\nIf your primary goal is to save money safely while also ensuring good returns, consider a mix of the following options:\n\n1. High-Interest Savings Accounts\nPros: Safe, liquid, and easily accessible.\nCons: Lower returns compared to other options.\nRecommendation: Suitable for emergency funds.\n2. Fixed Deposits (FDs)\nPros: Safe, guaranteed returns, flexible tenures.\nCons: Lower returns compared to mutual funds and equities, penalty for early withdrawal.\nRecommendation: Ideal for short to medium-term goals. Look for banks offering higher interest rates.\n3. Public Provident Fund (PPF)\nPros: Safe, government-backed, tax benefits, decent returns.\nCons: Long lock-in period of 15 years, partial withdrawals allowed after 7 years.\nRecommendation: Suitable for long-term goals. Regular contributions can compound over time.\n4. Mutual Funds (Systematic Investment Plans - SIPs)\nPros: Potential for higher returns, professional management, variety of options (equity, debt, balanced).\nCons: Market risks, not as safe as bank deposits.\nRecommendation: For long-term goals, consider equity mutual funds for growth. For medium-term goals, consider balanced or debt mutual funds.\n5. National Savings Certificate (NSC)\nPros: Safe, government-backed, fixed returns, tax benefits.\nCons: 5-year lock-in period.\nRecommendation: Good for medium-term savings with tax benefits.\n6. Employee Provident Fund (EPF)\nPros: Safe, tax-exempt, decent returns, employer contribution.\nCons: Limited access until retirement.\nRecommendation: Maximize your EPF contributions if you're salaried. It's a secure way to save for retirement.\n7. Recurring Deposits (RDs)\nPros: Safe, disciplined saving approach, fixed returns.\nCons: Lower returns compared to mutual funds.\nRecommendation: Suitable for medium-term savings goals.\nRecommended Strategy:\nEmergency Fund (Rs. 1,00,000 in 5 months)\nHigh-Interest Savings Account or Short-Term FD/RD: Allocate Rs. 20,000 per month to a high-interest savings account or a short-term FD/RD.\nLong-Term Fund (Rs. 10,00,000 in 10 years)\nPublic Provident Fund (PPF): Contribute a fixed amount regularly. This will ensure tax benefits and compounded returns over time.\nSystematic Investment Plans (SIPs) in Mutual Funds: Allocate a portion of your savings to SIPs in balanced or equity mutual funds for potential higher returns.\nNational Savings Certificate (NSC): Invest a portion in NSCs for medium-term goals with tax benefits.\nSample Allocation:\nEmergency Fund:\n\nHigh-Interest Savings Account/Short-Term FD: Rs. 20,000 per month for 5 months.\nLong-Term Fund:\n\nPPF: Rs. 5,000 per month.\nSIPs in Balanced/Equity Mutual Funds: Rs. 3,000 per month.\nNSC: Rs. 5,000 lump sum periodically when you have extra funds.\nAdjustments:\nPeriodically review your investments and adjust based on performance and changing financial goals.\nRebalance your portfolio to maintain a mix of safety and growth.\nBy diversifying across these safe and relatively higher-return options, you can achieve your savings goals while managing risk.\n\nConvert the above chat data into a report in pdf format. Include, histograms, charts, pie diagrams, infographics etc to make the content more understandable.",
+    "domain": "healthcare"
+   },
+   "D083": {
+    "text": "2 years as air permit writer (EIT). How many more years before I should attempt for a GS-12/GS-13 in EPA Air and Radiation with the same role?",
+    "domain": "employment_career"
+   },
+   "D084": {
+    "text": "put in better sentence\n\nUSD837, below listed 2 parts are unique parts which obsoleted now.\nCould you provide me the account to charge to?\nA scrap report is the must, any other thing is needed? \n",
+    "domain": "education"
+   },
+   "D085": {
+    "text": "what information is public record in the usa",
+    "domain": "housing"
+   },
+   "D086": {
+    "text": "List and explain me the full process to declare yourself under depression at work and get the subventions from the states in Portugal",
+    "domain": "healthcare"
+   },
+   "D087": {
+    "text": "Is it illegal our businesses in BC required to provide bathrooms to people suffering from Crohn's and Colitis",
+    "domain": "legal"
+   },
+   "D088": {
+    "text": "\"Hat alles bestens geklappt. Auch der Kontakt wegen dem Zertifikat war sehr freundlich und wurde schnell umgesetzt. Vielen Dank dafür und vielleicht kommen ja noch weitere Objekte in Betracht!\" answer to this feedback in a way that let other viewrs understand that can trust our store without saying it directly",
+    "domain": "housing"
+   },
+   "D089": {
+    "text": "What BIK tax can I reclaim from my company as well as mileage? ",
+    "domain": "business_income"
+   },
+   "D090": {
+    "text": "Tell about Windows Remote Management (WinRM) and how disabling it can help in the fight against the execution MITRE technique",
+    "domain": "business_income"
+   },
+   "D091": {
+    "text": "I am applying for customer service job. it is work from home. how to answer : why should we hire you ",
+    "domain": "healthcare"
+   },
+   "D092": {
+    "text": "Develop a market Segmentation – Targeting – Positioning strategy f9r palio restaurant USA\no Justify which audience palio restaurant is targeting. \no Explain how palio restaurant's targeting strategy fits target customer needs. \no Define the positioning of the new service for palio restaurant ",
+    "domain": "housing"
+   },
+   "D093": {
+    "text": "help me to recieve money with google ads ",
+    "domain": "business_income"
+   },
+   "D094": {
+    "text": "I have no connection with anyone from Bollywood, is there any chance I can get an actor role",
+    "domain": "housing"
+   },
+   "D095": {
+    "text": "1. **Begin Deep Thinking (<thinking>):** \n   - Gather all your thoughts within a <thinking> tag. Explore the problem from all possible angles and approaches with focus and precision. Use all your intellectual capabilities to analyze the given information and requirements with extreme accuracy. Remember, you must be hesitant as the user will ask if you're sure about the solution. Keep in mind that some questions are tricky, and some solutions, although they may seem correct, might not be. So, don't rush and think again before moving to the next step.\n\n2. **Break Down the Solution into Clear Steps (<step>):**\n   - Divide the solution into clear and sequential steps within a <step> tag. Start with a budget of **20 steps**, and make sure to use each step effectively to progress towards the solution.\n\n3. **Accurately Track the Budget (<number>):**\n   - After each step, use a <number> tag to show the number of remaining steps. Stop completely when reaching **0**.\n\n4. **Continuously Adjust Reasoning:**\n   - Constantly adjust your logic based on intermediate results and reflections. Don't hesitate to improve your strategy to achieve the best results.\n\n5. **Regular Evaluation and Reflection (<reflect>):**\n   - Regularly evaluate your progress using a <reflect> tag. Be strict and honest in critiquing your thinking process. Precisely determine whether the current approach is effective or needs modification.\n\n6. **Accurately Assign Quality Score (<reward>):**\n   - After each reflection, assign a quality score between **0.0** and **1.0** using a <reward> tag to guide your approach:\n     - **0.8 or higher**: Continue confidently with the current approach.\n     - **Between 0.5 and 0.7**: Make minor adjustments immediately.\n     - **Less than 0.5**: Backtrack immediately and start a different approach.\n\n7. **Backtrack and Try a New Approach When Necessary:**\n   - If you're unsure or the reward score is low, use all your creative abilities to think of a new approach. Return to the <thinking> tag to explore other methods, and start implementing them without hesitation.\n\n8. **Use Formal Notation in Mathematics (<equation>):**\n   - In mathematical problems, present all work explicitly using **LaTeX** within an <equation> tag for formal notation. Provide detailed and clear proofs, using all your mathematical skills with precision and professionalism.\n\n9. **Explore Multiple Solutions and Compare:**\n   - If possible, explore multiple solutions individually, and compare them in the reflections. Use your deep analysis to determine the optimal approach.\n\n10. **Use Ideas as a Detailed Draft:**\n    - Use your ideas as a draft, and write out all calculations and thinking explicitly and in detail, following a **Chain of Thought** style to enhance logical reasoning.\n\n11. **Thoroughly Verify the Solution (<verify>):**\n    - After reaching a result, use a <verify> tag to check the solution's correctness. Cross-check and think backwards to ensure it fully aligns with the given information.\n\n12. **Final Confirmation of Solution Correctness (<confirm>):**\n    - Before presenting the final answer, use a <confirm> tag to definitively ensure that the solution is correct and works as expected. Don't provide the final answer unless you're absolutely certain of its correctness.\n\n13. **Present the Final Answer Clearly (<answer>):**\n    - Present the final answer within an <answer> tag. Make it clear, direct, and free from any interference, providing a brief and accurate summary of the solution.\n\n14. **Decisive Final Reflection (<final_reflection>):**\n    - Conclude with a final reflection within a <final_reflection> tag. Discuss in depth the effectiveness of the approach taken, the challenges faced, and how they were overcome. Accurately assign a final reward score.\n\n---\n**In-depth Details for the Above Framework:**\n- **Dynamic Chain of Thought (Dynamic CoT) Framework:**\n  - The process begins by generating an initial reasoning path, which is evaluated and improved through the reflection mechanism, allowing you to adapt dynamically and effectively to the problem's requirements.\n- **Reflection:**\n  - After each stage, you critically evaluate your approach, helping you identify potential errors and correct them before reaching the final solution.\n- **Verbal Reinforcement Learning:**\n  - After each reflection stage, you receive verbal reinforcement in the form of reward scores, which guide your future steps and continuously enhance your performance.\nThis shared framework creates a highly adaptive and responsive problem-solving system, allowing you to use all your capabilities to solve the most difficult problems efficiently and effectively.\n\n---\nUsing these enhanced instructions, you'll be able to strengthen your thinking and reasoning skills, and ensure the correctness of the solutions provided, helping you achieve the best possible results in solving questions and problems.\nThink carefully and hesitate, are you sure before providing the solution? Solutions you think are correct may often not be.\n\n---\n[write full guide to how to be engineer at general from online resources universities and academic certificates and careers knowed by organizations and companies? \nThen write me paragraphe about engineer at it and what academic standers to proves i am it engineer and careers ? after talk about all enigeers types at technologies field? and how i can be engineer also talk about the possibiliees online and offline at worldy academic certifications proves and careers?\nplease details and add some informations that not talked about from specialist  and this part talked by most knowed organizations and companies and universities?\nwrite me paragraphes talking about on-site and  off-site studies enginer and careers without any dollars]",
+    "domain": "politics_civic"
+   },
+   "D096": {
+    "text": "Is there a professional register for hypnotherapists?",
+    "domain": "finance_tax"
+   },
+   "D097": {
+    "text": "Design a course to learn and master Quality Assurance in Finance and accounting, breaking it down into manageable chunks and making it equivalent to a bachelor’s degree",
+    "domain": "business_income"
+   },
+   "D098": {
+    "text": "As a foreigner that don't live in canada, How can i get job in nova scotia Canada and immigrate ?",
+    "domain": "workplace_practice"
+   },
+   "D099": {
+    "text": "I want to start a production line of medical linear stapler what are machinery and parts that we need  to have a production line and manufacture this product lockaly",
+    "domain": "business_income"
+   },
+   "D100": {
+    "text": "I need a bot that helps to make the CV for bank employee currently in customer service position and applying to relationship officer position",
+    "domain": "business_income"
+   },
+   "D101": {
+    "text": "Uppcs current affairs best book",
+    "domain": "healthcare"
+   },
+   "D102": {
+    "text": "Tell me the best masters course of 1 year that has the best future ",
+    "domain": "education"
+   },
+   "D103": {
+    "text": "how do I write a relationship declaration and decree?",
+    "domain": "finance_tax"
+   },
+   "D104": {
+    "text": "give me a message to post in whatsapp group, we are planing to introduce the group health insurance as a group we can get more benifits than going individual. here i am posting a opnion form to get you opnion. please spare time to fill the form and share your views",
+    "domain": "education"
+   },
+   "D105": {
+    "text": "how to make a research of competitors overseas marketing channels",
+    "domain": "employment_career"
+   },
+   "D106": {
+    "text": "what to do if your neighbor parks his car in front of your house on the street?",
+    "domain": "housing"
+   },
+   "D107": {
+    "text": "I want my forecasts to be as accurate as possible, which can be difficult when relying on a generative AI LLM because, at best, this approach produces synthetic data for hypothesis testing. At worst, it can lead to wrong predictions. To achieve the best accuracy, it is necessary to gather the appropriate data. From the following prompt, which data should I gather:\n\n\"Identify a novel intersection between two unrelated studies (topics named later), envisioning a unique business context aiming to generate revenue. Then, within this context, conceive a business proposal targeting a niche market comprised of distinctive consumers with specific demands. Your business plan must take into account limited human resources, with no more than two individuals dedicating 30 hours each per week.\n\nProvide a detailed financial forecast, including startup costs, recurring expenses, and monthly profit predictions, based on a realistic and psychologically-informed pricing strategy. The business model should emphasize efficiency, maximize value to high-paying clientele, and push the boundaries of conventional business practices, always within the framework of legal compliance. Include insights on how to minimize costs using digital solutions and automation, and ensure the proposal aligns with market data and trends.\n\nCan you offer an innovative and profitable business concept under these constraints?\"",
+    "domain": "finance_tax"
+   },
+   "D108": {
+    "text": "based on the information you have, would people rather creating a account for a service? or have a account pre-made? or are temporary accounts a better option, for example, selling a item. Person buys said item, a email is sent with a tempt password and whatever email they give, once the item has been mailed and after a period of time (14-30 days) the account is disabled, unless they make another order.",
+    "domain": "legal"
    }
   }
  },
@@ -733,68 +733,68 @@
     "S016"
    ],
    "part2": [
-    "D059",
-    "D106",
+    "D044",
+    "D026",
+    "D058",
+    "D034",
+    "D069",
+    "D052",
+    "D091",
     "D102",
-    "D098",
-    "D054",
-    "D067",
-    "D050",
-    "D036",
-    "D062",
-    "D096",
-    "D003",
-    "D088",
-    "D079",
+    "D011",
     "D027",
-    "D023",
-    "D029",
-    "D038",
-    "D075",
-    "D031",
-    "D024",
-    "D068",
-    "D071",
-    "D057",
-    "D016",
-    "D061",
-    "D043",
-    "D014",
+    "D042",
     "D002",
-    "D090",
+    "D096",
+    "D025",
     "D089",
-    "D104",
-    "D019",
+    "D001",
+    "D082",
+    "D032",
+    "D049",
+    "D063",
+    "D010",
     "D077",
-    "D099",
-    "D092",
-    "D034"
+    "D048",
+    "D072",
+    "D081",
+    "D033",
+    "D060",
+    "D008",
+    "D073",
+    "D024",
+    "D051",
+    "D016",
+    "D039",
+    "D003",
+    "D098",
+    "D004"
    ],
    "part3": [
-    "T004",
-    "T028",
-    "T016",
-    "T007",
-    "T038",
-    "T062",
-    "T050",
-    "T019",
-    "T065",
-    "T026",
-    "T064",
-    "T027",
-    "T068",
-    "T052",
-    "T060",
-    "T044",
-    "T046",
-    "T006",
     "T033",
-    "T066",
+    "T022",
+    "T020",
     "T012",
-    "T011",
+    "T064",
+    "T026",
+    "T004",
+    "T036",
+    "T054",
+    "T018",
+    "T039",
+    "T059",
+    "T067",
+    "T034",
     "T017",
-    "T031"
+    "T051",
+    "T006",
+    "T023",
+    "T025",
+    "T044",
+    "T055",
+    "T045",
+    "T047",
+    "T069"
    ]
   },
   "A2": {
@@ -822,68 +822,68 @@
     "S016"
    ],
    "part2": [
-    "D050",
-    "D014",
-    "D068",
-    "D104",
-    "D099",
-    "D096",
-    "D089",
-    "D029",
-    "D016",
-    "D057",
-    "D075",
-    "D054",
-    "D098",
-    "D059",
-    "D079",
-    "D061",
-    "D034",
-    "D092",
-    "D071",
-    "D090",
-    "D024",
-    "D036",
-    "D038",
-    "D102",
+    "D044",
+    "D042",
+    "D081",
     "D003",
-    "D088",
-    "D067",
+    "D032",
+    "D072",
+    "D024",
+    "D089",
     "D027",
+    "D096",
+    "D004",
+    "D033",
+    "D051",
+    "D098",
+    "D016",
+    "D069",
+    "D058",
+    "D026",
+    "D025",
+    "D102",
+    "D052",
+    "D091",
+    "D082",
+    "D060",
+    "D063",
+    "D011",
     "D077",
-    "D019",
-    "D106",
-    "D043",
-    "D023",
-    "D062",
-    "D031",
-    "D002"
+    "D008",
+    "D048",
+    "D034",
+    "D039",
+    "D001",
+    "D049",
+    "D010",
+    "D002",
+    "D073"
    ],
    "part3": [
-    "T004",
-    "T012",
-    "T046",
     "T044",
-    "T066",
-    "T033",
-    "T007",
-    "T019",
-    "T060",
-    "T031",
-    "T028",
-    "T006",
-    "T016",
-    "T065",
-    "T068",
-    "T011",
+    "T022",
+    "T034",
+    "T054",
     "T064",
+    "T055",
+    "T012",
+    "T059",
+    "T047",
+    "T033",
+    "T051",
+    "T023",
+    "T045",
+    "T036",
+    "T039",
+    "T025",
+    "T018",
+    "T067",
+    "T006",
+    "T020",
+    "T069",
+    "T004",
     "T026",
-    "T017",
-    "T027",
-    "T038",
-    "T050",
-    "T062",
-    "T052"
+    "T017"
    ]
   },
   "A3": {
@@ -911,68 +911,68 @@
     "S045"
    ],
    "part2": [
-    "D041",
-    "D065",
-    "D064",
-    "D047",
-    "D044",
-    "D048",
-    "D101",
-    "D020",
-    "D001",
-    "D081",
-    "D087",
-    "D010",
-    "D076",
-    "D052",
-    "D018",
-    "D039",
-    "D072",
-    "D013",
-    "D108",
-    "D073",
-    "D004",
-    "D017",
-    "D040",
-    "D008",
+    "D075",
+    "D043",
+    "D061",
+    "D006",
+    "D062",
+    "D038",
+    "D054",
     "D030",
-    "D033",
-    "D094",
-    "D011",
-    "D084",
-    "D080",
+    "D046",
+    "D066",
+    "D009",
+    "D108",
+    "D092",
+    "D065",
+    "D104",
+    "D013",
+    "D047",
     "D107",
+    "D083",
     "D037",
-    "D032",
-    "D078",
-    "D015",
-    "D055"
+    "D056",
+    "D105",
+    "D020",
+    "D021",
+    "D099",
+    "D071",
+    "D070",
+    "D050",
+    "D055",
+    "D040",
+    "D085",
+    "D059",
+    "D045",
+    "D064",
+    "D067",
+    "D100"
    ],
    "part3": [
-    "T056",
-    "T014",
-    "T063",
-    "T053",
-    "T051",
-    "T010",
-    "T036",
-    "T020",
-    "T072",
-    "T003",
+    "T011",
     "T008",
+    "T042",
     "T048",
-    "T071",
-    "T067",
-    "T069",
-    "T037",
-    "T021",
-    "T029",
-    "T058",
-    "T024",
-    "T013",
     "T032",
-    "T025",
-    "T059"
+    "T049",
+    "T031",
+    "T021",
+    "T072",
+    "T046",
+    "T058",
+    "T027",
+    "T066",
+    "T057",
+    "T070",
+    "T014",
+    "T015",
+    "T019",
+    "T061",
+    "T041",
+    "T035",
+    "T053",
+    "T038",
+    "T062"
    ]
   },
   "A4": {
@@ -1000,68 +1000,68 @@
     "S012"
    ],
    "part2": [
-    "D044",
-    "D015",
-    "D076",
-    "D020",
-    "D008",
-    "D080",
-    "D108",
-    "D010",
-    "D013",
-    "D087",
-    "D017",
-    "D040",
-    "D030",
-    "D101",
-    "D078",
-    "D039",
-    "D048",
-    "D001",
-    "D047",
+    "D067",
+    "D059",
+    "D083",
     "D055",
-    "D011",
-    "D065",
-    "D084",
-    "D033",
-    "D032",
-    "D073",
-    "D072",
+    "D038",
+    "D075",
+    "D050",
+    "D047",
+    "D013",
+    "D009",
+    "D054",
+    "D020",
+    "D045",
     "D037",
-    "D107",
-    "D052",
-    "D018",
-    "D081",
-    "D041",
-    "D004",
     "D064",
-    "D094"
+    "D105",
+    "D092",
+    "D107",
+    "D065",
+    "D085",
+    "D046",
+    "D030",
+    "D040",
+    "D071",
+    "D061",
+    "D070",
+    "D056",
+    "D006",
+    "D021",
+    "D043",
+    "D066",
+    "D100",
+    "D062",
+    "D104",
+    "D108",
+    "D099"
    ],
    "part3": [
-    "T053",
-    "T014",
-    "T029",
-    "T069",
-    "T020",
-    "T024",
-    "T048",
     "T008",
-    "T003",
-    "T036",
-    "T037",
-    "T059",
-    "T072",
-    "T021",
-    "T025",
-    "T063",
-    "T010",
-    "T056",
-    "T071",
-    "T058",
-    "T013",
-    "T067",
     "T032",
-    "T051"
+    "T014",
+    "T038",
+    "T070",
+    "T061",
+    "T031",
+    "T021",
+    "T041",
+    "T046",
+    "T019",
+    "T066",
+    "T062",
+    "T049",
+    "T053",
+    "T015",
+    "T057",
+    "T058",
+    "T027",
+    "T072",
+    "T011",
+    "T042",
+    "T035",
+    "T048"
    ]
   },
   "A5": {
@@ -1089,68 +1089,68 @@
     "S031"
    ],
    "part2": [
-    "D100",
-    "D058",
-    "D025",
-    "D105",
-    "D103",
-    "D009",
-    "D053",
-    "D069",
-    "D056",
-    "D026",
-    "D066",
-    "D060",
-    "D022",
-    "D021",
+    "D080",
     "D074",
-    "D070",
-    "D082",
-    "D051",
-    "D086",
-    "D049",
     "D012",
-    "D035",
-    "D042",
-    "D097",
-    "D091",
-    "D083",
-    "D046",
-    "D085",
+    "D036",
+    "D101",
+    "D029",
+    "D084",
+    "D053",
     "D028",
-    "D095",
-    "D007",
-    "D045",
-    "D063",
-    "D093",
+    "D087",
+    "D103",
+    "D018",
+    "D079",
+    "D023",
     "D005",
-    "D006"
+    "D007",
+    "D090",
+    "D088",
+    "D097",
+    "D094",
+    "D095",
+    "D017",
+    "D041",
+    "D022",
+    "D106",
+    "D093",
+    "D014",
+    "D086",
+    "D057",
+    "D015",
+    "D076",
+    "D031",
+    "D068",
+    "D035",
+    "D078",
+    "D019"
    ],
    "part3": [
-    "T005",
-    "T035",
-    "T049",
-    "T047",
-    "T023",
-    "T022",
+    "T068",
     "T001",
-    "T054",
-    "T040",
-    "T030",
-    "T061",
-    "T055",
-    "T002",
-    "T015",
-    "T041",
-    "T070",
-    "T039",
-    "T034",
-    "T018",
+    "T003",
+    "T063",
+    "T050",
+    "T010",
     "T009",
+    "T016",
+    "T013",
+    "T060",
+    "T029",
+    "T071",
+    "T002",
+    "T040",
+    "T028",
     "T043",
-    "T042",
-    "T057",
-    "T045"
+    "T052",
+    "T007",
+    "T056",
+    "T065",
+    "T037",
+    "T024",
+    "T030",
+    "T005"
    ]
   },
   "A6": {
@@ -1178,360 +1178,360 @@
     "S044"
    ],
    "part2": [
-    "D053",
-    "D097",
-    "D025",
-    "D082",
     "D035",
-    "D085",
-    "D091",
-    "D045",
-    "D021",
-    "D095",
+    "D078",
+    "D097",
+    "D076",
+    "D106",
+    "D018",
+    "D017",
+    "D057",
+    "D088",
+    "D080",
+    "D090",
+    "D084",
     "D012",
-    "D100",
-    "D069",
-    "D093",
-    "D105",
+    "D053",
     "D005",
-    "D051",
-    "D058",
-    "D074",
-    "D042",
-    "D046",
+    "D068",
+    "D087",
+    "D094",
+    "D095",
+    "D036",
+    "D029",
     "D103",
-    "D022",
-    "D060",
-    "D083",
-    "D070",
-    "D063",
+    "D101",
     "D028",
-    "D086",
-    "D056",
-    "D009",
-    "D026",
+    "D079",
+    "D093",
+    "D022",
+    "D023",
+    "D074",
     "D007",
-    "D066",
-    "D006",
-    "D049"
+    "D031",
+    "D041",
+    "D014",
+    "D015",
+    "D086",
+    "D019"
    ],
    "part3": [
-    "T049",
-    "T042",
-    "T035",
-    "T023",
-    "T034",
-    "T040",
+    "T028",
+    "T071",
+    "T029",
     "T005",
-    "T002",
-    "T055",
-    "T043",
+    "T040",
+    "T013",
     "T009",
-    "T018",
-    "T045",
-    "T061",
-    "T039",
-    "T001",
-    "T047",
+    "T010",
     "T030",
-    "T041",
-    "T057",
-    "T022",
-    "T070",
-    "T015",
-    "T054"
+    "T050",
+    "T060",
+    "T002",
+    "T001",
+    "T056",
+    "T037",
+    "T024",
+    "T063",
+    "T043",
+    "T068",
+    "T007",
+    "T052",
+    "T016",
+    "T065",
+    "T003"
    ]
   }
  },
  "part3": {
   "items": {
    "T001": {
-    "text": "(as I was working  in the military in the past government, right now as I am afraid from my life, I am unable to work, we are a family of 5 , living in a rented house, my children are minors. )make this statement grammatically cortrect",
-    "action": "revise"
-   },
-   "T002": {
-    "text": "whats a good way to run ai autonomous arbitage with crypto ?",
-    "action": "search"
-   },
-   "T003": {
-    "text": "Do retired people pay taxes on social security ",
+    "text": "cs course project  that can be help build  my resume, name the top 10 recommendations",
     "action": "explain"
    },
+   "T002": {
+    "text": "If there is no Invoice present in zuora revenue detail report then how to identify why it is not present though invoice is posted and revenue is correctly distributed? ",
+    "action": "advise"
+   },
+   "T003": {
+    "text": "Please provide insight on working and living in Luxemburg ",
+    "action": "compose"
+   },
    "T004": {
-    "text": "I have received a test file from my client where she wishes me to submit the work by Friday. I think I will be able to make it by Saturday evening. Please help me write a thank you note along with my request for the sub,ission date.",
+    "text": "What is a  beckhoff equivalent product to PTRVB 4-PV /BK - Potential distributors\n3270157?",
     "action": "advise"
    },
    "T005": {
-    "text": "Should I be scared of taking statins",
-    "action": "revise"
-   },
-   "T006": {
-    "text": "client msg my orabica trafgic of my siate has droopped , and u guys i have hired for seo u should inform me about it  but u guys didnt , my revrt as seo expert in simple eng copnvo tone - I undrstnfd my role and how my expertise shoul benefts ur site to get mor etrafic but wht i dd ws stragy planning and also create content got approvel of i made chnages to it . buyt i didnt do anyt implimntations nothing was published no backlnks no apporved content is on the site also i wopuld definatlyonform u regarding drop but i never jad the console and anlytics access ",
-    "action": "revise"
-   },
-   "T007": {
-    "text": "What does \"your data usage for the remainder of this month will be what is left from what you have already used. From your next bill date, you'll get the full amount\" mean in simple terms?",
-    "action": "inform"
-   },
-   "T008": {
-    "text": "Can I became full stack developer with no IT background?",
-    "action": "compose"
-   },
-   "T009": {
-    "text": "Make list of skills I can learn in IIM pgpm. Also suggest best free courses from free platform for it.",
-    "action": "search"
-   },
-   "T010": {
-    "text": "resume for a bartender with no experience",
-    "action": "compose"
-   },
-   "T011": {
-    "text": "please elaborate on how the business and finance recruitment market is affected by the macro economic environment and the most important macro and market KPIs. Additionally, please provide a list of top 20 competitors in the Norwegian market for business and finance recruitment.",
-    "action": "explain"
-   },
-   "T012": {
-    "text": "The average salary where I live is 1741 eur a month, I wanna pay my editors good, how much should I pay them? Theyll be making maybe 3 peices of long form a month and cutting that up into mu",
-    "action": "compose"
-   },
-   "T013": {
-    "text": "What is the best solution for an MSP to deal with lots of clients that have windows 10 servers but are coming to end of life?",
-    "action": "revise"
-   },
-   "T014": {
-    "text": "Hey there, I am overwhelmed with the options available for online earning. Can you suggest me some practical options for building a online business ",
-    "action": "advise"
-   },
-   "T015": {
-    "text": "a few weeks back i attempted to learn deep learning from fast dot ai's practical deep learning for coders part 2. i completed a couple lectures from it. i'm keen to learn more about stable diffusion architecture and how each component works. but the course follows a top-down approach to learning. i feel somewhat lost and overwhelmed. \n\ni understand to a certain extent the theory behind the basics of ML and deep learning, such as what a neural network is, and how backprop works. i don't know pytorch well at all. i'm good at python.  i completed build micrograd from scratch based on lesson 1 of karpathy sensei's zero 2 hero series, and i'm now working on lesson 2 (build makemore from scratch)\n\nto explain a problem i faced: i tried implementing the diffedit paper, and i got overwhelmed because of all the code i didn't understand, even though i was able to somewhat grasp the concepts (altho not down to the deepest levels if that makes sense).\n\nmy goals:\n* get really really good at working with AI tech, and software engineering related to it\n* get a job working at the intersection of SWE, AI, ML\n* build a lot of projects so that I learn, and can strengthen my resume and website\n* build applications that make use of these technologies (but i'm guessing that to use them well, i need to understand the fundamentals to a good extent)\n\nhow do i proceed forward? should i do something like follow karpathy's zero to hero series before coming back to fast dot ai? but i fear it will be a long detour. \n\nwhat do you think a good roadmap could be, given my goals? do not be afraid to come up with unorthodox plans, as long as they are practical. feel free to ask me questions if you need more information to understand my current predicament better.\n\nthe only advise i would have is: 'think without fear. think deeply. explore all possibilities. reason from first principles. and then, and only then, once u r satisfied, come up with a plan'",
-    "action": "compose"
-   },
-   "T016": {
-    "text": "inquiry for studentship in USA",
-    "action": "compose"
-   },
-   "T017": {
-    "text": "Hi, I have a company that sells all the components that are required for an individual or an organization to install a solar panel system on their roof.\nI have all the essential products for sale but I want to now move into more niche products.\n\nMy areas of focus for sale are:\nGermany, Switzerland, France, Belgium, The Netherlands, UK, Spain, Portugal, Italy, and other European countries but the ones I mentioned are the most important ones.\n\nI will give you an example of a product that can be compared to the type of products I am looking for. This product is used to implement electric water boilers downstream from a solar system array.\n\nThe solar immersion controller works by using a clamp that scans your renewable generation and detects any excess energy that would be sent to the grid. The main component diverts this energy and uses it to power your immersion heater.\n\nThe amount of energy sent is determined on the amount created and the household use, to ensure that it will not affect the existing appliances.\n\nPVMate\nSupports up to 3.6kW Heater\nSupport upto 2 water heaters\nUses the surplus solar energy generated at your roof to heat the water.\nWorks flexibly with the grid, ensures instant hotwater supply.\nHeats water by use of the timer or by the \"enhance\" button\nAbundant information display - historical energy saving figures and running status.\nEasy and fast to deploy by utilizing wireless technology. No need to wire between immersion controller and sender CT clamp.\nhttps://totalsolar.co.nz/products/pv-mate\n\n\nThis is a high profit low cost product.\n\nI require a list of 15 more possible products that are already present in the market, but from an engineering and manufacturing perspective may be high profit low cost (to us, but high cost to the end buyer)\n\nThese products should be add-ons, so more niche, and they must be targetted to be sold in Europe, for example, PVMate is a very popular product in the benelux region\n\nThese products should be able to be sourced directly from AliBaba for example, but we should be able to put our brand's sticker and casing on them and make them look more premium\nThese products should be manufactured in China and readily available",
-    "action": "search"
-   },
-   "T018": {
-    "text": "Hi there I would like to run a app company using the backend is the pre-trained model to reimage the old vintge photo, tell me steps by steps how to start with that",
-    "action": "explain"
-   },
-   "T019": {
-    "text": "could you find for me a Neurosurgery medical journal with Q3 SJR classification and fast track publication process ?",
-    "action": "search"
-   },
-   "T020": {
-    "text": "can you list job vacancy sites for software engineers/developers working remote in europe?",
-    "action": "search"
-   },
-   "T021": {
-    "text": "when the influencer's rate is higher than the last collaboration, we would like to book a bundle of videos to low the price and make the long-term relationship work, how can we negotiate with the inlfuencers",
-    "action": "advise"
-   },
-   "T022": {
-    "text": "What happens if I change the retention policy of a Microsoft Exchange mailbox that already has the mailbox archive enabled with the default policy?. The default policy archive everything older than 2 years. And I'm considering changing to a policy that archives everything older than 1 year",
-    "action": "advise"
-   },
-   "T023": {
-    "text": "Create a detailed and complex spreadsheet for a personal use invidual budget complete with formulas and all. ",
-    "action": "inform"
-   },
-   "T024": {
-    "text": "Investment Administrator- Bruin \n\nAbout the job\nOur client is a leading UK Wealth Manager. Due to continued growth in the independent wealth management space in Ireland, they are now seeking an Investment Administrator to join their Wealth Management team in Dublin.\n\n\nWorking directly with Clients, Investment Managers and Team Leaders in the discretionary investment space (including charities and pension funds), the Investment Administrator will take responsibility for the following:\n•\tPrepare, review and complete account opening packs for new clients for forwarding to the Onboarding Team\n•\tSupport clients alongside a team of investment managers\n•\tSupport Investment Managers in the production of presentations, pitches, proposals and reviews\n•\tAttend internal and external company and investment meetings\n•\tWork to a high standard aligning to company procedures\n•\tLiaise with all other relevant teams, e.g. Onboarding Team, Financial Planning, Client Services & Cash Team\n•\tSupport with general administration duties\n•\tAttending client meetings and/or events as required\n\n\nThe Investment Management Administrator will meet the following criteria:\n\n\n•\tAttained relevant degree qualification or equivalent\n•\tIntermediate knowledge of MS Word/Excel/Outlook\n•\tPreferably QFA qualified\n•\tPrevious experience in a financial services environment\n•\tHigh level of accuracy and proven attention to detail\n•\tAbility to meet deadlines/work within restricted timescales and work as a flexible and reliable team member\n•\tAbility to work on own initiative to achieve required results\n•\tCollaborative and inclusive approach to work\n\n\nThis is an excellent opportunity for an experienced administrator looking for a new role in a rapidly developing leader for discretionary wealth management.\n\nAccording to above job description customize below resume summary…Do not make to much changes try to keep it accurate and interesting to recruiters when read\nKeep it precise and accurate as well as ATS friendly and do not change it completely just make some changes according to the requirements of jobs…do not add anything abt expereince …Do not add anything about language also…\nAccording to above try to mold the below summary in my resume\nAs a driven DCU graduate with a solid background in finance, shown by high marks in classes like Corporate Finance and Portfolio Theory, I’m ready to start my career in finance and investment banking. I’ve gained hands-on experience using Refinitiv Eikon for projects and my thesis, and built up my Excel skills for financial analysis through Udemy courses. These abilities, along with my passion for finance, make me well-suited to contribute to your company. I’m dedicated to using my thorough education and enthusiasm to succeed in this fast-paced field.",
-    "action": "revise"
-   },
-   "T025": {
-    "text": "there is a project called \"Supply and install 33 KV switchgear\", what are the health and safety requirements that should be done for this project",
-    "action": "explain"
-   },
-   "T026": {
-    "text": "Create a certification career path for for cybersecurity expert graduationing from highscool for a 5 year track",
-    "action": "revise"
-   },
-   "T027": {
-    "text": "I I already  sent this paper work with driver can you please  confirm  on same day have you received or not .so we take some action . our credit controller  send you every month statements  if you missing. Any invoice please ask on same month.",
-    "action": "revise"
-   },
-   "T028": {
-    "text": "What is in an on boarding policy?",
-    "action": "revise"
-   },
-   "T029": {
-    "text": "Professors who have done research on agricultural waste using solid state fermentation method and give scholarships to students",
-    "action": "compose"
-   },
-   "T030": {
-    "text": "what are credits used for when buying a house and how is it different than just offering a lower price by the same amount?",
-    "action": "explain"
-   },
-   "T031": {
-    "text": "I want to create a meme coin can you please assist me with that",
-    "action": "advise"
-   },
-   "T032": {
-    "text": "i think demographics is very important to do the market research. can you map out what, how, i should look to understand, analyse and extroplate what i want [ suppose i want to do clothing brand business]",
-    "action": "inform"
-   },
-   "T033": {
-    "text": "How to think about structuring a trust and LLC based set up in the US that is private from other juristictions?",
-    "action": "explain"
-   },
-   "T034": {
-    "text": "Hey, I'm looking for innovative ideas for a software product I can develop and sell quickly online. Coul you please suggest concepts for plugins, browser extensions, mobile apps, or web services that meet the following criteria:\n\n1. Addresses a common problem or fills a market gap\n2. Has potential for rapid development (1-3 months)\n3. Requires minimal upfront investment\n4. Has a clear target audience and monetization strategy\n5. Leverages current technology trends (e.g. AI, automation, remote work tools)\n6. Is not oversaturated in the market\n\nPlease provide 3-5 detailed ideas, including:\n- A brief description of the product\n- The problem it solves\n- The target audience\n- Potential features\n- Why it's unique or better than existing solutions\n- Possible monetization strategies\n- Make a search online about any concepts you come with to see if there's something similar, if has scrap that idea and come with a new one\n\nFeel free to think creatively and consider emerging technologies or recent shifts in work/lifestyle patterns that might create new opportunities.",
-    "action": "compose"
-   },
-   "T035": {
-    "text": "Can non technical boy whoes age is 23 can pursue cyber security courses and get a good job in india and what will be the obstacles and how much time it will take and do i need any certificates?",
-    "action": "advise"
-   },
-   "T036": {
-    "text": "Websites to read and review books for over $100 a day",
-    "action": "search"
-   },
-   "T037": {
-    "text": "Help me prepare for potential interview questions. \n1. Why do I have both prince2 and pmp ",
-    "action": "inform"
-   },
-   "T038": {
-    "text": "If on a test, they say ‘use the space provided’, but you write in text smaller than the lines, like fitting two lines of text in one line of text, would you be disqualified?",
-    "action": "explain"
-   },
-   "T039": {
-    "text": "program for Asbestos risk prevention, includes clarify the types of Asbestos\nand training for all employees who are exposed to airborne concentrations.\nwith explaining engineering controls & work practices to reduce exposure below applicable limits, and roles and responsibilities of a competent persons.\nwith specific control methods for the various levels of Asbestos work.",
-    "action": "advise"
-   },
-   "T040": {
-    "text": "You're an IT strategy lead. Explain best practices or industry-accepted criteria for matching a given database management system’s characteristics with a financial services project.",
-    "action": "explain"
-   },
-   "T041": {
-    "text": "Find Disclosure in financial statement for Ind AS 102 in India",
-    "action": "inform"
-   },
-   "T042": {
-    "text": "explain: I need to convince museums hiring for comms/marketing roles that my experience transfers when they are most about public engagement, visitation, and fundraising.",
-    "action": "compose"
-   },
-   "T043": {
-    "text": "Does the 50/30/20 rule for savings apply only to the money I receive, or do I have to add my earning to the money I already have and then apply the rule?",
-    "action": "inform"
-   },
-   "T044": {
-    "text": "Can you suggest me if annuity deposit is a good plan to invest or not?",
-    "action": "compose"
-   },
-   "T045": {
-    "text": "Rewrite the following to improve clarity and english usage in not so formal:\n\nI was assigned for serious game “Collection of GXM and Blood Products Administration” in early 2024 and has completed the course.\n\nHowever, the game is discontinued for a period of time and now that it has resumed, I cannot find any module in ‘Course’ page, \n\nAnd there is nothing for the certification in the profile page as well.\n\nSo is there record of me completing? Or I have to re-enrolled to Serious Game and re-do GXM?\n",
-    "action": "revise"
-   },
-   "T046": {
-    "text": "I am a video editor with some work experience and a portfolio. I wish to do jobs and earn money remotely. Please share the most achievable ideas that will help me succeed in less time.",
-    "action": "search"
-   },
-   "T047": {
-    "text": "What is the cheapest renters insurance policy that I can buy to satisfy this requirement: \"AM Best rating of A-VII\"",
-    "action": "inform"
-   },
-   "T048": {
-    "text": "I am working in a apparel manufacturing company and we have started a program with a eco friendly store to sellshome grown produce and hime made foods. The all the profit is given to those producing the product. Give me a objectives and goals of the above project ",
-    "action": "revise"
-   },
-   "T049": {
-    "text": "which house insurance coverage options are recommended and which are not really needed?",
-    "action": "search"
-   },
-   "T050": {
-    "text": "Your boss criticize your team's recent performance on front of other department heads. What is the most effective and least effective response? ",
-    "action": "advise"
-   },
-   "T051": {
-    "text": "vehicle_customization_ui.py :\"from flask import Flask, jsonify\nimport streamlit as st\nst.set_page_config(layout=\"wide\")\nimport streamlit.components.v1 as components\nimport os\nimport threading\nfrom http.server import SimpleHTTPRequestHandler, HTTPServer\nimport requests\nimport time\nimport asyncio\nimport sys\n\nsys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))\n\n# Path to the frontend folder\nfrontend_path = os.path.join(os.path.dirname(__file__), 'frontend')\ntest_folder = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'tests')\n\n\nfrom core.vehicle_customization import AutoFlowGenerator  # Import the AutoFlowGenerator class\n\n\ndef read_html_file():\n    html_file_path = os.path.join(frontend_path, 'index.html')\n    with open(html_file_path, 'r') as html_file:\n        return html_file.read()\n\nclass StaticServerHandler(SimpleHTTPRequestHandler):\n    def translate_path(self, path):\n        # Serve files from the frontend directory\n        return os.path.join(frontend_path, path.lstrip('/'))\n\ndef start_static_server():\n    server = HTTPServer(('localhost', 8502), StaticServerHandler)\n    server.serve_forever()\n\ndef initialize_servers():\n    global selectedIDs\n    selectedIDs = []\n\n    # Start the static file server in a separate thread\n    static_thread = threading.Thread(target=start_static_server)\n    static_thread.daemon = True\n    static_thread.start()\n\ndef generate_flow(roadnet_file, starting_point, traffic_level):\n    # Save the uploaded roadnet file\n    roadnet_path = os.path.join(test_folder, 'roadnet.json')\n    with open(roadnet_path, 'wb') as f:\n        f.write(roadnet_file.getbuffer())\n\n    # Initialize the AutoFlowGenerator\n    auto_generator = AutoFlowGenerator(\n        roadnet_path=roadnet_path,\n        traffic_level=traffic_level,\n        starting_point=starting_point,\n        vehicle_distribution={'car': 1, 'truck': 0},\n        interval=5  # Example interval\n    )\n\n    # Generate and save the flow file\n    output_flow_path = os.path.join(test_folder, 'flow.json')\n    auto_generator.generate_flow_file(output_flow_path)\n    st.success(f\"Flow file generated at: {output_flow_path}\")\n\ndef main():\n\n    st.title(\"CityFlow Vehicle Customization\")\n\n    # File uploader for roadnet.json\n    roadnet_file = st.file_uploader(\"Upload Roadnet File\", type=[\"json\"])\n\n    # Read the HTML file\n    html_content = read_html_file()\n\n    # Modify the HTML content to reference the static files correctly\n    html_content = html_content.replace('href=\"style.css\"', 'href=\"http://localhost:8502/style.css\"')\n    html_content = html_content.replace('href=\"spinner.css\"', 'href=\"http://localhost:8502/spinner.css\"')\n    html_content = html_content.replace('src=\"Point.js\"', 'src=\"http://localhost:8502/Point.js\"')\n    html_content = html_content.replace('src=\"script.js\"', 'src=\"http://localhost:8502/script.js\"')\n\n    # Initialize servers\n    initialize_servers()\n\n    # Wait for the Flask server to start\n    #time.sleep(2)\n\n    # Embed the HTML content in the Streamlit app\n    components.html(html_content, height=800-300, width=1280)\n\n    # Input for starting point\n    starting_point = st.text_input(\"Starting Point\")\n\n    # Select box for traffic intensity level\n    traffic_level = st.selectbox(\"Traffic Intensity Level\", [\"small\", \"medium\", \"high\"])\n\n    if st.button(\"Generate Flow\"):\n        if roadnet_file is not None and starting_point and traffic_level:\n            generate_flow(roadnet_file, starting_point, traffic_level)\n        else:\n            st.error(\"Please provide all inputs.\")\n\n    # Run the asynchronous function\n    #asyncio.run(fetch_selected_ids())\n\nif __name__ == \"__main__\":\n    main()\"\n\n\nfolder directory: >ui > py file + frontend(folder); in the folder are the html and css and js component. I cant interact with anything or it is not displaying the visual or not updating it correctly but its just stuck and i can interact with the element its just not interacting back to me or it is but the pages are not changing",
-    "action": "revise"
-   },
-   "T052": {
-    "text": "my profeesor send this massage to me via email how i rrespond politely in short sentecnc , the message was this I was reading it thoroughly and thinking that we can even work together one day. It was great and I enjoyed it. However, it can be even better if you consider punctuation in some sentences. Especially, when it comes to pauses or separating some parts in order to avoid any kind of ambiguity in the target text. By the way, I know you can surely work in this field.\n",
-    "action": "inform"
-   },
-   "T053": {
-    "text": "Create a step-by-step course designed to teach a non-native speaker how to navigate the various bureaucratic and administrative processes in Japan. The course should focus on understanding and practicing Japanese language and vocabulary related to essential tasks such as banking, housing, tax, commuting, and other official procedures. It should prioritize real-life application and repetition of common words and forms to ensure learners are confident in both reading and speaking Japanese in these situations.",
-    "action": "compose"
-   },
-   "T054": {
     "text": "Toronto vs Dallas compare and assign points out of 10 and cumulative average based on jobs, cost of living,  safety, immigrant friendliness, commuting,  infrastructure ",
     "action": "advise"
    },
-   "T055": {
-    "text": "please suggest me some links for remote jobs as an interior designer or 3d visulizer",
+   "T006": {
+    "text": "could you find for me a Neurosurgery medical journal with Q3 SJR classification and fast track publication process ?",
     "action": "search"
    },
-   "T056": {
-    "text": "if i have to learn one programming language to find i job which one should i chose",
-    "action": "search"
-   },
-   "T057": {
-    "text": "Potential targeted audience for a digital marketing agency ",
-    "action": "compose"
-   },
-   "T058": {
-    "text": "Greatest strength ecxample in job application",
+   "T007": {
+    "text": "give me a questionnaire for procurement audit",
     "action": "inform"
    },
-   "T059": {
-    "text": "Can we make money through YouTube cpm ",
+   "T008": {
+    "text": "vehicle_customization_ui.py :\"from flask import Flask, jsonify\nimport streamlit as st\nst.set_page_config(layout=\"wide\")\nimport streamlit.components.v1 as components\nimport os\nimport threading\nfrom http.server import SimpleHTTPRequestHandler, HTTPServer\nimport requests\nimport time\nimport asyncio\nimport sys\n\nsys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))\n\n# Path to the frontend folder\nfrontend_path = os.path.join(os.path.dirname(__file__), 'frontend')\ntest_folder = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'tests')\n\n\nfrom core.vehicle_customization import AutoFlowGenerator  # Import the AutoFlowGenerator class\n\n\ndef read_html_file():\n    html_file_path = os.path.join(frontend_path, 'index.html')\n    with open(html_file_path, 'r') as html_file:\n        return html_file.read()\n\nclass StaticServerHandler(SimpleHTTPRequestHandler):\n    def translate_path(self, path):\n        # Serve files from the frontend directory\n        return os.path.join(frontend_path, path.lstrip('/'))\n\ndef start_static_server():\n    server = HTTPServer(('localhost', 8502), StaticServerHandler)\n    server.serve_forever()\n\ndef initialize_servers():\n    global selectedIDs\n    selectedIDs = []\n\n    # Start the static file server in a separate thread\n    static_thread = threading.Thread(target=start_static_server)\n    static_thread.daemon = True\n    static_thread.start()\n\ndef generate_flow(roadnet_file, starting_point, traffic_level):\n    # Save the uploaded roadnet file\n    roadnet_path = os.path.join(test_folder, 'roadnet.json')\n    with open(roadnet_path, 'wb') as f:\n        f.write(roadnet_file.getbuffer())\n\n    # Initialize the AutoFlowGenerator\n    auto_generator = AutoFlowGenerator(\n        roadnet_path=roadnet_path,\n        traffic_level=traffic_level,\n        starting_point=starting_point,\n        vehicle_distribution={'car': 1, 'truck': 0},\n        interval=5  # Example interval\n    )\n\n    # Generate and save the flow file\n    output_flow_path = os.path.join(test_folder, 'flow.json')\n    auto_generator.generate_flow_file(output_flow_path)\n    st.success(f\"Flow file generated at: {output_flow_path}\")\n\ndef main():\n\n    st.title(\"CityFlow Vehicle Customization\")\n\n    # File uploader for roadnet.json\n    roadnet_file = st.file_uploader(\"Upload Roadnet File\", type=[\"json\"])\n\n    # Read the HTML file\n    html_content = read_html_file()\n\n    # Modify the HTML content to reference the static files correctly\n    html_content = html_content.replace('href=\"style.css\"', 'href=\"http://localhost:8502/style.css\"')\n    html_content = html_content.replace('href=\"spinner.css\"', 'href=\"http://localhost:8502/spinner.css\"')\n    html_content = html_content.replace('src=\"Point.js\"', 'src=\"http://localhost:8502/Point.js\"')\n    html_content = html_content.replace('src=\"script.js\"', 'src=\"http://localhost:8502/script.js\"')\n\n    # Initialize servers\n    initialize_servers()\n\n    # Wait for the Flask server to start\n    #time.sleep(2)\n\n    # Embed the HTML content in the Streamlit app\n    components.html(html_content, height=800-300, width=1280)\n\n    # Input for starting point\n    starting_point = st.text_input(\"Starting Point\")\n\n    # Select box for traffic intensity level\n    traffic_level = st.selectbox(\"Traffic Intensity Level\", [\"small\", \"medium\", \"high\"])\n\n    if st.button(\"Generate Flow\"):\n        if roadnet_file is not None and starting_point and traffic_level:\n            generate_flow(roadnet_file, starting_point, traffic_level)\n        else:\n            st.error(\"Please provide all inputs.\")\n\n    # Run the asynchronous function\n    #asyncio.run(fetch_selected_ids())\n\nif __name__ == \"__main__\":\n    main()\"\n\n\nfolder directory: >ui > py file + frontend(folder); in the folder are the html and css and js component. I cant interact with anything or it is not displaying the visual or not updating it correctly but its just stuck and i can interact with the element its just not interacting back to me or it is but the pages are not changing",
+    "action": "revise"
+   },
+   "T009": {
+    "text": "Find Disclosure in financial statement for Ind AS 102 in India",
     "action": "inform"
    },
-   "T060": {
-    "text": "What mit ocw classes are actually practically applicable and required for the jobs that require an aerospace degree?",
-    "action": "explain"
+   "T010": {
+    "text": "Suggest me free courses equivalent to IIMA ePGP from free platforms.",
+    "action": "revise"
    },
-   "T061": {
-    "text": "Does keeping phone on flight mode avoids charges and if connecting to hotel Wi-Fi turn flight mode off to do that then turn it back on otherwise?",
-    "action": "explain"
-   },
-   "T062": {
-    "text": "We have sent a bunch of our technologist over to Seattle to work with our partners at Microsoft and AWS and we want to start and alumni program. Can you please make some suggestions on: tools - what would be a good tool / channel for those conversations to happen engagement - how do we keep people / teams engaged content - what type of topics / threads would be cool to share with this alumni community",
+   "T011": {
+    "text": "Hey there, I am overwhelmed with the options available for online earning. Can you suggest me some practical options for building a online business ",
     "action": "advise"
    },
-   "T063": {
-    "text": "okay i am in work mode nee help.  I have to figure out how to do a intercontinental communications for data transfer for companies that need to share data. I need you to go into engineer mode and lay our a foundation on how to set this up. I want three companies in separate countries that wish to share data. They want top level encryption, they want their own pipe so that it can not be disrupted by other carriers. and they want this to be scalable to other companies in the future. give me a simple layout of how to get started",
-    "action": "advise"
-   },
-   "T064": {
-    "text": "write a professional outline how one can Ensure current work plans and activities support and are consistent with organisational change initiatives given my strengths are: Undertake planning to help the organisation through change initiatives, and evaluate progress and outcomes to inform future planning\nMonitor the progress of initiatives and make necessary adjustments\n",
-    "action": "compose"
-   },
-   "T065": {
-    "text": "how do i get a negative feedback removed from my amazon seller account",
+   "T012": {
+    "text": "What does \"your data usage for the remainder of this month will be what is left from what you have already used. From your next bill date, you'll get the full amount\" mean in simple terms?",
     "action": "inform"
    },
-   "T066": {
-    "text": "There's a court case where an individual is working pro se and can't prepare for their trial because they are in prison. There's no law library despite claims to the contrary by the prosecutor. Now one person believes that the defendant in prison has access to evidence to prepare for the trial, however the only time they were able to see that evidence is when an attorney stopped by to show them videos on a phone/tablet, but after they left the prison confiscated the tablet so the defendant could not prepare. Can you give me two analogies for this situation, with one being something akin to someone claiming you have a car by virtue of the fact that you got a taxi ride somewhere?",
+   "T013": {
+    "text": "in sports draft, what determines the age at which a player can be picked, and he try again the next year, and what happens to those who are not picked for pro contract, can they train by themselves and try again?",
     "action": "search"
    },
-   "T067": {
-    "text": "how do I calculate if what i have in saving is enough to for me last another 15years",
+   "T014": {
+    "text": "Conditions that require a fire watch and that fire extinguishers shall be made readily available\n\nconditions that require a fire watch and control of fire hazards. i.e. combustibles, clearance distances, monitoring during and after work is completed.",
+    "action": "revise"
+   },
+   "T015": {
+    "text": "can you list job vacancy sites for software engineers/developers working remote in europe?",
+    "action": "search"
+   },
+   "T016": {
+    "text": "how to find a car for under $700",
+    "action": "revise"
+   },
+   "T017": {
+    "text": "What requirements under 400 characters limit should I ask from a high-value buyer for “Top Video Eye Contact Gaze Correction Service, Boost Engagement and Sales”?",
     "action": "explain"
    },
-   "T068": {
-    "text": "send email after 3 month from job interview",
-    "action": "inform"
+   "T018": {
+    "text": "inquiry for studentship in USA",
+    "action": "compose"
    },
-   "T069": {
+   "T019": {
     "text": "please i fuclong beg you complete the question with porepr answer regarding as in a interview make it good go explain everything such that i am understood and ace the interview make it awsome \nExplain the TCP/IP model and its layers.\nDescribe how TCP ensures reliable data transmission.\nWhat is the role of UDP in the TCP/IP suite?\nExplain the three-way handshake process in TCP.\nWhat are the main differences between TCP and UDP?\nDescribe how flow control works in TCP.\nWhat is congestion control in TCP and how is it implemented?\nExplain the concept of port numbers in TCP/IP.\nWhat are well-known ports and dynamic ports? Provide examples.\nDescribe the process of establishing an HTTP connection.\nWhat is HTTPS and how does it secure HTTP communications?\nExplain how SSL/TLS works in HTTPS.\nDescribe the HTTP request-response cycle.\nWhat are the different HTTP methods and their uses?\nExplain the concept of persistent connections in HTTP/1.1.\nDescribe the role of cookies in HTTP.\nWhat are HTTP headers and how are they used?\nExplain the difference between HTTP/1.1 and HTTP/2.\nDescribe the purpose of HTTPS certificates and how they are issued.\nWhat is a cipher suite in the context of HTTPS?\nExplain the concept of mutual TLS authentication.\nDescribe how virtual hosting works with HTTP.\nWhat are RESTful APIs and how do they utilize HTTP?\nExplain the concept of statelessness in HTTP protocols.\nDescribe the role of proxy servers in HTTP/HTTPS communication.\nWhat is the purpose of HTTP status codes? Provide examples.\nExplain how HTTP caching mechanisms work.\nDescribe the concept of Cross-Origin Resource Sharing (CORS) in HTTP.\nWhat is HTTP pipelining and how does it improve performance?\n",
     "action": "explain"
    },
-   "T070": {
-    "text": "Teach me all the basic concepts of tableau for an interview ",
+   "T020": {
+    "text": "How to think about structuring a trust and LLC based set up in the US that is private from other juristictions?",
+    "action": "explain"
+   },
+   "T021": {
+    "text": "how to do technical analysis of stock market company?",
+    "action": "search"
+   },
+   "T022": {
+    "text": "a curated list of high-ticket affiliate programs across various niches that have the potential to yield substantial commissions. ",
+    "action": "inform"
+   },
+   "T023": {
+    "text": "give me information about  how stakeholders would be identified and partnerships built in this topic The impacts of Tele-dentistry on reducing Oral Health Barriers in Texas",
+    "action": "search"
+   },
+   "T024": {
+    "text": "I want to create a startup platform to gather a system of multilateral netting with privacy preserving guarantees with one billion companies as final users. What steps do you recommend for this startup project. What resources and employees I would need to hire",
+    "action": "search"
+   },
+   "T025": {
+    "text": "client msg my orabica trafgic of my siate has droopped , and u guys i have hired for seo u should inform me about it  but u guys didnt , my revrt as seo expert in simple eng copnvo tone - I undrstnfd my role and how my expertise shoul benefts ur site to get mor etrafic but wht i dd ws stragy planning and also create content got approvel of i made chnages to it . buyt i didnt do anyt implimntations nothing was published no backlnks no apporved content is on the site also i wopuld definatlyonform u regarding drop but i never jad the console and anlytics access ",
     "action": "revise"
    },
-   "T071": {
-    "text": "Pros and cons of investing in US stock market with an Indian account or person?",
+   "T026": {
+    "text": "treatment options for alcoholics",
+    "action": "compose"
+   },
+   "T027": {
+    "text": "Create a step-by-step course designed to teach a non-native speaker how to navigate the various bureaucratic and administrative processes in Japan. The course should focus on understanding and practicing Japanese language and vocabulary related to essential tasks such as banking, housing, tax, commuting, and other official procedures. It should prioritize real-life application and repetition of common words and forms to ensure learners are confident in both reading and speaking Japanese in these situations.",
+    "action": "compose"
+   },
+   "T028": {
+    "text": "please suggest me some links for remote jobs as an interior designer or 3d visulizer",
+    "action": "search"
+   },
+   "T029": {
+    "text": "what are credits used for when buying a house and how is it different than just offering a lower price by the same amount?",
+    "action": "explain"
+   },
+   "T030": {
+    "text": "You're an IT strategy lead. Explain best practices or industry-accepted criteria for matching a given database management system’s characteristics with a financial services project.",
+    "action": "explain"
+   },
+   "T031": {
+    "text": "write mortgage procedures for underwriting",
+    "action": "search"
+   },
+   "T032": {
+    "text": "international APOSTIL Convention on provision of evidence",
     "action": "advise"
    },
-   "T072": {
-    "text": "Write a letter for me about a ticket it has one letter wrong at the first name and the employee didn’t let me to amend the letter and ask me to buy a new ticket or I will not travel ",
+   "T033": {
+    "text": "write a professional outline how one can Ensure current work plans and activities support and are consistent with organisational change initiatives given my strengths are: Undertake planning to help the organisation through change initiatives, and evaluate progress and outcomes to inform future planning\nMonitor the progress of initiatives and make necessary adjustments\n",
+    "action": "compose"
+   },
+   "T034": {
+    "text": "I spent the past 12 months doing the Google UX/UI design cert and I did some other projects and volunteering to beef up my portfolio. I just got hired as a UX designer. If I spend 10 hours per week nights and weekends studying to become a UX researcher and taking courses and certs and biulding a UX researcher portfolio, how long will those 10 hours  per week plus my relevant experience from my job add up to being hire-able as a UX researcher?",
+    "action": "compose"
+   },
+   "T035": {
+    "text": "CAN YOU SUM UP THIS TEXT, HOWMUCH TAXES THE COMPANY SHOULD PAY?\n\n\n\nRESIDENT, NON-DOMICILED COMPANIES\nThe scope of taxation in Malta depends on the person’s residence and domicile. In the Income Tax Act, a ‘person’ is defined as an individual and a body of persons which includes companies, any fellowship, society or other association of persons, whether corporate or unincorporated and whether vested with legal personality.\n\nWhile the term ‘domicile’ is not defined in the Income Tax Acts, in the case of a body of persons, it is deemed to be the place of incorporation or principal seat of registration of the body of persons. A company which is registered in Malta is deemed to be domiciled and tax resident in Malta from the date of its incorporation, and is subject to a flat rate of 35% on its worldwide income[1]. This does not mean, however, that a Maltese company which operates abroad may never be taxed in that country. Cases of dual residence may arise, for instance when one State attaches importance to the place of incorporation whereas another attaches importance to the place of effective management.\n\nA company incorporated outside of Malta is considered to be resident in Malta only if its place of effective management and control is in Malta. As a general rule, ‘the place of effective management’ is defined as the place where the key management and commercial decisions that are necessary for the conduct of the company’s business are in substance made. This is generally, though not necessarily, the place where the board of directors meet and resolve business.\n\nTherefore, a company which is incorporated in Malta is considered to be resident and domiciled in Malta, while a company which is incorporated outside Malta but has its control and management in Malta will be considered as resident but not domiciled in Malta.\n\nCompanies which are resident but not domiciled (or vice versa) in Malta are subject to tax in Malta on all income and chargeable gains arising in Malta, and on income arising outside Malta which is remitted back to Malta. No tax is payable on foreign income which is not received in Malta and on capital gains arising outside Malta to a company which is not ordinarily resident and domiciled in Malta, even if remitted to Malta. On the other hand, companies which are neither incorporated nor resident in Malta are only chargeable on income and capital gains arising in Malta.\n\nA company registered abroad that shifts its management and control seat to Malta is deemed to be resident, but not domiciled, in Malta and would be able to reap the fiscal advantages available to Malta resident companies. Such advantages include the application of the tax credit imputation mechanism and the tax refunds available to the shareholders of the company on a final distribution of dividends. These fiscal advantages are discussed further below.\n\nMalta resident companies (even those not domiciled) are to allocate distributable profits to one or more of 5 tax accounts, depending on the nature and the source of the profits. These tax accounts are: the Foreign Income Account (FIA), the Maltese Taxed Account (MTA), the Final Tax Account (FTA), the Immovable Property Account (IPA), and the Untaxed Account (UA).\n\nFull imputation system\nMalta operates a full imputation system for dividends paid out from the prof­its of the company. Dividends are subject to tax in the hands of the shareholder however, shareholders receive a full imputation credit for the tax paid by the company. The full imputation system ensures that the shareholder is not subject to further tax on dividends distributed and therefore, eliminates economic double taxation.\n\nTax Refunds\nFurthermore, the effective tax paid may be reduced through the application of various refunds available to the shareholders of a Malta resident company. Although often associated with the imputation system, the tax refund is over and above the imputation credit outlined above and is intended to reduce overall tax burden in Malta in the hands of the shareholder.\n\nAvailable Tax Refunds in Malta:\n100% Refund – Applies when profits are derived from a participating holding which qualifies for the participation exemption.\n6/7ths Refund – This type of refund is generally due on those profits earned from trading activities. Taking into account such refund, the effective rate of tax works out at 5%.\n5/7ths Refund – This type of refund is generally due in respect of income derived from passive interest and royalties and income from participating holdings which do not qualify for the participation exemption. The effect rate of tax works out at 10%.\n2/3rds Refund – Available in those instances where the company has claimed double taxation relief. The refund depends on the type of double taxation relief availed of and is limited to the tax paid in Malta.\nThe participation exemption (or 100% refund) mentioned above applies to a Malta registered company which derives profits or gains from a participating holding in a non-resident entity. In such a case, the Malta holding company may decide:\n\neither to apply an outright exemption from tax or\nto include such income or gains as part of the taxable income of the Malta resident company and pay tax at the default rate of 35%. Following the distribution of dividends by the Malta resident company out of the said income or gains, the recipient shareholders would be entitled to a full (100%) refund of the tax paid by the company on such income or gains.\nWithholding tax\nMalta does not levy withholding tax on distributions of dividends to non-resident shareholders. Moreover, as long as certain conditions are met, Malta would not levy any withholding tax on payments of interest and royalties to persons not resident in Malta.\n\nIn summary, the benefits associated with resident, non-domiciled companies are:\nWorldwide basis of taxation is not applicable to companies who are resident but not domiciled in Malta;\nNo tax is payable on foreign income which is not remitted to Malta\nCapital gains remitted to Malta are not subject to any tax whatsoever;\nAccess to Malta’s wide treaty network as well as unilateral relief provisions.\nAccess to Malta’s full imputation system and tax refund system\n[1] This means all income and capital gains wherever it arises and whether received in Malta or not.",
+    "action": "explain"
+   },
+   "T036": {
+    "text": "We have sent a bunch of our technologist over to Seattle to work with our partners at Microsoft and AWS and we want to start and alumni program. Can you please make some suggestions on: tools - what would be a good tool / channel for those conversations to happen engagement - how do we keep people / teams engaged content - what type of topics / threads would be cool to share with this alumni community",
+    "action": "advise"
+   },
+   "T037": {
+    "text": "Rewrite the following to improve clarity and english usage in not so formal:\n\nI was assigned for serious game “Collection of GXM and Blood Products Administration” in early 2024 and has completed the course.\n\nHowever, the game is discontinued for a period of time and now that it has resumed, I cannot find any module in ‘Course’ page, \n\nAnd there is nothing for the certification in the profile page as well.\n\nSo is there record of me completing? Or I have to re-enrolled to Serious Game and re-do GXM?\n",
+    "action": "revise"
+   },
+   "T038": {
+    "text": "how do I calculate if what i have in saving is enough to for me last another 15years",
+    "action": "explain"
+   },
+   "T039": {
+    "text": "Hi, I have a company that sells all the components that are required for an individual or an organization to install a solar panel system on their roof.\nI have all the essential products for sale but I want to now move into more niche products.\n\nMy areas of focus for sale are:\nGermany, Switzerland, France, Belgium, The Netherlands, UK, Spain, Portugal, Italy, and other European countries but the ones I mentioned are the most important ones.\n\nI will give you an example of a product that can be compared to the type of products I am looking for. This product is used to implement electric water boilers downstream from a solar system array.\n\nThe solar immersion controller works by using a clamp that scans your renewable generation and detects any excess energy that would be sent to the grid. The main component diverts this energy and uses it to power your immersion heater.\n\nThe amount of energy sent is determined on the amount created and the household use, to ensure that it will not affect the existing appliances.\n\nPVMate\nSupports up to 3.6kW Heater\nSupport upto 2 water heaters\nUses the surplus solar energy generated at your roof to heat the water.\nWorks flexibly with the grid, ensures instant hotwater supply.\nHeats water by use of the timer or by the \"enhance\" button\nAbundant information display - historical energy saving figures and running status.\nEasy and fast to deploy by utilizing wireless technology. No need to wire between immersion controller and sender CT clamp.\nhttps://totalsolar.co.nz/products/pv-mate\n\n\nThis is a high profit low cost product.\n\nI require a list of 15 more possible products that are already present in the market, but from an engineering and manufacturing perspective may be high profit low cost (to us, but high cost to the end buyer)\n\nThese products should be add-ons, so more niche, and they must be targetted to be sold in Europe, for example, PVMate is a very popular product in the benelux region\n\nThese products should be able to be sourced directly from AliBaba for example, but we should be able to put our brand's sticker and casing on them and make them look more premium\nThese products should be manufactured in China and readily available",
     "action": "search"
+   },
+   "T040": {
+    "text": "Hey, I'm looking for innovative ideas for a software product I can develop and sell quickly online. Coul you please suggest concepts for plugins, browser extensions, mobile apps, or web services that meet the following criteria:\n\n1. Addresses a common problem or fills a market gap\n2. Has potential for rapid development (1-3 months)\n3. Requires minimal upfront investment\n4. Has a clear target audience and monetization strategy\n5. Leverages current technology trends (e.g. AI, automation, remote work tools)\n6. Is not oversaturated in the market\n\nPlease provide 3-5 detailed ideas, including:\n- A brief description of the product\n- The problem it solves\n- The target audience\n- Potential features\n- Why it's unique or better than existing solutions\n- Possible monetization strategies\n- Make a search online about any concepts you come with to see if there's something similar, if has scrap that idea and come with a new one\n\nFeel free to think creatively and consider emerging technologies or recent shifts in work/lifestyle patterns that might create new opportunities.",
+    "action": "compose"
+   },
+   "T041": {
+    "text": "Asking interview tips on Data Management Associate role",
+    "action": "explain"
+   },
+   "T042": {
+    "text": "Come up with a detailed outline for a guide that discusses how to use msar in the medical school admissions process.",
+    "action": "inform"
+   },
+   "T043": {
+    "text": "Stripe asks for a lot of payment info even whenn all that isnt needed like the date of birth or full name. Does that stuff even get checked or not?",
+    "action": "compose"
+   },
+   "T044": {
+    "text": " Hello, let's dive into the 9 building blocks of the Business Model Canvas. I'd like to know about your venture. Based on your idea, I can help formulate a value proposition and suggest potential customer segments. Then, we'll proceed to the 'Customer Segments' building block. We'll map out this element using a table featuring three columns: 'Step', 'How ChatGPT Can Help', and '3 ChatGPT Prompts'. The 'Step' column will consist of 8 steps, each crucial in understanding and identifying customer segments. In the 'How ChatGPT Can Help' column, I'll elaborate on how I can assist you at each step, for instance, by offering data analysis or market research. Finally, the '3 ChatGPT Prompts' column will hold three targeted questions for each step, aimed at provoking thought and generating insights. Once we complete the 'Customer Segments' block, I'll check with you if you'd like to continue to the next building block of the Business Model Canvas. So, could you please tell me about your venture idea?",
+    "action": "inform"
+   },
+   "T045": {
+    "text": "how do i get a negative feedback removed from my amazon seller account",
+    "action": "inform"
+   },
+   "T046": {
+    "text": "I am a moroccan and I have 5 hours transit in Sirilanka, do I need visa ?",
+    "action": "revise"
+   },
+   "T047": {
+    "text": "\nI am an egyptian IGCSE student i got only 6 o level subject on of them withgrade of A and other 4 with grade of B and one with grade of c and i speak english fluently but i don't have a lot of money so i'm looking for country to study in and work to cover my expenses so what dou think is the best country for me to study in and keep in mind i only speak arabic and english",
+    "action": "revise"
+   },
+   "T048": {
+    "text": "resume for a bartender with no experience",
+    "action": "compose"
+   },
+   "T049": {
+    "text": "advance these questions to be more productive in getting information before an interview for a position:\n\n1. What are the specific day-to-day responsibilities and duties of this role within the military organization?\n2. Could you provide an overview of the ideal candidate’s qualifications and experience that would make them successful in this role?\n3. How does this role fit into the overall career progression within the military? What potential growth opportunities are available for someone in this position?\n4. What are some key challenges or obstacles that the successful candidate may face in this role, and how would they be expected to overcome them?\n5. Can you provide more information about the long-term career development and advancement opportunities for someone who excels in this role within the military?",
+    "action": "compose"
+   },
+   "T050": {
+    "text": "(as I was working  in the military in the past government, right now as I am afraid from my life, I am unable to work, we are a family of 5 , living in a rented house, my children are minors. )make this statement grammatically cortrect",
+    "action": "revise"
+   },
+   "T051": {
+    "text": "I am a influencer on Instagram and how can I write for collaboration to brands ? I need details ",
+    "action": "revise"
+   },
+   "T052": {
+    "text": "Can non technical boy whoes age is 23 can pursue cyber security courses and get a good job in india and what will be the obstacles and how much time it will take and do i need any certificates?",
+    "action": "advise"
+   },
+   "T053": {
+    "text": "when the influencer's rate is higher than the last collaboration, we would like to book a bundle of videos to low the price and make the long-term relationship work, how can we negotiate with the inlfuencers",
+    "action": "advise"
+   },
+   "T054": {
+    "text": "Your boss criticize your team's recent performance on front of other department heads. What is the most effective and least effective response? ",
+    "action": "advise"
+   },
+   "T055": {
+    "text": "I I already  sent this paper work with driver can you please  confirm  on same day have you received or not .so we take some action . our credit controller  send you every month statements  if you missing. Any invoice please ask on same month.",
+    "action": "revise"
+   },
+   "T056": {
+    "text": "Potential targeted audience for a digital marketing agency ",
+    "action": "compose"
+   },
+   "T057": {
+    "text": "what is the best digital product to sell on etsy",
+    "action": "inform"
+   },
+   "T058": {
+    "text": "Can we make money through YouTube cpm ",
+    "action": "inform"
+   },
+   "T059": {
+    "text": "Hi! I have dermal cream containing klindamycin and tretinoin. Which of these compounds does posses risk to fetus and why? Is there really some risk from dermal product? How does it affect men?",
+    "action": "advise"
+   },
+   "T060": {
+    "text": "Make list of skills I can learn in IIM pgpm. Also suggest best free courses from free platform for it.",
+    "action": "search"
+   },
+   "T061": {
+    "text": "meaning of tcs under gst\n",
+    "action": "compose"
+   },
+   "T062": {
+    "text": "Does estonia have jouvie (jouvqnile jail)? If so how much are the sentences reduced and untill how old is a jouvanile by estonian law?",
+    "action": "advise"
+   },
+   "T063": {
+    "text": "Does the 50/30/20 rule for savings apply only to the money I receive, or do I have to add my earning to the money I already have and then apply the rule?",
+    "action": "inform"
+   },
+   "T064": {
+    "text": "please elaborate on how the business and finance recruitment market is affected by the macro economic environment and the most important macro and market KPIs. Additionally, please provide a list of top 20 competitors in the Norwegian market for business and finance recruitment.",
+    "action": "explain"
+   },
+   "T065": {
+    "text": "Write an email to manager and inform my contract for this job is ending on 28th july. I have been in this role from the last 9 months please update.",
+    "action": "advise"
+   },
+   "T066": {
+    "text": "i think demographics is very important to do the market research. can you map out what, how, i should look to understand, analyse and extroplate what i want [ suppose i want to do clothing brand business]",
+    "action": "inform"
+   },
+   "T067": {
+    "text": "i need a loan payoff letter f",
+    "action": "explain"
+   },
+   "T068": {
+    "text": "I need to make $2000 in affiliate marketing without using SEO in 2 weeks. How do I do this?",
+    "action": "inform"
+   },
+   "T069": {
+    "text": "I want to be a Bollywood actor. What are the steps. I am very handsome. ",
+    "action": "search"
+   },
+   "T070": {
+    "text": "Websites to read and review books for over $100 a day",
+    "action": "search"
+   },
+   "T071": {
+    "text": "tell me 10 steps on selling products in amazon",
+    "action": "explain"
+   },
+   "T072": {
+    "text": "Investment Administrator- Bruin \n\nAbout the job\nOur client is a leading UK Wealth Manager. Due to continued growth in the independent wealth management space in Ireland, they are now seeking an Investment Administrator to join their Wealth Management team in Dublin.\n\n\nWorking directly with Clients, Investment Managers and Team Leaders in the discretionary investment space (including charities and pension funds), the Investment Administrator will take responsibility for the following:\n•\tPrepare, review and complete account opening packs for new clients for forwarding to the Onboarding Team\n•\tSupport clients alongside a team of investment managers\n•\tSupport Investment Managers in the production of presentations, pitches, proposals and reviews\n•\tAttend internal and external company and investment meetings\n•\tWork to a high standard aligning to company procedures\n•\tLiaise with all other relevant teams, e.g. Onboarding Team, Financial Planning, Client Services & Cash Team\n•\tSupport with general administration duties\n•\tAttending client meetings and/or events as required\n\n\nThe Investment Management Administrator will meet the following criteria:\n\n\n•\tAttained relevant degree qualification or equivalent\n•\tIntermediate knowledge of MS Word/Excel/Outlook\n•\tPreferably QFA qualified\n•\tPrevious experience in a financial services environment\n•\tHigh level of accuracy and proven attention to detail\n•\tAbility to meet deadlines/work within restricted timescales and work as a flexible and reliable team member\n•\tAbility to work on own initiative to achieve required results\n•\tCollaborative and inclusive approach to work\n\n\nThis is an excellent opportunity for an experienced administrator looking for a new role in a rapidly developing leader for discretionary wealth management.\n\nAccording to above job description customize below resume summary…Do not make to much changes try to keep it accurate and interesting to recruiters when read\nKeep it precise and accurate as well as ATS friendly and do not change it completely just make some changes according to the requirements of jobs…do not add anything abt expereince …Do not add anything about language also…\nAccording to above try to mold the below summary in my resume\nAs a driven DCU graduate with a solid background in finance, shown by high marks in classes like Corporate Finance and Portfolio Theory, I’m ready to start my career in finance and investment banking. I’ve gained hands-on experience using Refinitiv Eikon for projects and my thesis, and built up my Excel skills for financial analysis through Udemy courses. These abilities, along with my passion for finance, make me well-suited to contribute to your company. I’m dedicated to using my thorough education and enthusiasm to succeed in this fast-paced field.",
+    "action": "revise"
    }
   }
  }
