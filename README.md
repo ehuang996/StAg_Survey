@@ -3,8 +3,8 @@
 A three-part labeling survey for messages people sent to AI chatbots.
 
 - **Part 1 (20 messages):** Does the message show structural agency, the user's "ability to navigate and shape complex systems and institutions"?
-- **Part 2 (18 messages):** Every message shows structural agency. Does the user's real-world situation fall under the domain shown?
-- **Part 3 (12 messages):** Every message shows structural agency. Does the user ask the AI to do the action shown?
+- **Part 2 (36 messages):** Every message shows structural agency. Does the user's real-world situation fall under the domain shown?
+- **Part 3 (24 messages):** Every message shows structural agency. Does the user ask the AI to do the action shown?
 
 ## For annotators
 

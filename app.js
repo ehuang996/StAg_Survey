@@ -1,6 +1,6 @@
 "use strict";
 
-const VERSION = "stag_survey_v6";
+const VERSION = "stag_survey_v7";
 const NUM_PARTS = 3;
 const PARTS = {
   1: { field: "stag", question: "Does this message show structural agency?" },
@@ -207,7 +207,7 @@ if (typeof document !== "undefined") {
         h("li", {}, h("strong", {}, `Part 1: ${n(1)} messages.`), " Does the message show structural agency?"),
         h("li", {}, h("strong", {}, `Part 2: ${n(2)} messages.`), " Does the message fall under a given domain?"),
         h("li", {}, h("strong", {}, `Part 3: ${n(3)} messages.`), " Does the user ask the AI to do a given action?")),
-      h("p", {}, "It takes about ", h("strong", {}, "30 minutes"), ". Your answers are saved in this browser as you go, so you can take breaks and come back on the same device."),
+      h("p", {}, "It takes about ", h("strong", {}, "45 minutes"), ". Your answers are saved in this browser as you go, so you can take breaks and come back on the same device."),
       h("div", { class: "card" },
         h("h2", { style: "margin-top:0" }, "Before you start"),
         h("ul", {},

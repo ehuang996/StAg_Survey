@@ -53,16 +53,16 @@ test("part 1: six annotators, three pairs, 20 items each", () => {
   checkPart(1, 20, 60);
 });
 
-test("part 2: 18 items each, every domain shown twice per group", () => {
-  checkPart(2, 18, 54);
+test("part 2: 36 items each, every domain shown 4 times per group", () => {
+  checkPart(2, 36, 108);
   assert.equal(data.codebook.domains.length, 9);
-  checkBalancedTopics(2, "domain", data.codebook.domains.map((d) => d.key), 2);
+  checkBalancedTopics(2, "domain", data.codebook.domains.map((d) => d.key), 4);
 });
 
-test("part 3: 12 items each, every action shown twice per group", () => {
-  checkPart(3, 12, 36);
+test("part 3: 24 items each, every action shown 4 times per group", () => {
+  checkPart(3, 24, 72);
   assert.deepEqual(data.codebook.actions.map((a) => a.key).sort(), ["advise", "compose", "explain", "inform", "revise", "search"]);
-  checkBalancedTopics(3, "action", data.codebook.actions.map((a) => a.key), 2);
+  checkBalancedTopics(3, "action", data.codebook.actions.map((a) => a.key), 4);
 });
 
 test("no conversation appears in more than one part", () => {
