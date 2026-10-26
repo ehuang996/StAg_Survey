@@ -1,0 +1,998 @@
+{
+ "version": "stag_survey_v6",
+ "codebook": {
+  "structural_agency": {
+   "definition": "Structural agency is the user's \"ability to navigate and shape complex systems and institutions.\" It concerns meaningful action to shape one's conditions in the world, mediated by social, cultural, technical, and institutional forces. It is not merely task completion, cognitive clarity, emotional reassurance, interpersonal support, or a feeling of being more capable. It requires that the user is seeking practical capacity in relation to structures that organize rules, resources, expertise, authority, opportunities, constraints, or consequential decisions.",
+   "purposes": [
+    "Understanding how a consequential system, institution, process, rule, or decision structure works.",
+    "Translating specialized, formal, expert, or institutional language into actionable understanding.",
+    "Deciding how to proceed in a situation shaped by rules, constraints, eligibility requirements, authority, unequal information, or asymmetric power.",
+    "Preparing to access consequential resources, services, opportunities, rights, protections, credentials, remedies, or forms of support.",
+    "Planning concrete steps, communications, documentation, applications, negotiations, complaints, or other actions directed at a real-world system or institution.",
+    "Contesting, challenging, negotiating, or protecting oneself or others against consequential decisions, organizational power, material pressure, exposure, exclusion, mistreatment, or administrative complexity.",
+    "Building durable capacity to handle future shocks, disruptions, risks, or system-imposed constraints."
+   ]
+  },
+  "domains": [
+   {
+    "key": "workplace_practice",
+    "title": "Workplace and Professional Practice",
+    "scope": "Real-world situations where the user is DOING THEIR JOB as an employee or professional inside an organization: workplace communications with managers, HR, colleagues, clients, or counterparties; operations, logistics, and resource planning; designing or improving organizational processes and procedures; producing professional or technical documentation required by their role; and making the internal business case for a decision. The defining feature is the user acting within their organization's structures to carry out, improve, or navigate their work. It does not include getting hired, running one's own venture for income, or legal disputes over workplace rights."
+   },
+   {
+    "key": "business_income",
+    "title": "Generating Business Income",
+    "scope": "Conversations where the user's OWN earning or venture is the active object: starting/structuring/running a business, freelancing, self-employment, monetizing a creative output/platform/audience, acquiring and retaining paying customers/clients, pricing/quoting/invoicing and getting paid, dealing with vendors/suppliers/marketplaces/seller platforms, buying property as a rental/landlord income venture, fundraising for a for-profit venture, or advancing one's own earnings from labor (compensation negotiation: salary/rate/raise/offer/equity). The defining feature is the user acting to generate, grow, or protect income from an enterprise or from selling their own work/labor, navigating the market, platform, client, and commercial systems that govern getting paid. Mere mention of 'business' or 'startup' does not qualify; the user's own earning must be the actual object of action."
+   },
+   {
+    "key": "employment_career",
+    "title": "Employment and Career Advancement",
+    "scope": "Real-world situations where the user is trying to GET HIRED or advance their own career as an employee or professional: searching and applying for jobs, resumes/CVs and cover letters, job applications and supplementary questions, interview preparation, career planning and transitions, acquiring skills or courses specifically to become employable in a role, professional networking, and academic-career advancement (fellowship or publication submissions). The defining feature is the user acting on the hiring or career system to obtain or advance employment. It does not include running one's own business or venture, negotiating pay as income strategy, or asserting legal workplace rights."
+   },
+   {
+    "key": "legal",
+    "title": "Obtaining Legal Advice",
+    "scope": "Conversations where the user's own real-world situation turns on law, legal rights/obligations, or a formal legal/quasi-legal process: contracts, compliance, IP/licensing, regulations; courts, claims, disputes, hearings, citations/tickets, appeals, complaints, legal/police records; immigration & citizenship (visas, residency, work permits, asylum, naturalization, immigration forms/eligibility/procedures, immigration appeals); employment RIGHTS (wrongful termination, unpaid wages, discrimination, harassment, protected leave, accommodations as a rights dispute, severance/non-compete legal review, labor-board filings); and family & estate legal processes (custody, divorce, child/spousal support, prenup, wills, trusts, probate, inheritance process, guardianship, power of attorney). In-domain means the user's own situation is governed by these legal frameworks or processes; it does NOT require that the conversation be structural agency."
+   },
+   {
+    "key": "education",
+    "title": "Obtaining Education",
+    "scope": "Real-world situations where a person is navigating, accessing, or acting within formal education systems and institutions: K-12 schools, colleges/universities, graduate and professional programs, vocational/certificate/credential programs, and the bureaucratic processes attached to them (admissions, enrollment, registration, transfer/articulation, dual-enrollment, financial aid/scholarships, tuition payment plans with the school, disability accommodations, grading/transcripts, degree/certification requirements, academic standing/discipline, and student/parent interaction with school authorities). The user is a student, applicant, prospective student, parent/guardian, or educator/staff acting on their own behalf within these institutions."
+   },
+   {
+    "key": "finance_tax",
+    "title": "Help with Consumer Finances and/or Taxes",
+    "scope": "Conversations where the user's real-world situation centers on managing, protecting, or making decisions about their own (or their household's) personal money and the financial-administrative systems attached to it: budgeting, banking, debt, credit, loans, savings, personal investing/retirement, consumer purchases/refunds/warranties/chargebacks, AND personal taxes, insurance, claims, benefits eligibility, coverage, premiums, and deductions. The defining axis is the user as a consumer/taxpayer/policyholder navigating money systems and financial bureaucracy that shape their personal financial position — distinct from earning income/revenue and distinct from the underlying need a financial product covers. Property tax, capital gains on a home sale, and homeowner/renter insurance are always in this domain even when a dwelling is involved."
+   },
+   {
+    "key": "housing",
+    "title": "Obtaining Housing",
+    "scope": "The user's real-world situation concerns getting, keeping, paying for, fixing, leaving, or living in a specific physical dwelling, and navigating the systems attached to where they live: rental tenancy (landlord/tenant), home buying/selling to live in, mortgages as a means of obtaining/keeping a home, moving, evictions short of litigation, repairs/habitability, utilities tied to the dwelling (water/gas/electric/internet hookups, billing disputes, shutoffs), property/zoning/planning/permits for one's own dwelling or property, homeowner/condo/HOA matters, finding/affording a residential care facility as a place to live, and individual navigation of local public services or infrastructure tied to where one lives (transit access for getting around one's area, municipal services). The defining anchor is a specific place to live or the property/infrastructure systems governing it."
+   },
+   {
+    "key": "healthcare",
+    "title": "Navigating Healthcare Systems",
+    "scope": "Real-world situations in which the user is dealing with their own (or a dependent's/care-recipient's) physical or mental health and the healthcare apparatus around it: symptoms, conditions, diagnoses, test/lab/imaging results, medications, treatments, procedures, and the providers, specialists, clinics, hospitals, pharmacies, and health-insurance/benefit machinery used to obtain care. In-domain spans both clinical content (what is wrong, what the numbers mean, what the treatment options are) and institutional navigation (getting an appointment, a referral, coverage, a second opinion, records, or accommodations). Membership requires a REAL health situation — an actual person's symptoms, condition, results, treatment, provider, or care logistics — not learning health facts in the abstract; it does not by itself require structural agency."
+   },
+   {
+    "key": "politics_civic",
+    "title": "Engaging in Politics or Civic Life",
+    "scope": "Conversations where the user's real-world situation involves PUBLIC or COLLECTIVE action toward the political process, government/civic institutions, or a community/civic group: voting and elections, campaigns and advocacy, contacting or petitioning officials, public comment and testimony, formal local-government and public-meeting processes, nonpartisan civic obligations, and community organizing / nonprofit / mutual-aid / neighborhood-group coordination. The defining feature is that the user acts toward government bodies, elected/appointed officials, the electoral system, or a community/civic GROUP for a shared or public aim — not toward a private institution about their own individual case, and not as an individual obtaining a benefit/license/permit/service for themselves."
+   }
+  ],
+  "actions": [
+   {
+    "key": "compose",
+    "definition": "new material the user will send, submit, publish or use (an email, letter, application answer, listing description, job description, policy text, plan document, or a set of questions to ask)."
+   },
+   {
+    "key": "revise",
+    "definition": "material the user already supplied and made better (can be corrected, rewritten, shortened, made more professional)."
+   },
+   {
+    "key": "inform",
+    "definition": "providing understanding to the user (what something means, how a thing works, what the rules are, what steps a process involves, or what a text in another language says). Communicating with the user, and nothing new is produced for the user to send or submit."
+   },
+   {
+    "key": "explain",
+    "definition": "walking the user through how or why something works or holds — reasoning it out so the user can follow, not only reporting the information."
+   },
+   {
+    "key": "advise",
+    "definition": "a judgment — which option to choose, what the user should do, or an assessment of something they already have."
+   },
+   {
+    "key": "search",
+    "definition": "things that exist online (on the web)."
+   }
+  ]
+ },
+ "part1": {
+  "items": {
+   "S001": {
+    "text": "Can atamoxetine, Trazodone and vortioxetine be prescribed at the same time? list interaction information by importance"
+   },
+   "S002": {
+    "text": "give me extensive advice on how to ask a professor whom I don't know very much personally for a letter of recommendation for a semester abroad, specifically to study chinese (even though I don't study sinology or anything language related but mathematics and physics). I got a very good grade in this professor's course and my current chinese capabilities are already quite good (I have proof for that)."
+   },
+   "S003": {
+    "text": "provide a very brief introduction of someone who has experience teaching, teaching abroad, a college degree, and tutoring certification"
+   },
+   "S004": {
+    "text": "what is a grey market?"
+   },
+   "S005": {
+    "text": "I have the following function:\n\nDWORD win_get_current_directory_utf8(size_t bufferlength, char* buffer)\n{\n\tbuffer = 0;\n\tif (!bufferlength)\n\t\treturn 0;\n\n\tTCHAR* t_buffer = NULL;\n\tt_buffer = (TCHAR*)malloc((bufferlength * sizeof(TCHAR)) + 1);\n\tif( !t_buffer )\n\t\treturn 0;\n\n\tDWORD result = GetCurrentDirectory(bufferlength, t_buffer);\n\n\tif (result == 0)\n\t{\n\t\tprintf(\"ERROR: win_get_current_directory_utf8: GetCurrentDirectory failed\\n\");\n\t\tfree (t_buffer);\n\t\treturn 0;\n\t}\n\n\tif (result > bufferlength)\n\t{\n\t\tprintf(\"ERROR: win_get_current_directory_utf8: Need buffer size of %d\\n\",int(result));\n\t\tfree (t_buffer);\n\t\treturn 0;\n\t}\n\n\tchar* utf8_buffer = NULL;\n\tutf8_buffer = ui_utf8_from_wstring(t_buffer);\n\n\tfree(t_buffer);\n\n\tif( !utf8_buffer )\n\t\treturn 0;\n\n\tstrncpy(buffer, utf8_buffer, bufferlength);\n\n\tif( utf8_buffer )\n\t\tfree(utf8_buffer);\n\n\treturn result;\n}\n\n--\nAnd i got the following error:\n\n../../../../../src/osd/messui/mui_util.cpp: In function 'DWORD win_get_current_directory_utf8(size_t, char*)':\n../../../../../src/osd/messui/mui_util.cpp:844:9: error: argument 1 null where non-null expected [-Werror=nonnull]\n  844 |  strncpy(buffer, utf8_buffer, bufferlength);\n      |  ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nIn file included from d:/mingw/mingw64-w32/mingw32/i686-w64-mingw32/include/guiddef.h:154,\n                 from d:/mingw/mingw64-w32/mingw32/i686-w64-mingw32/include/winnt.h:635,\n                 from d:/mingw/mingw64-w32/mingw32/i686-w64-mingw32/include/minwindef.h:163,\n                 from d:/mingw/mingw64-w32/mingw32/i686-w64-mingw32/include/windef.h:8,\n                 from d:/mingw/mingw64-w32/mingw32/i686-w64-mingw32/include/windows.h:69,\n                 from ../../../../../src/osd/messui/mui_util.cpp:12:\nd:/mingw/mingw64-w32/mingw32/i686-w64-mingw32/include/string.h:89:9: note: in a call to function 'char* strncpy(char*, const char*, size_t)' declared here\n   89 |   char *strncpy(char * __restrict__ _Dest,const char * __restrict__ _Source,size_t _Count) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |         ^~~~~~~\ncc1plus.exe: all warnings being treated as errors\nosd_messui.make:1302: recipe for target '../../../../mingw-gcc/obj/x32/Release/osd_messui/src/osd/messui/mui_util.o' failed\nmake[2]: *** [../../../../mingw-gcc/obj/x32/Release/osd_messui/src/osd/messui/mui_util.o] Error 1\nmake[2]: *** Waiting for unfinished jobs....\n\nHow can i solve it?"
+   },
+   "S006": {
+    "text": "how to introduce a system thinking in a lean management envirenment"
+   },
+   "S007": {
+    "text": "If I was born in Ukraine during the Soviet era and moved to Russia and lived in Russia and the Soviet Union broke up, which nationality would I be?"
+   },
+   "S008": {
+    "text": "Hello ! I need your help to prepare myself for my psychiatrist appointment ! Could you help me have some info about OCD to help me prepare it?"
+   },
+   "S009": {
+    "text": "Summarize the following text to main points and sub-points and make detailed explain for them:\n\n\nAmmonium chloride  \nMECHANISM OF DIURETIC EFFECT: \na-   Ammonia   is converted in the liver to urea + H+. \nb- H+   + HCO3- ------------- H2CO3 is converted by C.A enzyme \nto CO2 + H2O... \nc- Excess Cl ions replaces bicarbonate in the blood resulting \nin: \n• Hyperchloraemic acidosis. \n• Cl load to the tubules is augmented escapes \nreabsorption along with an equivalent amount of Na \n&K& isosmotic H2O. \n \n❖ \nDOSAGE: \n6-12 gm orally/ day. \n❖ \nUses: \n1. Diuretics with mercurials. \n2. Expectorant. \n3. Acidification of urine. \n4. ttt of alkalosis. \n5. Help excretion of basic drugs. \n \n \n. \n \nC- Osmotic diuretics \ne.g : Glucose,Urea,Mannitol \n \n• They are inert substance and excreted unchanged in \nthe urine. \n• They are freely filtered by glomerulus. \n• They undergo limited or no reabsorption. \n• They  are given by i.v.infusion. \n \nMechanism:  \n• ↑ Osmotic pr. Of tubular fluid---------   ↓ water \nreabsorption from PCT and other segments. \n• ↓ Active Na+ reabsorption from tubular fluid. \n• ↑ Flow rate of the tubular fluid---------- ↓ time \nfor water reabsorption. \n \nTherapeutic uses: \n1. Acute oliguric renal failure: to maintain adequate GFR and \nprevent renal tubular cell necrosis. \n2. Acute congestive glaucoma: to ↓ aq. Humor formation and \n↑ its drainage by increasing the osmotic pressure of plasma. \n3. Acute rise in the intracranial tension: to ↓ CSF formation \nand ↑ its drainage by increasing the osmotic pressure of \nplasma. \n. \n4. Drug intoxication. \n \n✓ Side effects: \n1-Acute hypervolemia:  when osmotic pressure of the plasma \nrises in the initial phase, this will withdraw extracellular fluids \ninto the vascular compartment---------- ↑ plasma volume--------- \naggravation of CHF and pulmonary congestion. \n2-Dehydration and hypernatremia {water loss is more than Na \nloss}. \n3-Headache , nausea,& vomiting. \n4-Mannitol -------------------     hypersensitivity reaction. \n5-Glycerol---------------------     hyperglycemia. \n✓ Contraindications: \n▪ CHF and pulmonary congestion: due to acute \nhypervolemia. \n▪ Severely impaired renal function. \n▪ Marked dehydration. \n▪ Active intracranial bleeding: because mannitol will \nextravasate with the leaked blood----------↑ brain damage. \n \nANTIDIURETICS \n1. Antidiuretic hormone… \n. \n2. Releasers of A.D.H: e.g barbiturate, Morphine, Ether & \nnicotine...  \n3. Thiazide diuretics only in nephrogenic diabetes insipidus... \n4. Adrenaline & Dopamine {large doses only}... \n5. Na+& H2O retaining drugs e.g : Cortisone… \n \nAntidiuretic Hormone{A.D.H }  \nPharmacological Actions: \n1. Antidiuretic Action:            +++ reabsorption of H2O  by \nD.C.T through ; \na- Stimulating release of hyaluronidase enzyme ;        \n+++++ permeability. \nb- Increase production of cyclic 3, 5 AMP. \n \n2- Cardiovascular system: \nIn very large dose: it is direct vasoconstrictor. \na- Rise of blood pressure. \nb- Coronary spasm; Anginal attack {irreversible \nshock}. \n3- Smooth muscle: \nSpasmogenic effect on intestinal tract. \n \nContraindications: \n. \nCoronary heart diseases ------------- Fetal. \n \nA.D.H antagonists: \n1-     Lithium carbonate. \n2-     Demeclocycline ; effective in H2O intoxication to \nexcess A.D.H secretion. \n \n \n \n \n \n  \n \n \n \n \n  \n \n \n\n\nSummary :"
+   },
+   "S010": {
+    "text": "why openai share data written by user with third parties including ip address allowing possibly sensitive information to be misused?"
+   },
+   "S011": {
+    "text": "On a scale from 1 to 10, how would the Xin dynasty rank on each of the following:\n- Functioning institutions\n- Rule of law\n- Accountability and transparency\n- Public trust and legitimacy\n- Economic stability\n- Politic stability\n- Social stability\n- Overall wellbeing of the population\n\nAfterwards, add up your scores and give a grade letter. \nPlease explain your answers in full detail."
+   },
+   "S012": {
+    "text": "Best online breath work certification programs"
+   },
+   "S013": {
+    "text": "Hiii can you help me with something? I need a list of every piece of anti trans legislation that passed in the US in 2024 and 2025. Can you list them out for me with name, title, and a breif one sentence summary for each one? "
+   },
+   "S014": {
+    "text": "Explain Forex trading price action and what do i need to be looking at "
+   },
+   "S015": {
+    "text": "what if  kevin durant was drafted by the kings"
+   },
+   "S016": {
+    "text": "Translate to spanish and Make correct html tags so that the content is well indexed by search engines\nThe Importance of AI in Mental Health Initiatives\nArtificial intelligence (AI) has emerged as a transformative force in various industries, and its potential in the mental health sector is vast. AI-driven solutions can complement traditional approaches to improve mental health outcomes, enhance access to care, and empower individuals with mental health concerns.\n<h2>Understanding the Challenges in Mental Health</h2>\nMental health disorders affect millions of people globally, yet many face barriers to accessing timely and effective care. These barriers include stigma, lack of resources, and shortage of mental health professionals.\n<h2>How AI Can Revolutionize Mental Health Initiatives</h2>\n<ul>\n \t<li><strong>Early Diagnosis and Screening:</strong> AI algorithms can analyze vast amounts of data to identify individuals at risk for mental health disorders, enabling early intervention and support.</li>\n \t<li><strong>Personalized Treatment Plans:</strong> AI can tailor treatment plans to individual needs by considering factors such as symptoms, medical history, and lifestyle.</li>\n \t<li><strong>Remote and Scalable Care:</strong> AI-powered telemedicine platforms and chatbots provide convenient and accessible mental health support, especially for those in remote or underserved areas.</li>\n \t<li><strong>Symptom Tracking and Self-Management:</strong> AI-enabled apps can help individuals track their symptoms, engage in self-care activities, and monitor their progress over time.</li>\n \t<li><strong>Empowerment and Support:</strong> AI chatbots and virtual assistants offer emotional support, coping mechanisms, and guidance for managing mental health challenges.</li>\n</ul>\n<h2>Benefits of AI in Mental Health Care</h2>\n<ul>\n \t<li><strong>Improved Access to Care:</strong> AI expands the reach of mental health services, making it available to individuals who may not have otherwise sought help.</li>\n \t<li><strong>Cost-Effectiveness:</strong> AI-driven solutions can reduce healthcare costs by promoting early intervention and reducing the need for expensive hospitalizations.</li>\n \t<li><strong>Enhanced Treatment Outcomes:</strong> AI can personalize treatments and provide ongoing support, leading to better outcomes for individuals with mental health disorders.</li>\n \t<li><strong>Stigma Reduction:</strong> AI-powered anonymous platforms and chatbots can encourage individuals to seek help without fear of judgment.</li>\n \t<li><strong>Empowerment and Resilience:</strong> AI tools empower individuals to manage their mental health and build coping mechanisms.</li>\n</ul>\n<h2>Considerations for Ethical and Responsible Use</h2>\n<ul>\n \t<li><strong>Data Privacy and Security:</strong> AI systems rely on sensitive personal data. Ensuring privacy and security measures is crucial to prevent data breaches.</li>\n \t<li><strong>Algorithmic Bias:</strong> AI algorithms must be trained on diverse data sets to avoid perpetuating biases that could impact access to care and treatment outcomes.</li>\n \t<li><strong>Human-Centric Approach:</strong> AI should complement and enhance human interactions, not replace them. Collaboration between AI and mental health professionals is essential.</li>\n \t<li><strong>Transparency and Accountability:</strong> The development and use of AI in mental health should be transparent and accountable, with clear explanations of algorithms and decision-making processes.</li>\n</ul>\n<h2>Conclusion</h2>\nAI holds immense potential to revolutionize mental health initiatives. By addressing barriers to care, personalizing treatments, and empowering individuals, AI can significantly improve mental health outcomes and well-being. However, ethical and responsible use of AI is paramount to ensure equity, privacy, and transparency."
+   },
+   "S017": {
+    "text": "I want to make a harsh decision don’t know if it’s right or wrong. Giving husband ultimatum to make a housing arrangement for his mum because his mum is on housing queue with government and won’t take temporary housing because it’s shared apartments. She is currently scrambling in a studio apartment with husband and wife and two kids. And forcing the couple to make a living arrangement that will give her own room even when they earn less. The wife is angry and want to go rent airbnb apartments with her and her kids. And force the husband to make a decision "
+   },
+   "S018": {
+    "text": "create a 10 step detailed list on how to market an online learning platform which offers 2 prep couses for ATI TEAS 7 and HESI A2 as well as a learning platform for ongoing nursing students to brush up on all topics and a blog with nursing education related content. The marketing steps are supposed to be a strategy for a client that is responsible for administrating the website(adding new quizzes,study guides, video tutorials, blog posts and managing students), he is tech savy but not a developer tech savy. He has used google ads but i want a wholistic strategy he can use to boost SEO and marketing broken down into absolute specifics(give urls and highly specific instructions that can be easily understood). Create a wining strategy"
+   },
+   "S019": {
+    "text": "Language: English. Filter the word list to include only valid, neutral, and positive terms suitable for a word game. Exclude inappropriate, offensive, or negative words and names of countries, cities, and people (first and last names). Correct any spelling errors and convert all words to lowercase. Return the results in a JSON array containing only the filtered words. Source data: [patchiness, patching, patchouli, patchwork, patchy, pate, patefaction, patella, patellar, patellidae, patent, pater, patera, paterfamilias, paternal, paternalism, paternalistic, paternally, paternity, path, pathetic, pathetically, pathless, pathogen, pathogenesis, pathognomonic, pathological, pathology, pathos, pathoscopic]"
+   },
+   "S020": {
+    "text": "Create a long detailed text about 1957 movie\"A Face in the Crowd\" with the following summary. Stick to the information i give you and dont create new information. Focus only on the Subject name and there following Summary. Subject Name: [Lee Remick's Debut & Community Involvement & Dog Scene] Summary: [Lee Remick made her debut, spending two weeks in Arkansas working on twirling and her local accent. Elia Kazan praised the filming experience in Arkansas, feeling welcomed by the community. Approximately 380 dogs were brought in for a scene involving a mass action call by Rhodes.]\n\n        Instructions:{ Please write an interesting script with the given context without adding any introductory or concluding remarks.\n        In case you find some more information about this topic then use all information you have to create a large text about this topic.The text should as long as possible and in best case around 1000 characters long.\n        Ensure that there are no emojis, text within brackets, parentheses, or similar symbols in the response. \n        Provide a single coherent response without rephrasing or repeating titles or headings. Avoid enumerations or bullet points. \n        The text is intended for older adults; use simple vocabulary appropriate for a middle school reading level. Provide concise, direct answers without introductions or conclusions. \n        Use transition words at the beginning of your reply instead of the subject name and leave the end open without a concluding sentence. \n        It is very important to provide only the final output without any additional comments or remarks for example: 'Certainly!' Here's the revised text.\n         \n        Please provide the text directly without any labels such as \"Conclusion:\", \"Introduction:\", or \"Transition:\". Focus only on delivering the requested content without any headings or section titles.\n        Please generate a complete and coherent response based on the provided input. Ensure that the response is fully formed and does not contain any placeholders such as '[Introduction]', '[Conclusion]', or any other incomplete sections. \n        The text should flow naturally without any gaps or missing information, and no placeholder markers or brackets should be used. \n        Please respond to my question, and always conclude your reply with the words \"Reply finished\" to indicate that your response is complete. \n        Make sure the reply is fully contained before these words and is not cut off prematurely. Thank you.}\n         Please respond to my question, and always conclude your reply with the words 'Reply finished' to indicate that your response is complete. Ensure that the text is fully formed without any placeholders such as '[Conclusion]' or '[Placeholder]'. Make sure the reply is fully contained before these words and is not cut off prematurely. Thank you."
+   },
+   "S021": {
+    "text": "1. Make the concept definition of <<communicative skills».\n\n2. Describe the basic steps of communication process and types of communication.\n\n3. Describe the rules of patient's inquiry.\n\n4. List the main complaints in case of respiratory diseases.\n\n5. List the main complaints in case of cardiovascular diseases.\n\n6. List the main complaints in case of gastrointestinal diseases.\n\n7. List the main complaints in case of urinary tract diseases.\n\n8. List the main complaints in case of endocrine diseases.\n\n9. List the main complaints in case of diseases of the musculoskeletal system\n\n10. List the main complaints in case of diseases of hemopoietic system.\n\n11. List the partitions of the Present History (Anamnesis Morbi) and the Past History (Anamnesis Vitae).\n\n12. Characterize the features of anamnesis collecting for different diseases of internal organs and various patient's groups."
+   },
+   "S022": {
+    "text": "Complete the text with the correct form of the verbs in exercise 1.\nEvery morning, Hannah' Makes\nbreakfast for herself and for her little sister.\nThen, she …  ready for school. Before she leaves, she … her teeth and … her hair.\nShe always … her phone before\nshe … out. She … the bus to school with a friend every day. At break time, she sometimes …\na drink with her friend in the school café. She always … a sandwich for lunch. When she …\nhome, she does her homework and watches TV with her sister."
+   },
+   "S023": {
+    "text": "Which of the following is a commonly used downhole fluid sampling tool?\n\na.\nMemory gauge\n\nb.\nPVT (Pressure-Volume-Temperature) cell\n\nc.\nPressure gauge\n\nd.\nProduction logging tool"
+   },
+   "S024": {
+    "text": "Determine whether this text is written by an AI or human:\n\nGaming can help for the purpose of the education of kids, and also gaming can help with promoting health and a large percentage of  kids have gotten smarter with gaming. For example Chess it's a game that many people play and also many chess experts have a large amount of memory.And educational games can make learning more fun and interesting.But gaming can also have bad side effects.\n\nGaming is not only for entertainment it also provides mental health and there are some symptoms like depression and anxiety and also a game called candy crush can help with improving people’s mood like decreasing negative emotions,effects and  negative motions.Games can decrease anxiety such as a game called magic maker.\n\nGaming also has no impact in mental being and when kids are alone they play for about 30 percent and when kids are with friends they play for about 14 percent and when kids are in full classes they play 17 percent and a lot of people play games in class like about 55 percent of kids play in class and the other 45 percent pay attention in the subject.\n\nThere are some negative side effects in gaming like loneliness,insomnia,poor academic performance and dopamine addiction, and there are good side effects in gaming such as faster decision making, greater multi tasking ability and other more. \n\nKids play games 10 hours a day or more and apparently there is a belief that gaming can cause ADHD but people are not sure because there’s no sign of any evidence and usually people with ADHD are captivated by games.The More time kids play games they play they get more impulsive and more attention problems they will have.\n\nPeople that spent a lot of time playing \ngames got ADHD symptoms through gaming.\nGaming can be bad sometimes like some \nPeople get problematic and they get poor school performance from gaming and some people get addicted to gaming that they get poor psychological health and also gaming is important because it’s good with mental health and priorities of aspects in our life’s."
+   },
+   "S025": {
+    "text": "Please share the basic requirements for citizens to vote in GA, to run for the Georgia Senate, the Georgia house of representatives, Governor and LT Governor? Please list THE COMPLETE REQUIREMENTS FOR EACH ONE IN DETAIL."
+   },
+   "S026": {
+    "text": "what is appeals in college application?"
+   },
+   "S027": {
+    "text": "make a list of all activities we need to learn to get job in Record to Report business process "
+   },
+   "S028": {
+    "text": "my company give a medical card to my down line workers. How do I want to express and explain to my downline people our management gives this benefit due to their commitment to towards company. "
+   },
+   "S029": {
+    "text": "how to perform the nessesary calculations for federal tax forms"
+   },
+   "S030": {
+    "text": "Hi, what agreements does a Wyoming solo member, manager, director, shareholder C Corporation need to have in place and what agreements should it have to ask as a holding company to wholy owned out of state LLC, the goal is to eliminate tax burden elimination risk and maximize profits."
+   },
+   "S031": {
+    "text": "As a ride share company, How to measure success for the company to find KPI data?"
+   },
+   "S032": {
+    "text": "Please provide a comprehensive list of documents a cybersecurity needs to have in order to be compliant with the NIST"
+   },
+   "S033": {
+    "text": "We trust you will be aware that the action you have taken, should mortgage arrears accrue, would be detrimental effect upon you and your credit rating both now and in the future."
+   },
+   "S034": {
+    "text": "I want to write an ai article that can rank higher on Google, is that possible?"
+   },
+   "S035": {
+    "text": "can you produce me a method statment for fitting sanitaryware and shower tray and cubcle"
+   },
+   "S036": {
+    "text": "Translate to spanish\nDigital Tools for Creating Captivating Art Installations\nThe world of art is constantly evolving, and with the advent of digital technology, artists now have access to a vast array of tools that were previously unavailable. These tools can be used to create stunning art installations that engage the viewer on multiple levels.\n\nIn this article, we will explore some of the most popular digital tools for creating art installations. We will discuss their features and benefits, and provide examples of how they have been used to create some of the most famous art installations in recent years.\n<h2>2D and 3D Design Software</h2>\n2D and 3D design software is used to create the basic structures of art installations. These programs allow artists to create detailed models that can be used to plan the layout of the installation, as well as to generate images and animations that can be used to promote the work.\n\nSome of the most popular 2D and 3D design software programs used by artists include:\n<ul>\n \t<li><strong>Adobe Photoshop</strong></li>\n \t<li><strong>Adobe Illustrator</strong></li>\n \t<li><strong>Autodesk Maya</strong></li>\n \t<li><strong>Blender</strong></li>\n</ul>\n<h2>Motion Capture Technology</h2>\nMotion capture technology is used to record the movements of performers and use them to create realistic animations. This technology has been used to create some of the most iconic art installations in recent years, such as the &quot;Dancer&quot; by William Forsythe.\n\nMotion capture systems typically consist of a set of sensors that are attached to the performer's body. These sensors record the performer's movements and transmit the data to a computer, where it is used to create digital animations.\n<h2>Projection Mapping</h2>\nProjection mapping is a technique that uses projectors to project images and animations onto real-world surfaces. This technique can be used to create stunning art installations that transform buildings, sculptures, and other objects into immersive works of art.\n\nProjection mapping systems typically consist of a set of projectors that are positioned around the object to be projected onto. The projectors are then used to project images and animations onto the object, which can be manipulated in real-time to create a variety of effects.\n<h2>Interactive Installations</h2>\nInteractive installations allow viewers to interact with the artwork and affect its behavior. This type of installation can be created using a variety of technologies, such as motion sensors, touch screens, and even artificial intelligence.\n\nInteractive installations can be used to create a variety of experiences, from educational games to thought-provoking explorations of social issues. Some of the most famous interactive installations include the &quot;Rain Room&quot; by Random International and the &quot;Museum of Feelings&quot; by Meow Wolf.\n<h2>Conclusion</h2>\nThe digital tools discussed in this article are just a few of the many that can be used to create art installations. With the rapid pace of technological development, artists are constantly discovering new and innovative ways to use these tools to create stunning works of art.\n\nAs the digital realm continues to expand, we can only expect to see more and more amazing art installations that push the boundaries of what is possible."
+   },
+   "S037": {
+    "text": "How does a torrent client handle it if you're downloading two different torrents at the same time that both contain the same file?"
+   },
+   "S038": {
+    "text": "My friend had arranged to rent a room in the countryside for farm work; the deal was a $500 deposit and $250 per week, with a requirement to inform two weeks in advance before leaving. Coming back to the city, my friend met up with me, and I thought that was too expensive because I had previously lived in the countryside for $125. Plus, when I looked it up, most single rooms were around $150 per week. Since I was also planning to work on a farm, I suggested that we share the room for a week or two, splitting the cost to help my friend with the high rent. So, my friend asked the landlord if it was okay for his friend to stay for a short period, one to two weeks, and the landlord agreed but asked for $350 per week for the both of us together. We agreed and moved into the room, but unexpectedly, I ended up staying for two months.\n\nDuring my stay, due to a health issue, I had to urgently return to my country and informed the landlord a week in advance that I would be leaving in a week. However, today, the landlord is saying that since there’s a two-week notice period required and I only gave one week’s notice, I need to pay for two weeks before leaving. Should I really pay for the two weeks?"
+   },
+   "S039": {
+    "text": "User: ### **Multiple Choice Questions**\n\n**1. General Theme**\n1. What is the main topic of the text \"Less Attitude Phenomena\"?\n   - A. Teen fashion trends\n   - B. A new movement towards kindness and respect\n   - C. Social media challenges\n   - D. Environmental issues\n\n**2. Implicit and Explicit Information**\n2. Which statement is explicitly mentioned in the text?\n   - A. Teens are embracing kindness.\n   - B. Less attitude leads to environmental awareness.\n   - C. The movement started in Europe.\n   - D. The movement discourages genuine connections.\n\n**3. Implicit and Explicit Information**\n3. What is implied by the text regarding the impact of the \"less attitude\" movement on students' mental health?\n   - A. It has no impact.\n   - B. It worsens their mental health.\n   - C. It improves their mental health.\n   - D. It leads to physical health issues.\n\n**4. Main Idea**\n4. What is the main idea of the second paragraph?\n   - A. The negative effects of social media\n   - B. The adoption of \"less attitude\" by teens\n   - C. The role of schools in promoting drama\n   - D. The decline of genuine connections\n\n**5. Conclusion**\n5. According to the text, what is the overall effect of the \"less attitude\" trend?\n   - A. Increased stress and anxiety among teens\n   - B. More competitive and high-strung behavior\n   - C. A more harmonious and happy community\n   - D. A decline in social interactions\n\n**6. General Theme**\n6. What can be inferred about the \"less attitude\" phenomena from the text?\n   - A. It promotes aggressive behavior.\n   - B. It encourages understanding and respect.\n   - C. It focuses on academic achievements.\n   - D. It leads to more social media drama.\n\n**7. Implicit and Explicit Information**\n7. Which activity is explicitly mentioned as being avoided by teens embracing the \"less attitude\" movement?\n   - A. Participating in school competitions\n   - B. Engaging in unnecessary drama\n   - C. Joining sports teams\n   - D. Attending music festivals\n\n**8. Main Idea**\n8. The main idea of the third paragraph is:\n   - A. The benefits of \"less attitude\" on mental health and relationships\n   - B. The challenges faced by the movement\n   - C. The history of the \"less attitude\" movement\n   - D. The role of parents in promoting \"less attitude\"\n\n**9. Conclusion**\n9. What is a likely consequence of the \"less attitude\" movement according to the text?\n   - A. More conflicts among students\n   - B. Stronger and more honest relationships\n   - C. Reduced emphasis on school activities\n   - D. Increased use of social media\n\n**10. Synonym and Antonym**\n10. In the context of the text, which word is a synonym for \"laid-back\"?\n    - A. Stressed\n    - B. Relaxed\n    - C. Competitive\n    - D. Anxious\n\n---\nUser: ### **Multiple Choice Questions**\n\n**1. General Theme**\n1. What is the main topic of the text \"Less Attitude Phenomena\"?\n   - A. Teen fashion trends\n   - B. A new movement towards kindness and respect\n   - C. Social media challenges\n   - D. Environmental issues\n\n**2. Implicit and Explicit Information**\n2. Which statement is explicitly mentioned in the text?\n   - A. Teens are embracing kindness.\n   - B. Less attitude leads to environmental awareness.\n   - C. The movement started in Europe.\n   - D. The movement discourages genuine connections.\n\n**3. Implicit and Explicit Information**\n3. What is implied by the text regarding the impact of the \"less attitude\" movement on students' mental health?\n   - A. It has no impact.\n   - B. It worsens their mental health.\n   - C. It improves their mental health.\n   - D. It leads to physical health issues.\n\n**4. Main Idea**\n4. What is the main idea of the second paragraph?\n   - A. The negative effects of social media\n   - B. The adoption of \"less attitude\" by teens\n   - C. The role of schools in promoting drama\n   - D. The decline of genuine connections\n\n**5. Conclusion**\n5. According to the text, what is the overall effect of the \"less attitude\" trend?\n   - A. Increased stress and anxiety among teens\n   - B. More competitive and high-strung behavior\n   - C. A more harmonious and happy community\n   - D. A decline in social interactions\n\n**6. General Theme**\n6. What can be inferred about the \"less attitude\" phenomena from the text?\n   - A. It promotes aggressive behavior.\n   - B. It encourages understanding and respect.\n   - C. It focuses on academic achievements.\n   - D. It leads to more social media drama.\n\n**7. Implicit and Explicit Information**\n7. Which activity is explicitly mentioned as being avoided by teens embracing the \"less attitude\" movement?\n   - A. Participating in school competitions\n   - B. Engaging in unnecessary drama\n   - C. Joining sports teams\n   - D. Attending music festivals\n\n**8. Main Idea**\n8. The main idea of the third paragraph is:\n   - A. The benefits of \"less attitude\" on mental health and relationships\n   - B. The challenges faced by the movement\n   - C. The history of the \"less attitude\" movement\n   - D. The role of parents in promoting \"less attitude\"\n\n**9. Conclusion**\n9. What is a likely consequence of the \"less attitude\" movement according to the text?\n   - A. More conflicts among students\n   - B. Stronger and more honest relationships\n   - C. Reduced emphasis on school activities\n   - D. Increased use of social media\n\n**10. Synonym and Antonym**\n10. In the context of the text, which word is a synonym for \"laid-back\"?\n    - A. Stressed\n    - B. Relaxed\n    - C. Competitive\n    - D. Anxious\n\n---\nAssistant:"
+   },
+   "S040": {
+    "text": "pnpm is a more efficient package manager than npm that works by reusing dependencies if they have previously been downloaded. However, pnpm still gives the option to install a package globally. What difference is there between installing a package locally vs globally using pnpm?"
+   },
+   "S041": {
+    "text": "Summarize the following text in four sentences or less.:\nInflation slows to 2.8% in Canada in June, within Bank of Canada's target range\nAlicja Siekierska\nAlicja Siekierska\nTue, July 18, 2023 at 8:33 a.m. GMT-4·3 min read\nTORONTO ON-June 26.Gas prices surged back up above two dollars a litre in the GTA again after a week below the high water mark price.  (R.J. Johnston/Toronto Star)        (R.J. Johnston/Toronto Star via Getty Images)\nCanada’s annual inflation rate slowed to 2.8 per cent in June. (R.J. Johnston/Toronto Star via Getty Images)\nCanada’s annual inflation rate slowed to 2.8 per cent in June, according to Statistics Canada, but Canadians continue to face price pressures as rising food prices and mortgage interest costs push ever higher.\n\nThe rise in the Consumer Price Index (CPI) was down from a 3.4 per cent increase in May, and brings it in line with the Bank of Canada's previous forecast that inflation would ease to around 3 per cent by mid-year. It marks the first time in 27 months that annual headline inflation was within the central bank's target range of between one and three per cent.\n\nOn a monthly basis, CPI increased 0.1 per cent in June. Seasonally adjusted, the increase was also 0.1 per cent.\n\nBase-year effects in gasoline prices drove the slowdown in CPI, with prices falling 21.6 per cent year-over-year. Statistics Canada said the annual decrease was a result of elevated prices last year as China started to ease some COVID-19 health restrictions. On a monthly basis, Canadians paid 1.9 per cent more for gas than they did in May.\n\nFood prices continue to push stubbornly higher and remain one of the largest contributors to inflation, Statistics Canada said. The cost of food purchased from grocery stores increased 9.1 per cent annually in June, up from 9 per cent in May. The biggest contributors to the increase in food prices were the cost of meat (up 6.9 per cent), bakery products (up 12.9 per cent), dairy products (up 7.4 per cent) and other food preparations (up 10.2 per cent). The cost of fresh fruit jumped 10.4 per cent, in part because of a 30 per cent month-over-month increase in grape prices.\n\nBut Canadians did see some price relief in June, with Statistic Canada calling the deceleration \"fairly broad-based.\" Cell phone prices fell 14.7 per cent annually in June, following an 8.2 per cent annual decline in May. Internet prices also dropped 3.2 per cent annually in June, after rising 1 per cent annually in May.\n\nThe slowdown in inflation comes shortly after the Bank of Canada hiked its benchmark interest rate by a quarter-point, bringing it to 5 per cent. But the central bank predicted it will take even longer for inflation to return to 2 per cent.\n\nRoyce Mendes, managing director and head of macro strategy at Desjardins, said shortly after the release Tuesday that while inflation has fallen into the central bank's target range \"there are signs pointing to slower progress from this point on.\"\n\n\"The Bank of Canada’s preferred measures of core inflation, which exclude significant moves in individual categories, shows that underlying price pressures remain sticky,\" he wrote in a research note.\n\n\"There’s scope for headline inflation to reaccelerate in the months to come as some of the recent progress can be chalked up to one-off moves lower in prices.\"\n\nEconomists surveyed by Bloomberg had expected inflation to fall to 3 per cent year-over-year in June.\n\nAlicja Siekierska is a senior reporter at Yahoo Finance Canada. Follow her on Twitter @alicjawithaj.\n\nDownload the Yahoo Finance app, available for Apple and Android."
+   },
+   "S042": {
+    "text": "Answer this question from the text, \" What is partisan traditionalism? \"\ntext **** Partisan traditionalism. In Puerto Rico, many people decide in advance which party or candidates they will vote for, regardless of what happens during the election campaign. This is simply because these voters feel an unwavering attachment or loyalty to a political party. The voting motive that is related to traditional, personal or family loyalty to a specific political party is known as partisan traditionalism. How does partisan traditionalism arise? Sometimes, the basis of this loyalty is related to the political socialization process that exists in the family, since there is a family tradition that favors a specific political party. The vote that has a motive of partisan traditionalism is usually integral and very committed. Sometimes, the reason for adherence to a party is based on personal experience. For example, when a person receives a political favor from party leaders, he or she is likely to be grateful and loyal to them for life. A study on the political culture of Puerto Ricans, conducted in the late 1980s by professors Ángel Israel Rivera and Ana Irma Seijo, of the University of Puerto Rico, together with statistician Jaime W. Colón, showed that, for one third of the 1,375 people surveyed, the main motivation or motive for their vote was traditionalist attachment to a party. That is, 33% of the respondents clearly admitted that they had their vote decided in advance in favor of the political party for which they felt an affective and traditional loyalty. The traditional vote continues to be of great importance in Puerto Rico, as it was the most frequently mentioned motive among those interviewed, according to the study. ****"
+   },
+   "S043": {
+    "text": "Imagine you are an American with experience living in Asia, Europe and South America, having seen some degree of how business and culture meet in each place. Based on that, what would you argue is the most important aspect of international risk management for a manager? Why? Please cite any sources, APA style."
+   },
+   "S044": {
+    "text": "What’s a fun thing I can do during summer . I feel really depressed coz I’m sick and in hospital a lot but I wanna go out and have fun .. I’ve forgotten how "
+   },
+   "S045": {
+    "text": "What is meant by \"applied quantum computing?\"\n\n\nusing quantum computers to solve real business problems\n\n\nprocessing simple mathematical functions more quickly\n\n\ninstalling quantum computers directly in company offices\n\n\nbuilding more advanced quantum computing hardware"
+   },
+   "S046": {
+    "text": "Select all that apply to the question: \"Raves began as festivals that provided an alternative to what?  (Pick two items for full credit.)\"\n1. Music by Beebop groups\n2. Russian bands\n3. Nightclubs\n4. Commerical radio\nRespond with the numbers of the answers that apply (numbers 1 through 4), separated by commas."
+   },
+   "S047": {
+    "text": "I had a complete blood count with the following results: \n\nWBC = 4.26, RBC = 3.90, Hgb = 9.3, Hct = 34.4, MCV = 88.2, MCH = 23.8, MCHC = 27.0, RDW = 20.3, Plt = 115, Differential type = Manual, Abs neuts = 1.11, Abs immature grans = 0.23, Abs lymphs = 2.58, Abs monos = 0.32, Abs basos = 0.02, Segs % = 26.0, Lymphs % = 60.5, Monos % = 7.5, Eos % = 0.0, Basos % = 0.5, Metas % = 3.5, Myelos % = 2.0, Promyelos % = 0.0, NRBCC = 1.5, Plt estimate = Abnormal, POIKILOCYTOSIS = 1+, Polychromasia = 1+\n\nI also had a bone marrow biopsy that showed 6% blasts. What can you tell me about my condition?"
+   },
+   "S048": {
+    "text": "Resign latter for unable to handling production target,I am try to do better but I having no support top to bottom and try put blaming on for me in every thing, in this situation better to resign my self "
+   },
+   "S049": {
+    "text": "An amplifier with an input resistance of 10 KOhm, is connected to a transducer via a coupling capacitor of 100nF. If the transducer has an output resistance of 1 KOhm, what will be the cutoff frequency produced by this connection? Is it a higher or lower cutoff frequency?"
+   },
+   "S050": {
+    "text": "should I put the Google search verification code on all my html pages or just in the home page to get the best crawling and seo"
+   },
+   "S051": {
+    "text": "Give me examples of trading entries that smart money uses "
+   },
+   "S052": {
+    "text": "give me suggestion of keyword and hashtag for youtube shorts musical and lyrical songs"
+   },
+   "S053": {
+    "text": "what are the key activities of Drafting the IT budget and oversee actual IT spend to ensure effective allocation of resources and alignment with business priorities"
+   },
+   "S054": {
+    "text": "When does your database stop?"
+   },
+   "S055": {
+    "text": "Translate the text to UK :\nCan you book a van for me to collect some equipment from a warehouse in Wembley and bring it to my office in Camden?.\n\n                    Please only output the translation result. Do not output anything else.\n\n                    You response:"
+   },
+   "S056": {
+    "text": "Hello, ChatGPT. Let's say something happens to a nuclear power plant. What should people who live nearby do? "
+   },
+   "S057": {
+    "text": "can you help me explain this\nThe main objective is to keep out on 2 major companies.\n1st priority  : expansion plan\n2nd : Non-expansion , add available rooms plan\n\nIf the available room conditions change, be flexible in constructing the proposal. Don't get persist with the expansion proposal. \n(If 7Pc of A10 was available,  the non-expansion proposal seems  better than expansion plan on another floor he said.)"
+   },
+   "S058": {
+    "text": "Activity 2. Scan Me!\n\nDirection: Read and understand the story below and answer the questions that follow.\n\nAdaptation from The Journey to the River Sea\n\nBy Eva Ibbotson\n\nMaia is an orphan. Her only guardian is a lawyer, named Mr. Murray, whose only responsibility is to help her with the small amount of money her parents have left her when they died. Then, Maia learned that her relatives, the Carters would be willing to take care of her. When a note written by the Carter twins, Gwendolyn and Beatrice, arrives, Maia makes up her mind to go live with the Carters in their house on the Amazon. She travels there with Miss Minton, her new tutor. On the boat from England, she meets Clovis King, a struggling child actor. The two quickly became friends. Maia is very excited to live with the Carters. She imagines that she and the twins will become the best of friends and they will have a wonderful time together.\n\nHowever, the only reason the Carters took Maia in was her money. In reality, Gwendolyn and Beatrice are selfish. They hate Maia before they even know her. Maia feels like being with the Carters is like a being in prison. Soon, however, she meets Finn, who is running away from private detectives known as \"the crows.\" They are trying to force Finn to return to England and claim his inheritance.\n\nWhen Clovis committed a mistake in a play where he belongs, he goes to Maia for\n\nhelp because his acting company fires him. She and Finn hide him in the hidden lagoon where Finn lives and devise a plan to get Clovis back to England. Finn, Maia, and Clovis plan to make the crows believe that Clovis is Finn so Clovis pretended to be Finn.\n\nMeanwhile, in England, Clovis confesses that he is not the real Finn and wishes to go home, which causes Sir Aubrey, Finn's father to have a heart attack. The real Finn goes to his father's home, to help Clovis reveal the truth.\n\nIn the end, Mrs. Carter, Beatrice and Gwendolyn return to England to become\n\nservants of their wealthy relative. However, Maia, Miss Minton and Clovis all return to Brazil. Finn inherits all his family's money and possessions.\n\nAssessment 2.1. Comprehension Check\n\nDirection: The story was quite interesting. Now answer the questions that follow to test your understanding.\n\n1. What problems did Maia experience during her travel to Brazil?\n\n2. What are the characteristics of Gwendolyn and Beatrice?\n\n3. What life lessons did she learn from her friends Finn and Clovis?"
+   },
+   "S059": {
+    "text": "translate to chinese In light of improving your experience in Lazada, we are introducing a priority service manager for your group to facilitate faster turnaround for your concerns Your dedicated service manager will be online from 9 - 6 PM, Mondays to Fridays During non-work hours, you may relay your concerns ADA form in file below.\n"
+   },
+   "S060": {
+    "text": "I am preparing for an intense DBMS (Database Management Systems) interview, and I need a highly comprehensive, detailed, and in-depth set of notes that covers everything about DBMS from the ground up. I want this material to be so thorough that I can confidently answer any question an interviewer might ask, regardless of its complexity or obscurity.\n\nThe notes should leave absolutely nothing out, covering DBMS theory, architecture, practical applications, and implementation strategies. I need detailed explanations of each topic, accompanied by real-world examples, diagrams, and comparisons to make the concepts clear and digestible.\n\nThe following topics should be included, but not limited to:\n\n1. Introduction to DBMS\nWhat is a DBMS? Why do we use it?\nThe difference between file systems and DBMS.\nAdvantages of DBMS over traditional file systems.\nReal-world examples where DBMS is essential.\n2. Database Models and Schemas\nDetailed breakdown of ER models, relational models, network models, hierarchical models, object-oriented models.\nSchema architecture (Physical, Logical, View).\nEntity-Relationship (ER) Diagrams: Detailed explanation, including entities, attributes, and relationships.\nMapping ER diagrams to relational models.\n3. Database Normalization\nDeep dive into normalization: Explain First Normal Form (1NF) to Fifth Normal Form (5NF).\nFunctional dependencies and their role in normalization.\nDenormalization: When and why we denormalize.\n4. SQL (Structured Query Language)\nCover every aspect of SQL: DDL (CREATE, ALTER, DROP), DML (SELECT, INSERT, UPDATE, DELETE), DCL (GRANT, REVOKE), and TCL (COMMIT, ROLLBACK).\nDetailed breakdown of complex queries, subqueries, joins (inner, outer, left, right), unions, intersections, and set operations.\nQuery optimization: Explain indexes, query plans, and how databases execute queries behind the scenes.\n5. Relational Algebra and Relational Calculus\nDetailed explanation of relational algebra: Selection, projection, union, set difference, Cartesian product, joins.\nRelational calculus: Tuple and domain relational calculus, including their importance in query languages.\n6. Transactions and Concurrency Control\nTransactions: Definition, properties (ACID), and examples.\nConcurrency Control: Why it's necessary, methods like two-phase locking (2PL), timestamp ordering, and multiversion concurrency control (MVCC).\nIsolation levels: Read uncommitted, read committed, repeatable read, and serializable—what they mean and where they apply.\nDeadlock: How it occurs and how to prevent or resolve it.\n7. Database Storage and File Organization\nExplain the types of file organization: Heap files, sorted files, and hashing.\nIndexing: Single-level, multi-level, clustered, and non-clustered indexing.\nB-trees and B+ trees: How they work, why they're used in DBMS, and their role in indexing.\nHashing: Static and dynamic hashing, extendible hashing, and linear hashing.\n8. Query Processing and Optimization\nExplain query processing stages: Parsing, optimization, execution.\nQuery optimization techniques: Cost-based vs. rule-based optimization, the role of indexes, join algorithms (nested-loop join, hash join, sort-merge join).\nExecution plans: How they are generated, what they represent, and how to analyze and improve them.\n9. Transaction Management and Recovery\nACID properties revisited, focusing on practical applications.\nConcurrency anomalies: Lost updates, dirty reads, non-repeatable reads, and phantom reads.\nRecovery mechanisms: Write-ahead logging, checkpoints, shadow paging, undo/redo operations.\nCrash recovery in distributed systems.\n10. Distributed Databases\nWhat distributed databases are and why they are used.\nChallenges in distributed databases: Network partitioning, replication, consistency, and latency.\nCAP Theorem: Detailed explanation and implications for database systems.\nDistributed transactions: Two-phase commit, three-phase commit.\nConcepts of sharding, partitioning, and replication.\n11. NoSQL Databases\nNoSQL: What it is, why it's important, and the different types (document stores, key-value stores, column stores, graph databases).\nDetailed comparison between NoSQL and traditional relational databases.\nUse cases where NoSQL is better suited than SQL.\nEventual consistency vs. strong consistency in NoSQL systems.\nPopular NoSQL databases: MongoDB, Cassandra, Redis, etc.\n12. Big Data and Database Integration\nHow DBMS fits into the world of Big Data.\nHadoop and DBMS integration: How DBMS can be used with Hadoop for efficient data management.\nIn-memory databases: What they are and when to use them.\nSharding, replication, and partitioning in large-scale data systems.\nNewSQL: What it is, its advantages over traditional SQL and NoSQL systems.\n13. Database Security\nExplain authentication and authorization methods in DBMS.\nEncryption: Both at-rest and in-transit encryption mechanisms.\nSQL Injection: How it works, prevention techniques.\nAuditing and logging: Why they are essential for security and compliance.\n14. Backup and Recovery Techniques\nBackup types: Full, incremental, differential, and mirror backups.\nBackup strategies for large-scale databases.\nDisaster recovery: Techniques and tools.\nHow to design a reliable and secure backup plan.\n15. Database Tuning and Performance Optimization\nQuery tuning: Explain how to optimize complex queries.\nIndex tuning: How to choose the right indexes, how to monitor index performance.\nCaching mechanisms: The role of caching in DBMS performance.\nDatabase configuration settings that affect performance.\n16. Emerging Trends in DBMS\nCloud databases: AWS RDS, Google Cloud SQL, Azure SQL, and their key features.\nAI and ML in databases: How machine learning and AI are being integrated with DBMS.\nBlockchain databases: What they are, how they work, and why they are becoming relevant.\nEdge computing and DBMS: How databases are being optimized for edge devices.\n17. Database Design Best Practices\nBest practices for designing scalable, maintainable, and secure databases.\nTrade-offs between normalization and denormalization for performance.\nCommon design pitfalls and how to avoid them.\n18. Practical Application of DBMS in Real-world Systems\nCase studies of database implementations in industries like e-commerce, healthcare, banking, and social media.\nReal-world problems and how DBMS solves them.\n"
+   }
+  }
+ },
+ "part2": {
+  "items": {
+   "D001": {
+    "text": "Need to prepare a cybersecurity plan for a charitable development trust organization in the UK. Provide a template to get started ",
+    "domain": "politics_civic"
+   },
+   "D002": {
+    "text": "\"I'm looking for a detailed step-by-step overview of the [Record to Report-Fixed Asset Accounting]. Please include the following information in your response:\n\nOverview of the Process: A brief explanation of the process and its importance in the organization.\nStep-by-Step Breakdown: Detailed steps involved in the process, including:\nActions required at each step\nAny relevant documentation used\nSoftware tools or T-codes (if applicable)\nKey decisions or approvals needed\nJournal Entries: Examples of relevant journal entries for each step where applicable.\nNotes on Compliance and Auditing: Information on any compliance issues that need to be considered and suggestions for audit practices.\nConclusion: A summary of the process and its impact on the business.\nFor each step, please structure it in a clear manner so that it's easy to follow.\"",
+    "domain": "finance_tax"
+   },
+   "D003": {
+    "text": "I have an idea. a crhome extension that lets you put postits on a website to remember things. e.g. you are on a dashboard and can remember what buttons to click and so on. you write a reminder in the form of a post it that gets stored in your local storage. whenever you visit that site the post it is displayed. thats the mvp.\n\nin future versions you might be able to share post its for everyone or a certain group.\n\nwhat do you think of the idea? is it unique. is there already something like this outside?\n\nwhat is the expected MRR for an idea like that",
+    "domain": "housing"
+   },
+   "D004": {
+    "text": "What happens when i invest $1000 on a $3 stock and the stock rises to $13?",
+    "domain": "finance_tax"
+   },
+   "D005": {
+    "text": "I am going to public a small article on the proceedings of a conference. The conference is quite small however proceedings will have the ISBN. A friend of mine is very Happy about this fact. However, I am not getting the reason why in his opinion this is a relevant fact.",
+    "domain": "healthcare"
+   },
+   "D006": {
+    "text": "Under the insurance code of the philippines, give me sections of the code where the client has the right to choose his/her own financial advisor that satisfies his/her needs.",
+    "domain": "legal"
+   },
+   "D007": {
+    "text": "As a foreigner that don't live in canada, How can i get job in nova scotia Canada and immigrate ?",
+    "domain": "workplace_practice"
+   },
+   "D008": {
+    "text": "Is there a professional register for hypnotherapists?",
+    "domain": "finance_tax"
+   },
+   "D009": {
+    "text": "Log in\n\nSign up\nYou said:\nEB-2 NIW how to get green card after you get it in short words\nChatGPT said:\nChatGPT\nAfter receiving an EB-2 National Interest Waiver (NIW), the process to get your Green Card (Permanent Residency) typically involves these steps:\n\nFile Form I-485 (Adjustment of Status): If you're in the U.S., submit this form to adjust your status to a lawful permanent resident.\n\nAttend Biometrics Appointment: USCIS will schedule this to take fingerprints and photos for background checks.\n\nComplete an Interview (if required): Some applicants may be asked to attend an interview.\n\nReceive Green Card Approval: If everything goes well, USCIS will approve your case and send your Green Card.\n\nIf you're outside the U.S., you'll go through Consular Processing at a U.S. Embassy/Consulate after your I-140 is approved.\n\n\n\nYou said:\nwhat is about I-485 and price?\nChatGPT said:\nChatGPT\nThe I-485, Application to Register Permanent Residence or Adjust Status, is the form you file to apply for a Green Card if you're already in the U.S. It’s part of the process to adjust your status from a nonimmigrant (temporary) visa holder to a lawful permanent resident.\n\nSteps for I-485:\nFile the Form: Submit the completed I-485 to USCIS with all supporting documents (such as your I-140 approval notice, medical exam results, etc.).\nPay Fees: There is a fee associated with the form.\nAttend Biometrics Appointment: USCIS will schedule a biometrics appointment for fingerprinting and background checks.\nWait for Decision: USCIS will review your application and may schedule an interview (not always required).\nReceive Green Card: If approved, you will receive your Green Card.\nI-485 Filing Fees (as of 2024):\nAdults (14-79 years): $1,225 (includes $1,140 for the form and $85 for biometrics)\nChildren (under 14, filing with a parent): $750\nChildren (under 14, not filing with a parent): $1,225 (same as adults)\nNote: Fees may vary based on your situation, and USCIS fees are subject to change, so it’s always best to check the current fee schedule on the USCIS website before filing.\n\n\n\nYou said:\nfrom EB-2 NIW to I-485 with all steps and fees please describe in short words process and calculate time and fees regular and premium\nChatGPT said:\nChatGPT\nEB-2 NIW to I-485: Process & Fees\nStep-by-Step Process:\n\nI-140 Petition (EB-2 NIW)\n\nFile I-140 (Immigrant Petition for Alien Worker) to demonstrate eligibility for EB-2 NIW.\nProcessing time: 6-12 months (may vary).\nFee: $700 (regular processing). Premium processing (optional) is $2,500 and speeds up the decision to 15 calendar days.\nI-485 Application (Adjustment of Status)\n\nAfter I-140 approval, or concurrently if eligible, file Form I-485 (Application to Adjust Status to Green Card).\nProcessing time: 8-14 months (depending on the USCIS service center).\nBiometrics Appointment\n\nAfter submitting I-485, USCIS schedules a biometrics appointment for fingerprinting and background checks.\nFee: $85.\nInterview (if required)\n\nUSCIS may schedule an interview (not always required, especially for EB-2 NIW).\nTime: Varies; usually takes place after biometrics if needed.\nDecision and Green Card Issuance\n\nUSCIS reviews your case and approves if everything is in order.\nWait time: 1-3 months after interview or biometrics.\nFees Breakdown (as of 2024)\nI-140 Fees:\n\nRegular: $700\nPremium Processing (optional): $2,500 (only for faster I-140 decision)\nI-485 Fees:\n\nAdults (14-79 years): $1,225 (includes $1,140 for form, $85 biometrics)\nChildren (under 14, filing with parent): $750\nChildren (under 14, not filing with parent): $1,225\nTotal Estimated Fees\nRegular (I-140 + I-485):\n\nI-140: $700\nI-485: $1,225\nTotal: $1,925\nPremium Processing (I-140 + I-485):\n\nI-140: $2,500 (Premium)\nI-485: $1,225\nTotal: $3,725\nEstimated Timeline\nTotal Time:\nWithout Premium Processing: ~12-18 months (6-12 months for I-140, 8-14 months for I-485)\nWith Premium Processing: ~10-14 months (I-140 decision in 15 days, I-485 processing remains the same).\nThis is a general overview and times may vary depending on your case and USCIS workload. Always check the latest info on the USCIS website.\n\n\n\nYou said:\nwithout children but with a husbend + add medical checkup ecpensys \nChatGPT said:\nChatGPT\nIf you're applying for a Green Card through the EB-2 NIW and you have a husband (spouse) but no children, here’s the updated process, fees, and timeline including medical checkup expenses.\n\nSteps & Fees Breakdown for EB-2 NIW to I-485 (with Spouse)\n1. I-140 Petition (EB-2 NIW)\nFile Form I-140: This is your immigrant petition for the EB-2 NIW.\nProcessing time: 6-12 months.\nFee:\nRegular processing: $700\nPremium processing (optional): $2,500 (expedited decision in 15 days)\n2. I-485 Application (Adjustment of Status) for Both Applicant and Spouse\nOnce your I-140 is approved (or you file concurrently), both you and your spouse will file Form I-485 to adjust status to a Green Card holder.\n\nProcessing time: 8-14 months for I-485 (for both applicant and spouse).\nFee (for each person, you and your spouse):\n$1,225 per adult (14-79 years). This includes $1,140 for the form and $85 for biometrics.\nTotal I-485 fee for you + spouse: $2,450.\n3. Biometrics Appointment\nAfter submitting I-485, USCIS will schedule a biometrics appointment (fingerprinting and background check) for both you and your spouse.\nFee: $85 per person.\nTotal Biometrics fee for you + spouse: $170.\n4. Medical Exam (Form I-693)\nBoth you and your spouse will need to submit a medical exam report to USCIS with your I-485 application (unless you already submitted it earlier with your I-140).\n\nFee for medical exam: Varies by doctor but typically ranges from $100 to $500 per person.\nTotal medical exam fees for both you + spouse: $200 to $1,000.\n5. Interview (if required)\nUSCIS may request an interview to confirm your eligibility (not always required, but likely for some cases).\nNo additional fee for the interview, but it could affect the total processing time.\n6. Green Card Approval and Issuance\nAfter approval, USCIS will issue Green Cards for both you and your spouse.\nNo additional fee after approval.\nTotal Estimated Fees (for both you and your spouse)\nWithout Premium Processing:\n\nI-140 fee: $700 (for you only)\nI-485 fee: $1,225 per person = $2,450 (for you + spouse)\nBiometrics fee: $85 per person = $170 (for you + spouse)\nMedical exam fees: $200 to $1,000 per person = $400 to $2,000 (for you + spouse)\nTotal: $3,720 to $5,620\n\nWith Premium Processing:\n\nI-140 Premium Processing fee: $2,500\nI-485 fee: $2,450 (for you + spouse)\nBiometrics fee: $170 (for you + spouse)\nMedical exam fees: $400 to $2,000 (for you + spouse)\nTotal: $5,520 to $7,620\n\nEstimated Timeline\nWithout Premium Processing:\n\nI-140 processing: 6-12 months\nI-485 processing: 8-14 months\nTotal time: ~12-18 months (for both you and your spouse).\nWith Premium Processing:\n\nI-140 decision in 15 days (premium processing)\nI-485 processing: 8-14 months\nTotal time: ~10-14 months (faster I-140 processing, I-485 remains the same).\nThis should give you a clear understanding of the process, costs, and timeline for applying with a spouse. Please check the latest USCIS fees and processing times for any changes! is it possible to apply for green card with J-2 visa and how?",
+    "domain": "healthcare"
+   },
+   "D010": {
+    "text": "put in formal and better sentence\nI would like to inquire about what RBA stands for in this company. My new manager who newly joined this company 3 days ago, started to force me to work overtime. When I told him that I had my personal family issue which I needed to off work on time, he immediately slammed on the table loudly and told me that I need to follow all his and not discussable on any personal issue. He said he is my manager, whatever he says goes.\nWhen I firmly told him that this family issue is important to me, he continued bang on table repeatedly. I told him that his attitude of shouting and slamming table is not respectful and not acceptable, he shouted and asked me to get lost.\nI would like to know how I am supposed to comply and continue to work with a manager who showing rude and disrespectful attitude, this will be a long term mental abuse in work. After few thorough and careful thought, I decided to resign. \n\n",
+    "domain": "legal"
+   },
+   "D011": {
+    "text": "sleevei n shear wall",
+    "domain": "politics_civic"
+   },
+   "D012": {
+    "text": "If you really hate a charity and think its doijg a bad thing in some way, can you do anything about that?",
+    "domain": "politics_civic"
+   },
+   "D013": {
+    "text": "I am applying for customer service job. it is work from home. how to answer : why should we hire you ",
+    "domain": "healthcare"
+   },
+   "D014": {
+    "text": "Both invoice Barcodes are not compatible with ZATCA.  Please update and send them back to us. respond to this mail by stating that we tried the barcodes ourselves and it's working. make it short, be formal ",
+    "domain": "business_income"
+   },
+   "D015": {
+    "text": "Assume you are a experienced financial expert with a 20 year of experience in the home finance. Create a budget for me balancing my expenses and enough money to save for my emergency fund Rs. 1,00,000 and long term fund to save an initial amount of Rs. 10,00,000. My monthly salary and indirect earnings sum up to Rs. 70,000. I want to raise the emergency fund within 5 months and the long term fund within 10 years. I have the following mandatory expenses.\n\n1. House rent : Rs. 10,000\n2. Loan: Rs. 6,000\n3. Savings to LIC: Rs. 5,700\n4. House expenses: 10000\n5. Credit card : 15,000\n6. Miscellaneous expenses : Rs. 5,000. \n\n\n2/2\n\nChatGPT\nCreating a budget to balance your expenses and save for both an emergency fund and a long-term fund involves careful planning. Here's a step-by-step breakdown of how you can achieve these goals given your monthly income and expenses.\n\nMonthly Income\nTotal Monthly Income: Rs. 70,000\nMonthly Expenses\nHouse Rent: Rs. 10,000\nLoan Repayment: Rs. 6,000\nSavings to LIC: Rs. 5,700\nHouse Expenses: Rs. 10,000\nCredit Card Payment: Rs. 15,000\nMiscellaneous Expenses: Rs. 5,000\nTotal Monthly Expenses\nTotal Monthly Expenses: Rs. 51,700\nNet Monthly Savings\nNet Monthly Savings: Rs. 70,000 - Rs. 51,700 = Rs. 18,300\nEmergency Fund Goal\nEmergency Fund Amount: Rs. 1,00,000\nTimeframe: 5 months\nMonthly Savings Required: Rs. 1,00,000 / 5 = Rs. 20,000\nLong-Term Fund Goal\nLong-Term Fund Amount: Rs. 10,00,000\nTimeframe: 10 years (120 months)\nMonthly Savings Required: Rs. 10,00,000 / 120 = Rs. 8,333\nBudget Plan\nFor the First 5 Months\nEmergency Fund: Allocate Rs. 20,000 per month\nLong-Term Fund: (Since the emergency fund is a priority, defer long-term fund savings for these 5 months)\nRemaining Monthly Savings: Rs. 18,300 - Rs. 20,000 = -Rs. 1,700 (shortfall)\nTo cover this shortfall, you might need to temporarily reduce some discretionary expenses or increase your income. Possible adjustments:\n\nReduce Miscellaneous Expenses: Rs. 5,000 - Rs. 1,700 = Rs. 3,300\nAdjustments might be needed:\n\nMiscellaneous Expenses (Reduced): Rs. 3,300\nAfter Emergency Fund is Achieved (from Month 6 onwards)\nLong-Term Fund: Allocate Rs. 8,333 per month\nRemaining Monthly Savings: Rs. 18,300 - Rs. 8,333 = Rs. 9,967\nThis remaining amount can be used to restore any reduced expenses or further invest/save.\n\nFinal Budget Breakdown\nFor the First 5 Months:\nHouse Rent: Rs. 10,000\nLoan Repayment: Rs. 6,000\nSavings to LIC: Rs. 5,700\nHouse Expenses: Rs. 10,000\nCredit Card Payment: Rs. 15,000\nMiscellaneous Expenses: Rs. 3,300\nEmergency Fund Savings: Rs. 20,000\nAfter 5 Months:\nHouse Rent: Rs. 10,000\nLoan Repayment: Rs. 6,000\nSavings to LIC: Rs. 5,700\nHouse Expenses: Rs. 10,000\nCredit Card Payment: Rs. 15,000\nMiscellaneous Expenses: Rs. 5,000\nLong-Term Fund Savings: Rs. 8,333\nAdditional Savings/Investments: Rs. 9,967\nBy following this plan, you will be able to save for both your emergency and long-term fund goals within the desired timeframes. Remember, it's important to regularly review and adjust your budget as needed.\n\nWhat is the best options for the savings. I live in Kochi, Kerala. \nChatGPT\nIn Kochi, Kerala, you have several options for saving and investing your money to achieve your financial goals. Here are some of the best options:\n\n1. Emergency Fund Savings\nSince this fund needs to be readily accessible and safe, consider the following options:\n\nHigh-Interest Savings Accounts: Banks like HDFC, ICICI, SBI, and Federal Bank offer high-interest savings accounts with easy access to your funds.\nFixed Deposits (FDs): Short-term FDs (3-6 months) with good interest rates can be a safe option.\nRecurring Deposits (RDs): Some banks offer attractive interest rates on RDs, making it easier to save a fixed amount monthly.\n2. Long-Term Fund Savings\nFor your long-term fund, consider a mix of safe and higher-return investments:\n\nSafe Options:\nPublic Provident Fund (PPF): A government-backed savings scheme with tax benefits and decent returns. The lock-in period is 15 years, but it can be a reliable long-term investment.\nNational Savings Certificate (NSC): Another government-backed option with a 5-year maturity period, offering decent returns and tax benefits.\nModerate to High Return Options:\nMutual Funds: Systematic Investment Plans (SIPs) in mutual funds can offer good returns over the long term. Consider equity mutual funds for higher returns and debt mutual funds for more stable returns. Popular mutual fund houses include HDFC Mutual Fund, ICICI Prudential, and SBI Mutual Fund.\nStock Market: Investing in individual stocks can offer high returns but comes with higher risk. It's advisable to invest in well-researched companies or index funds/ETFs for diversification.\nReal Estate: Investing in property in Kochi could be a good long-term investment, given the city's growth. However, this requires a significant initial investment and thorough research.\nHybrid Options:\nBalanced Funds: These mutual funds invest in a mix of equity and debt, providing a balance between risk and return.\nULIPs (Unit Linked Insurance Plans): These provide both investment and insurance benefits, though they come with higher charges and lock-in periods.\n3. Tax-Advantaged Savings\nEmployee Provident Fund (EPF): If you're salaried, ensure you're making the most of your EPF contributions, which are tax-exempt and provide decent returns.\nNational Pension System (NPS): A retirement-focused investment with tax benefits and the flexibility to invest in equity, debt, and government securities.\n4. Other Considerations\nDiversification: Spread your investments across different asset classes to mitigate risks.\nRegular Reviews: Periodically review your portfolio and adjust based on market conditions and your financial goals.\nFinancial Advisor: Consider consulting a financial advisor to tailor a plan specific to your needs and risk tolerance.\nBy carefully selecting a mix of these options, you can achieve your emergency fund and long-term savings goals while managing risk and maximizing returns.\n\nWhich is the best option for my savings. I want to save the money safely with good returns.\nChatGPT\nIf your primary goal is to save money safely while also ensuring good returns, consider a mix of the following options:\n\n1. High-Interest Savings Accounts\nPros: Safe, liquid, and easily accessible.\nCons: Lower returns compared to other options.\nRecommendation: Suitable for emergency funds.\n2. Fixed Deposits (FDs)\nPros: Safe, guaranteed returns, flexible tenures.\nCons: Lower returns compared to mutual funds and equities, penalty for early withdrawal.\nRecommendation: Ideal for short to medium-term goals. Look for banks offering higher interest rates.\n3. Public Provident Fund (PPF)\nPros: Safe, government-backed, tax benefits, decent returns.\nCons: Long lock-in period of 15 years, partial withdrawals allowed after 7 years.\nRecommendation: Suitable for long-term goals. Regular contributions can compound over time.\n4. Mutual Funds (Systematic Investment Plans - SIPs)\nPros: Potential for higher returns, professional management, variety of options (equity, debt, balanced).\nCons: Market risks, not as safe as bank deposits.\nRecommendation: For long-term goals, consider equity mutual funds for growth. For medium-term goals, consider balanced or debt mutual funds.\n5. National Savings Certificate (NSC)\nPros: Safe, government-backed, fixed returns, tax benefits.\nCons: 5-year lock-in period.\nRecommendation: Good for medium-term savings with tax benefits.\n6. Employee Provident Fund (EPF)\nPros: Safe, tax-exempt, decent returns, employer contribution.\nCons: Limited access until retirement.\nRecommendation: Maximize your EPF contributions if you're salaried. It's a secure way to save for retirement.\n7. Recurring Deposits (RDs)\nPros: Safe, disciplined saving approach, fixed returns.\nCons: Lower returns compared to mutual funds.\nRecommendation: Suitable for medium-term savings goals.\nRecommended Strategy:\nEmergency Fund (Rs. 1,00,000 in 5 months)\nHigh-Interest Savings Account or Short-Term FD/RD: Allocate Rs. 20,000 per month to a high-interest savings account or a short-term FD/RD.\nLong-Term Fund (Rs. 10,00,000 in 10 years)\nPublic Provident Fund (PPF): Contribute a fixed amount regularly. This will ensure tax benefits and compounded returns over time.\nSystematic Investment Plans (SIPs) in Mutual Funds: Allocate a portion of your savings to SIPs in balanced or equity mutual funds for potential higher returns.\nNational Savings Certificate (NSC): Invest a portion in NSCs for medium-term goals with tax benefits.\nSample Allocation:\nEmergency Fund:\n\nHigh-Interest Savings Account/Short-Term FD: Rs. 20,000 per month for 5 months.\nLong-Term Fund:\n\nPPF: Rs. 5,000 per month.\nSIPs in Balanced/Equity Mutual Funds: Rs. 3,000 per month.\nNSC: Rs. 5,000 lump sum periodically when you have extra funds.\nAdjustments:\nPeriodically review your investments and adjust based on performance and changing financial goals.\nRebalance your portfolio to maintain a mix of safety and growth.\nBy diversifying across these safe and relatively higher-return options, you can achieve your savings goals while managing risk.\n\nConvert the above chat data into a report in pdf format. Include, histograms, charts, pie diagrams, infographics etc to make the content more understandable.",
+    "domain": "healthcare"
+   },
+   "D016": {
+    "text": "based on the information you have, would people rather creating a account for a service? or have a account pre-made? or are temporary accounts a better option, for example, selling a item. Person buys said item, a email is sent with a tempt password and whatever email they give, once the item has been mailed and after a period of time (14-30 days) the account is disabled, unless they make another order.",
+    "domain": "legal"
+   },
+   "D017": {
+    "text": "I want my forecasts to be as accurate as possible, which can be difficult when relying on a generative AI LLM because, at best, this approach produces synthetic data for hypothesis testing. At worst, it can lead to wrong predictions. To achieve the best accuracy, it is necessary to gather the appropriate data. From the following prompt, which data should I gather:\n\n\"Identify a novel intersection between two unrelated studies (topics named later), envisioning a unique business context aiming to generate revenue. Then, within this context, conceive a business proposal targeting a niche market comprised of distinctive consumers with specific demands. Your business plan must take into account limited human resources, with no more than two individuals dedicating 30 hours each per week.\n\nProvide a detailed financial forecast, including startup costs, recurring expenses, and monthly profit predictions, based on a realistic and psychologically-informed pricing strategy. The business model should emphasize efficiency, maximize value to high-paying clientele, and push the boundaries of conventional business practices, always within the framework of legal compliance. Include insights on how to minimize costs using digital solutions and automation, and ensure the proposal aligns with market data and trends.\n\nCan you offer an innovative and profitable business concept under these constraints?\"",
+    "domain": "finance_tax"
+   },
+   "D018": {
+    "text": "Is it possible to permanently remove and stop producing kidney stones naturally? If so, what steps should I take? I believe I’ve had at least one stone in each kidney for the past 5 years but have never passed one",
+    "domain": "workplace_practice"
+   },
+   "D019": {
+    "text": "I want to apply for duffer job roles on indeed and I have different experience for each how many cvs can I upload to indeed",
+    "domain": "employment_career"
+   },
+   "D020": {
+    "text": "write a support ticket mail in short to domain provider despite making payment my domain is not yet active and my website is not live.",
+    "domain": "employment_career"
+   },
+   "D021": {
+    "text": "as a new talent recruiter after I have collected resumes how can I best attract clients ",
+    "domain": "workplace_practice"
+   },
+   "D022": {
+    "text": "what are all the topics i should learn before taking ap physics c: mechanics",
+    "domain": "business_income"
+   },
+   "D023": {
+    "text": "How safe is it for an adult to always use cetrizine for cold often",
+    "domain": "healthcare"
+   },
+   "D024": {
+    "text": "what should happen during each phase of the PDCA cycle in the ISMS implementation and management process",
+    "domain": "education"
+   },
+   "D025": {
+    "text": "how to answer : Tell us more about your experience interfacing directly with customers.",
+    "domain": "workplace_practice"
+   },
+   "D026": {
+    "text": "can you help me to create a crossed function team for \"setting new hirig procedure\" project in a bank using agile methodology?",
+    "domain": "workplace_practice"
+   },
+   "D027": {
+    "text": "what does each of these mean:? All rights reserved.\nContains third-party samples.\nRemix of a third-party piece.\nCover / remake of a third-party piece",
+    "domain": "politics_civic"
+   },
+   "D028": {
+    "text": "User: hey how are u \nAssistant: I'm just a computer program, but I'm here and ready to help you! How can I assist you today?\nUser: im stressed about german beautcacracy. i don't know why my bank account has been frozen \nAssistant: I'm sorry to hear that you're feeling stressed. Dealing with bureaucracy can be frustrating. There could be several reasons why your bank account is frozen, such as pending documentation, compliance checks, or issues related to identity verification. It's best to contact your bank directly to find out the specific reason and what steps you need to take to resolve the situation. Have you already tried reaching out to them?\nUser: no , do you know hwhat i should do?\nAssistant:",
+    "domain": "legal"
+   },
+   "D029": {
+    "text": "MEE6 customer: “Am I able to somehow edit messages mee6 send for example after a moderation action taken (e.g Bans)”\n\nWrite the next reply that I say: “Hey, I hope Friday is making you fresh. 🙂\n\nUnfortunately, there’s no way to customize moderation responses. If you’re talking about how the ban response was edited by itself, it was because the unban button was expired after 24 hours and cannot press that button anymore. That’s how it works. 🙂”",
+    "domain": "business_income"
+   },
+   "D030": {
+    "text": "What BIK tax can I reclaim from my company as well as mileage? ",
+    "domain": "business_income"
+   },
+   "D031": {
+    "text": "if A wants to send money to B, A has a visa and B has a paypal account, A can't make a paypal account. What websites can they use to send money via visa and recieve it via paypal",
+    "domain": "finance_tax"
+   },
+   "D032": {
+    "text": "What are the laws of a underaged person found with a weed pen ",
+    "domain": "healthcare"
+   },
+   "D033": {
+    "text": "Do universities in Netherlands accept business management bachelor degree for entry into international trade law master program?",
+    "domain": "education"
+   },
+   "D034": {
+    "text": "A seller has copied my pictures which contains my logo and exact listing on eBay, can you create a report so I can send it to ebay",
+    "domain": "employment_career"
+   },
+   "D035": {
+    "text": "what information is public record in the usa",
+    "domain": "housing"
+   },
+   "D036": {
+    "text": "help me write an email reply to the carer of my mother who says the doctor has offered my mother some medical tests to investigate route cause of a problem though as all know my mother may not be able to tolerate the tests and has refused in the past. My 84 year old mother has dementia and struggles understanding why, gets very confused and has a number of illnesses related to old age. We feel my mum has the tests though we feel she may refuse again, not understanding due to illnesses. I have tried to ",
+    "domain": "employment_career"
+   },
+   "D037": {
+    "text": "What is the best Network Segmentation strategy for a bank according to NIST.",
+    "domain": "workplace_practice"
+   },
+   "D038": {
+    "text": "Do research and give me all information how to buy pre foreclosured homes ",
+    "domain": "housing"
+   },
+   "D039": {
+    "text": "Do you know what is BGV check in corporate?",
+    "domain": "employment_career"
+   },
+   "D040": {
+    "text": "professional answer to Why are you interested in being an Osmosis Medical Education Fellow",
+    "domain": "education"
+   },
+   "D041": {
+    "text": "I need a bot that helps to make the CV for bank employee currently in customer service position and applying to relationship officer position",
+    "domain": "business_income"
+   },
+   "D042": {
+    "text": "Assistant: \nUser: [Give me only the actual fundamental news. Please provide it concisely in list format for an English learner. I prefer exact dates of future events instead of \"soon\" or \"upcoming.\" If there is any big news worth mentioning, tell me. Finally, tell me what $GLMR means. Do not tell me about price technical analysis.]\n1d: 🌌 @MoonbeamNetwork is my next choice with high conviction, especially considering I think it could front-run the market.. . This project is something you should not skip.. . Polkadot 2.0, #DeFi Season, #Gaming.... . $GLMR $DOT https://t.co/wYj9lNJFga\n1h: #BTC weekly close exactly on the 21 week MA.. . This is an extremely positive development.. . 1 or 2 weeks more closing above 21 week MA to confirm it would be perfect.. . Being above 21 week MA is bull run on!!. . $DOT $AXL $GLMR $ALGO will fly 💥 https://t.co/YjFBEO9v4L\n3d: #glmr $glmr. . Moonbeam is out of the falling wedge. . I think it's time to accumulate. . My target is around 5$ . . If the bull market is right, as I expected. . I think we'll reach it next year https://t.co/2Gb4KRh9IX\n4h: $GLMR. . من الصفقات الخاصة … عطهم كسر أخرجهم ثم بوووم 😍🔥. . صانع السوق مايضحك علينا 👏🏼 https://t.co/TzA2ECO1WH\n11h: $AXL OR $GLMR\n13h: At last ❤️ #Joker2 🃏 https://t.co/TIBt0ufPAL\n5d: Entered a long trade on $GLMR/USDT (above 200 EMA system rules say that only longs have better expectancy.. . Entry: The trigger for entering the trade was seeing the PA above the 200 EMA + PA making a new major valid swing low on H4 candles + seeing bearish volume momentum in the https://t.co/Uz4f8x1pUA\n45m: 🎫 Key Events of the Week. . Oct 9 $EIGEN unlock. Oct 9 $ENA unlock. Oct 9 $XAI unlocks . Oct 10 US Core CPI (Sep). Oct 10 US initial and continuing jobless claims. Oct 11 $IO unlock. Oct 11 $GLMR unlock. Oct 12 $APT unlock. . #CryptoUpdates #CryptoEvents #EIGEN #ENA #XAI #IO #GLMR #APT https://t.co/rKMbmA6q0U\n4d: Ok so this is important; big blockchains like $sol and $eth can integrate on the $cell Layer 0 without having to do much other configure a parachain like how $glmr runs on $dot (i think) main takeaway is available to swoop up the market if/when quantum hack occur\n1w: Moonbeam $GLMR Plans To Expand &amp; Dominate!! 👇\n1w: Waiting for more profits 🤓👀. . We entered a long position on $GLMR https://t.co/BmamKMM9DU\n2d: $GLMR\n1d: Gametober on Moonbeam 🎮. $GLMR $PINK #Moonbeam #Pinkonomic https://t.co/I2us4I5FBJ\n3d: Attended at the  #GermanyUnityDay 🇩🇪 https://t.co/u9BgemnAbq\n5h: 数据：APT、EIGEN、NEON等代币拟于本周解锁，其中APT解锁价值约 1 亿美元. . $APT $EIGEN $NEON $ADA $XAI $MODE $IO $ENA $HFT $GLMR https://t.co/FtcY4bNENr\n5d: 🔝 TOP PUBLIC CHAINS BY TVL GROWTH. . @zksync +64.7%. @karma3labs +45.2%. @Celo +25.3%. @KaiaChain +23.4%. @SuiNetwork +19.0%. @PulsePad_App +17.8%. @MoonbeamNetwork +17.3%. @SeiNetwork +16.1%. @base +15.4%. @Cardano +14.4%. . $ZK $BB $CELO $SUI $PLSPAD $GLMR $SEI $ADA https://t.co/BLZcklfd6X\n3d: The killer app of crypto (apart from solving double spend) was DECENTRALISATION; an immutable trustless ledger. . If your blockchain isn't decentralised; it's mutable, censorable, and can't be trusted. . $GLMR $DOT #BTC #ETH do it right. . Never forget what gave rise to the revolution https://t.co/IlinABeHBh\n2d: These improvements are important. . $Movr $Glmr $Dot $Btc $Eth\n2d: $GLMR 🔥 https://t.co/0kp9etU6P2\nAssistant:",
+    "domain": "finance_tax"
+   },
+   "D043": {
+    "text": "Create a plan to win the election in the usa (as a third party)",
+    "domain": "politics_civic"
+   },
+   "D044": {
+    "text": "How do I establish credit. I'm an adult with no credit. Where do I start and what score am I gonna be at?",
+    "domain": "legal"
+   },
+   "D045": {
+    "text": "Can you explain this tweet thread in simple terms and explain wether this is bullish or bearish the S&P500? The tweets: first tweet {$VIX liquidity profile 19 strike remains biggest liquidity wall. Spot price tends to get there, below market makers have positive exposure delta exposure.}; second tweet {Longer maturities have low GEX exposure. Total GEX (yellow) \n\nHedging activity is low.}",
+    "domain": "legal"
+   },
+   "D046": {
+    "text": "The time now is 2024/October/25 06:41:35 PM\n[Give me only the actual fundamental news (no technical analysis). Please provide it concisely in list format for an English learner. I prefer exact dates of future events instead of \"soon\" or \"upcoming.\" If there is any big news worth mentioning, tell me. Finally, tell me what $SAGA does?]\n\n4h: $SAGA ·  · Saga giving nice discount, support at 2.0718 \n3h: $SAGA entering the back the truck up zone and pray imo \n16h: $saga \n1d: $SAGA / 4h ·  · Short scenario. \n3h: It was a pretty rough rejection last week though on weekly $SAGA \n20h: $SAGA \n20h: I gave u $SAGA at 1$ and it hit almost 3.4$  ·  · 250% gain in 2 months ✅  ·  · [Quoted @GVRCALLS] $SAGA planning reversal in between 0.8-0.9$ and then it will hit 2$ this time ✅  (Source: \n22h: $SAGA · Didn't stick the retest yesterday.  · Lost support and closed below trend. · Will still keep it on my radar. \n6h: $Saga liệu có về nơi bắt đầu cho ae lên tàu khum em @Frogling68? \n20h: $SAGA/BTC ·  · The support zone is STRONG, this is free money for swing traders \n1w: If you're selling $SAGA below 10$, you're not gonna make it. \n2h: $Saga is turning other L1s into the history of today. ·  · #lilc #saga #daddychain #layer1 \n2h: $SAGA opened long here. ·  · #saga #btc #eth #sol #arkm #fet #rose #tia \n7h: I allocated funds into $SAGA at 1$, and it soared to nearly 3.4$ - marking a massive 250% increase in just 2 months. 💰 #investment #stocksgain \n3d: GM! ☀️ · Are you ready to see your $SCR allocation and claim it in 30 minutes? Claims open at 7 AM UTC! ·  · Also, don’t forget: · 🔸 Claim your $SAGA Vault Six if you haven’t yet · 🔸 Add Atomone chain to check your $ATONE allocation ·  · Wishing you a fantastic Tuesday! \n1d: $SAGA ·  · I usually don't like to share anything outside of the majors ·  · but this one looks too good ·  · First retest of the daily 100EMA after a shift in market trend is usually a good buy ·  · Buying spot at this level ·  · I'm not setting up a SL but will look to exit if close below $1.80 \n2d: VAULT 6 now open for claim · I’ve claimed and watching for 📸👀 · Be loyal , be passionate, dream on ·  · $SAGA ·  · @Sagaxyz__  ·  · [Quoted @Sagaxyz__] Vault Six is now open. 🔓 ·  ·  ·  · Learn more about Vault Six eligibility here: ·  (Source: \n3d: GM to all my fellow $SAGA stakers! ☕ \n1w: Stock Highlight: $SAGA New mining company with $100B partner 👇 · Saga Metals just IPO’d and they have a joint venture with Rio Tinto ‼️ ",
+    "domain": "education"
+   },
+   "D047": {
+    "text": "Please generate a Standard independent contractor agreement template that is compliant in California",
+    "domain": "housing"
+   },
+   "D048": {
+    "text": "Draft a reply to an estate agents email with their letting management details and with my request to help getting 2 of their builders to give quotes on my 3 bedroom semi-detached house refurbhisment to let.  ",
+    "domain": "housing"
+   },
+   "D049": {
+    "text": "what is the residential building rate per squire meter in the eastern cape south Africa and why?",
+    "domain": "housing"
+   },
+   "D050": {
+    "text": "give me a message to post in whatsapp group, we are planing to introduce the group health insurance as a group we can get more benifits than going individual. here i am posting a opnion form to get you opnion. please spare time to fill the form and share your views",
+    "domain": "education"
+   },
+   "D051": {
+    "text": "What all documents are required fpr line of credit registration for business",
+    "domain": "business_income"
+   },
+   "D052": {
+    "text": "Tell me the best masters course of 1 year that has the best future ",
+    "domain": "education"
+   },
+   "D053": {
+    "text": "2 years as air permit writer (EIT). How many more years before I should attempt for a GS-12/GS-13 in EPA Air and Radiation with the same role?",
+    "domain": "employment_career"
+   },
+   "D054": {
+    "text": "Give me sample of cv",
+    "domain": "politics_civic"
+   }
+  }
+ },
+ "annotators": {
+  "A1": {
+   "group": 1,
+   "part1": [
+    "S022",
+    "S025",
+    "S010",
+    "S008",
+    "S028",
+    "S051",
+    "S054",
+    "S017",
+    "S018",
+    "S032",
+    "S004",
+    "S003",
+    "S027",
+    "S053",
+    "S035",
+    "S049",
+    "S005",
+    "S040",
+    "S002",
+    "S016"
+   ],
+   "part2": [
+    "D011",
+    "D010",
+    "D052",
+    "D031",
+    "D013",
+    "D048",
+    "D009",
+    "D001",
+    "D044",
+    "D008",
+    "D019",
+    "D034",
+    "D030",
+    "D007",
+    "D046",
+    "D029",
+    "D021",
+    "D047"
+   ],
+   "part3": [
+    "T011",
+    "T024",
+    "T003",
+    "T017",
+    "T027",
+    "T015",
+    "T008",
+    "T035",
+    "T031",
+    "T022",
+    "T014",
+    "T023"
+   ]
+  },
+  "A2": {
+   "group": 1,
+   "part1": [
+    "S051",
+    "S053",
+    "S054",
+    "S010",
+    "S049",
+    "S040",
+    "S018",
+    "S005",
+    "S027",
+    "S028",
+    "S002",
+    "S035",
+    "S004",
+    "S008",
+    "S032",
+    "S003",
+    "S025",
+    "S022",
+    "S017",
+    "S016"
+   ],
+   "part2": [
+    "D034",
+    "D047",
+    "D021",
+    "D029",
+    "D019",
+    "D008",
+    "D052",
+    "D013",
+    "D031",
+    "D010",
+    "D011",
+    "D009",
+    "D044",
+    "D030",
+    "D048",
+    "D001",
+    "D007",
+    "D046"
+   ],
+   "part3": [
+    "T015",
+    "T011",
+    "T027",
+    "T017",
+    "T024",
+    "T035",
+    "T022",
+    "T003",
+    "T031",
+    "T023",
+    "T008",
+    "T014"
+   ]
+  },
+  "A3": {
+   "group": 2,
+   "part1": [
+    "S030",
+    "S034",
+    "S046",
+    "S001",
+    "S037",
+    "S012",
+    "S058",
+    "S048",
+    "S029",
+    "S052",
+    "S055",
+    "S006",
+    "S021",
+    "S056",
+    "S033",
+    "S024",
+    "S036",
+    "S019",
+    "S020",
+    "S045"
+   ],
+   "part2": [
+    "D032",
+    "D022",
+    "D020",
+    "D045",
+    "D003",
+    "D014",
+    "D002",
+    "D006",
+    "D024",
+    "D004",
+    "D033",
+    "D015",
+    "D038",
+    "D018",
+    "D043",
+    "D039",
+    "D027",
+    "D037"
+   ],
+   "part3": [
+    "T012",
+    "T007",
+    "T004",
+    "T030",
+    "T002",
+    "T029",
+    "T009",
+    "T001",
+    "T010",
+    "T034",
+    "T033",
+    "T020"
+   ]
+  },
+  "A4": {
+   "group": 2,
+   "part1": [
+    "S036",
+    "S033",
+    "S045",
+    "S055",
+    "S006",
+    "S058",
+    "S020",
+    "S019",
+    "S034",
+    "S046",
+    "S052",
+    "S037",
+    "S024",
+    "S048",
+    "S056",
+    "S030",
+    "S001",
+    "S029",
+    "S021",
+    "S012"
+   ],
+   "part2": [
+    "D002",
+    "D039",
+    "D015",
+    "D027",
+    "D033",
+    "D024",
+    "D045",
+    "D038",
+    "D037",
+    "D006",
+    "D018",
+    "D014",
+    "D020",
+    "D032",
+    "D043",
+    "D004",
+    "D003",
+    "D022"
+   ],
+   "part3": [
+    "T034",
+    "T012",
+    "T033",
+    "T010",
+    "T004",
+    "T009",
+    "T001",
+    "T029",
+    "T002",
+    "T020",
+    "T007",
+    "T030"
+   ]
+  },
+  "A5": {
+   "group": 3,
+   "part1": [
+    "S041",
+    "S009",
+    "S015",
+    "S050",
+    "S014",
+    "S044",
+    "S059",
+    "S042",
+    "S039",
+    "S047",
+    "S023",
+    "S038",
+    "S026",
+    "S043",
+    "S060",
+    "S007",
+    "S057",
+    "S011",
+    "S013",
+    "S031"
+   ],
+   "part2": [
+    "D041",
+    "D025",
+    "D028",
+    "D016",
+    "D051",
+    "D023",
+    "D053",
+    "D042",
+    "D049",
+    "D005",
+    "D017",
+    "D035",
+    "D012",
+    "D050",
+    "D040",
+    "D036",
+    "D054",
+    "D026"
+   ],
+   "part3": [
+    "T032",
+    "T026",
+    "T016",
+    "T013",
+    "T018",
+    "T021",
+    "T019",
+    "T006",
+    "T025",
+    "T005",
+    "T036",
+    "T028"
+   ]
+  },
+  "A6": {
+   "group": 3,
+   "part1": [
+    "S013",
+    "S041",
+    "S057",
+    "S047",
+    "S009",
+    "S023",
+    "S014",
+    "S031",
+    "S015",
+    "S059",
+    "S038",
+    "S026",
+    "S039",
+    "S011",
+    "S060",
+    "S007",
+    "S043",
+    "S050",
+    "S042",
+    "S044"
+   ],
+   "part2": [
+    "D035",
+    "D017",
+    "D054",
+    "D041",
+    "D016",
+    "D040",
+    "D050",
+    "D028",
+    "D053",
+    "D012",
+    "D005",
+    "D051",
+    "D023",
+    "D026",
+    "D049",
+    "D042",
+    "D036",
+    "D025"
+   ],
+   "part3": [
+    "T036",
+    "T013",
+    "T028",
+    "T025",
+    "T006",
+    "T005",
+    "T032",
+    "T019",
+    "T026",
+    "T021",
+    "T016",
+    "T018"
+   ]
+  }
+ },
+ "part3": {
+  "items": {
+   "T001": {
+    "text": "I spent the past 12 months doing the Google UX/UI design cert and I did some other projects and volunteering to beef up my portfolio. I just got hired as a UX designer. If I spend 10 hours per week nights and weekends studying to become a UX researcher and taking courses and certs and biulding a UX researcher portfolio, how long will those 10 hours  per week plus my relevant experience from my job add up to being hire-able as a UX researcher?",
+    "action": "compose"
+   },
+   "T002": {
+    "text": "Your boss criticize your team's recent performance on front of other department heads. What is the most effective and least effective response? ",
+    "action": "advise"
+   },
+   "T003": {
+    "text": "I am a influencer on Instagram and how can I write for collaboration to brands ? I need details ",
+    "action": "revise"
+   },
+   "T004": {
+    "text": "I want to be a Bollywood actor. What are the steps. I am very handsome. ",
+    "action": "search"
+   },
+   "T005": {
+    "text": "Investment Administrator- Bruin \n\nAbout the job\nOur client is a leading UK Wealth Manager. Due to continued growth in the independent wealth management space in Ireland, they are now seeking an Investment Administrator to join their Wealth Management team in Dublin.\n\n\nWorking directly with Clients, Investment Managers and Team Leaders in the discretionary investment space (including charities and pension funds), the Investment Administrator will take responsibility for the following:\n•\tPrepare, review and complete account opening packs for new clients for forwarding to the Onboarding Team\n•\tSupport clients alongside a team of investment managers\n•\tSupport Investment Managers in the production of presentations, pitches, proposals and reviews\n•\tAttend internal and external company and investment meetings\n•\tWork to a high standard aligning to company procedures\n•\tLiaise with all other relevant teams, e.g. Onboarding Team, Financial Planning, Client Services & Cash Team\n•\tSupport with general administration duties\n•\tAttending client meetings and/or events as required\n\n\nThe Investment Management Administrator will meet the following criteria:\n\n\n•\tAttained relevant degree qualification or equivalent\n•\tIntermediate knowledge of MS Word/Excel/Outlook\n•\tPreferably QFA qualified\n•\tPrevious experience in a financial services environment\n•\tHigh level of accuracy and proven attention to detail\n•\tAbility to meet deadlines/work within restricted timescales and work as a flexible and reliable team member\n•\tAbility to work on own initiative to achieve required results\n•\tCollaborative and inclusive approach to work\n\n\nThis is an excellent opportunity for an experienced administrator looking for a new role in a rapidly developing leader for discretionary wealth management.\n\nAccording to above job description customize below resume summary…Do not make to much changes try to keep it accurate and interesting to recruiters when read\nKeep it precise and accurate as well as ATS friendly and do not change it completely just make some changes according to the requirements of jobs…do not add anything abt expereince …Do not add anything about language also…\nAccording to above try to mold the below summary in my resume\nAs a driven DCU graduate with a solid background in finance, shown by high marks in classes like Corporate Finance and Portfolio Theory, I’m ready to start my career in finance and investment banking. I’ve gained hands-on experience using Refinitiv Eikon for projects and my thesis, and built up my Excel skills for financial analysis through Udemy courses. These abilities, along with my passion for finance, make me well-suited to contribute to your company. I’m dedicated to using my thorough education and enthusiasm to succeed in this fast-paced field.",
+    "action": "revise"
+   },
+   "T006": {
+    "text": "Websites to read and review books for over $100 a day",
+    "action": "search"
+   },
+   "T007": {
+    "text": "could you find for me a Neurosurgery medical journal with Q3 SJR classification and fast track publication process ?",
+    "action": "search"
+   },
+   "T008": {
+    "text": "give me information about  how stakeholders would be identified and partnerships built in this topic The impacts of Tele-dentistry on reducing Oral Health Barriers in Texas",
+    "action": "search"
+   },
+   "T009": {
+    "text": "\nI am an egyptian IGCSE student i got only 6 o level subject on of them withgrade of A and other 4 with grade of B and one with grade of c and i speak english fluently but i don't have a lot of money so i'm looking for country to study in and work to cover my expenses so what dou think is the best country for me to study in and keep in mind i only speak arabic and english",
+    "action": "revise"
+   },
+   "T010": {
+    "text": "client msg my orabica trafgic of my siate has droopped , and u guys i have hired for seo u should inform me about it  but u guys didnt , my revrt as seo expert in simple eng copnvo tone - I undrstnfd my role and how my expertise shoul benefts ur site to get mor etrafic but wht i dd ws stragy planning and also create content got approvel of i made chnages to it . buyt i didnt do anyt implimntations nothing was published no backlnks no apporved content is on the site also i wopuld definatlyonform u regarding drop but i never jad the console and anlytics access ",
+    "action": "revise"
+   },
+   "T011": {
+    "text": "please elaborate on how the business and finance recruitment market is affected by the macro economic environment and the most important macro and market KPIs. Additionally, please provide a list of top 20 competitors in the Norwegian market for business and finance recruitment.",
+    "action": "explain"
+   },
+   "T012": {
+    "text": "a curated list of high-ticket affiliate programs across various niches that have the potential to yield substantial commissions. ",
+    "action": "inform"
+   },
+   "T013": {
+    "text": "advance these questions to be more productive in getting information before an interview for a position:\n\n1. What are the specific day-to-day responsibilities and duties of this role within the military organization?\n2. Could you provide an overview of the ideal candidate’s qualifications and experience that would make them successful in this role?\n3. How does this role fit into the overall career progression within the military? What potential growth opportunities are available for someone in this position?\n4. What are some key challenges or obstacles that the successful candidate may face in this role, and how would they be expected to overcome them?\n5. Can you provide more information about the long-term career development and advancement opportunities for someone who excels in this role within the military?",
+    "action": "compose"
+   },
+   "T014": {
+    "text": "treatment options for alcoholics",
+    "action": "compose"
+   },
+   "T015": {
+    "text": "inquiry for studentship in USA",
+    "action": "compose"
+   },
+   "T016": {
+    "text": "Asking interview tips on Data Management Associate role",
+    "action": "explain"
+   },
+   "T017": {
+    "text": "We have sent a bunch of our technologist over to Seattle to work with our partners at Microsoft and AWS and we want to start and alumni program. Can you please make some suggestions on: tools - what would be a good tool / channel for those conversations to happen engagement - how do we keep people / teams engaged content - what type of topics / threads would be cool to share with this alumni community",
+    "action": "advise"
+   },
+   "T018": {
+    "text": "when the influencer's rate is higher than the last collaboration, we would like to book a bundle of videos to low the price and make the long-term relationship work, how can we negotiate with the inlfuencers",
+    "action": "advise"
+   },
+   "T019": {
+    "text": "how do I calculate if what i have in saving is enough to for me last another 15years",
+    "action": "explain"
+   },
+   "T020": {
+    "text": "What does \"your data usage for the remainder of this month will be what is left from what you have already used. From your next bill date, you'll get the full amount\" mean in simple terms?",
+    "action": "inform"
+   },
+   "T021": {
+    "text": "resume for a bartender with no experience",
+    "action": "compose"
+   },
+   "T022": {
+    "text": "i need a loan payoff letter f",
+    "action": "explain"
+   },
+   "T023": {
+    "text": " Hello, let's dive into the 9 building blocks of the Business Model Canvas. I'd like to know about your venture. Based on your idea, I can help formulate a value proposition and suggest potential customer segments. Then, we'll proceed to the 'Customer Segments' building block. We'll map out this element using a table featuring three columns: 'Step', 'How ChatGPT Can Help', and '3 ChatGPT Prompts'. The 'Step' column will consist of 8 steps, each crucial in understanding and identifying customer segments. In the 'How ChatGPT Can Help' column, I'll elaborate on how I can assist you at each step, for instance, by offering data analysis or market research. Finally, the '3 ChatGPT Prompts' column will hold three targeted questions for each step, aimed at provoking thought and generating insights. Once we complete the 'Customer Segments' block, I'll check with you if you'd like to continue to the next building block of the Business Model Canvas. So, could you please tell me about your venture idea?",
+    "action": "inform"
+   },
+   "T024": {
+    "text": "Hi, I have a company that sells all the components that are required for an individual or an organization to install a solar panel system on their roof.\nI have all the essential products for sale but I want to now move into more niche products.\n\nMy areas of focus for sale are:\nGermany, Switzerland, France, Belgium, The Netherlands, UK, Spain, Portugal, Italy, and other European countries but the ones I mentioned are the most important ones.\n\nI will give you an example of a product that can be compared to the type of products I am looking for. This product is used to implement electric water boilers downstream from a solar system array.\n\nThe solar immersion controller works by using a clamp that scans your renewable generation and detects any excess energy that would be sent to the grid. The main component diverts this energy and uses it to power your immersion heater.\n\nThe amount of energy sent is determined on the amount created and the household use, to ensure that it will not affect the existing appliances.\n\nPVMate\nSupports up to 3.6kW Heater\nSupport upto 2 water heaters\nUses the surplus solar energy generated at your roof to heat the water.\nWorks flexibly with the grid, ensures instant hotwater supply.\nHeats water by use of the timer or by the \"enhance\" button\nAbundant information display - historical energy saving figures and running status.\nEasy and fast to deploy by utilizing wireless technology. No need to wire between immersion controller and sender CT clamp.\nhttps://totalsolar.co.nz/products/pv-mate\n\n\nThis is a high profit low cost product.\n\nI require a list of 15 more possible products that are already present in the market, but from an engineering and manufacturing perspective may be high profit low cost (to us, but high cost to the end buyer)\n\nThese products should be add-ons, so more niche, and they must be targetted to be sold in Europe, for example, PVMate is a very popular product in the benelux region\n\nThese products should be able to be sourced directly from AliBaba for example, but we should be able to put our brand's sticker and casing on them and make them look more premium\nThese products should be manufactured in China and readily available",
+    "action": "search"
+   },
+   "T025": {
+    "text": "Conditions that require a fire watch and that fire extinguishers shall be made readily available\n\nconditions that require a fire watch and control of fire hazards. i.e. combustibles, clearance distances, monitoring during and after work is completed.",
+    "action": "revise"
+   },
+   "T026": {
+    "text": "Come up with a detailed outline for a guide that discusses how to use msar in the medical school admissions process.",
+    "action": "inform"
+   },
+   "T027": {
+    "text": "What is a  beckhoff equivalent product to PTRVB 4-PV /BK - Potential distributors\n3270157?",
+    "action": "advise"
+   },
+   "T028": {
+    "text": "Can we make money through YouTube cpm ",
+    "action": "inform"
+   },
+   "T029": {
+    "text": "What requirements under 400 characters limit should I ask from a high-value buyer for “Top Video Eye Contact Gaze Correction Service, Boost Engagement and Sales”?",
+    "action": "explain"
+   },
+   "T030": {
+    "text": "Hi! I have dermal cream containing klindamycin and tretinoin. Which of these compounds does posses risk to fetus and why? Is there really some risk from dermal product? How does it affect men?",
+    "action": "advise"
+   },
+   "T031": {
+    "text": "how do i get a negative feedback removed from my amazon seller account",
+    "action": "inform"
+   },
+   "T032": {
+    "text": "write mortgage procedures for underwriting",
+    "action": "search"
+   },
+   "T033": {
+    "text": "write a professional outline how one can Ensure current work plans and activities support and are consistent with organisational change initiatives given my strengths are: Undertake planning to help the organisation through change initiatives, and evaluate progress and outcomes to inform future planning\nMonitor the progress of initiatives and make necessary adjustments\n",
+    "action": "compose"
+   },
+   "T034": {
+    "text": "How to think about structuring a trust and LLC based set up in the US that is private from other juristictions?",
+    "action": "explain"
+   },
+   "T035": {
+    "text": "I I already  sent this paper work with driver can you please  confirm  on same day have you received or not .so we take some action . our credit controller  send you every month statements  if you missing. Any invoice please ask on same month.",
+    "action": "revise"
+   },
+   "T036": {
+    "text": "international APOSTIL Convention on provision of evidence",
+    "action": "advise"
+   }
+  }
+ }
+}
